@@ -1,23 +1,4 @@
 {
-  "2001": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 22,
-          "range_pct": 7.2,
-          "high": 2869.0,
-          "low": 2663.0,
-          "vol_ratio": 0.79,
-          "resistance": 2869.0
-        }
-      }
-    }
-  },
   "2009": {
     "patterns": [
       "vcp",
@@ -27,6 +8,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 4.1%→11.6%→7.0%→5.8%。出来高減少2回。レジスタンス1117円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -43,6 +25,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近30日間のレンジ5.1%(高値1117円-安値1060円)。出来高比0.75倍。レジスタンス1117円",
         "details": {
           "length_days": 30,
           "range_pct": 5.1,
@@ -54,26 +37,7 @@
       }
     }
   },
-  "200A": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.3,
-          "high": 3411.0,
-          "low": 2958.0,
-          "vol_ratio": 1.2,
-          "resistance": 3411.0
-        }
-      }
-    }
-  },
-  "2013": {
+  "2012": {
     "patterns": [
       "flat_base"
     ],
@@ -81,18 +45,19 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.5%(高値239円-安値228円)。出来高比1.38倍。レジスタンス239円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.6,
-          "high": 297.6,
-          "low": 283.8,
-          "vol_ratio": 0.9,
-          "resistance": 297.6
+          "range_pct": 4.5,
+          "high": 239.3,
+          "low": 228.5,
+          "vol_ratio": 1.38,
+          "resistance": 239.3
         }
       }
     }
   },
-  "2018": {
+  "2015": {
     "patterns": [
       "flat_base"
     ],
@@ -100,185 +65,34 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.3%(高値2209円-安値2137円)。出来高比1.95倍。レジスタンス2209円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.8,
-          "high": 1249.0,
-          "low": 1164.0,
-          "vol_ratio": 1.11,
-          "resistance": 1249.0
+          "range_pct": 3.3,
+          "high": 2209.0,
+          "low": 2137.0,
+          "vol_ratio": 1.95,
+          "resistance": 2209.0
         }
       }
     }
   },
-  "2038": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 180,
-          "left_rim_price": 1539.0,
-          "bottom_idx": 216,
-          "bottom_price": 1337.0,
-          "right_rim_idx": 221,
-          "cup_depth_pct": 13.1,
-          "handle_depth_pct": 2.9,
-          "cup_length_days": 41,
-          "pivot_price": 1778.8
-        }
-      }
-    }
-  },
-  "2055": {
+  "2093": {
     "patterns": [
       "flat_base"
     ],
     "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.8,
-          "high": 415.0,
-          "low": 362.0,
-          "vol_ratio": 1.26,
-          "resistance": 415.0
-        }
-      }
-    }
-  },
-  "2060": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.8,
-          "high": 1333.0,
-          "low": 1163.0,
-          "vol_ratio": 1.22,
-          "resistance": 1333.0
-        }
-      }
-    }
-  },
-  "2083": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.2,
-          "high": 3318.0,
-          "low": 2979.0,
-          "vol_ratio": 1.46,
-          "resistance": 3318.0
-        }
-      }
-    }
-  },
-  "2108": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.4,
-          "high": 4520.0,
-          "low": 4095.0,
-          "vol_ratio": 0.75,
-          "resistance": 4520.0
-        }
-      }
-    }
-  },
-  "2114": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 3,
-          "ranges_pct": [
-            10.1,
-            7.6,
-            8.3,
-            5.6
-          ],
-          "resistance": 678.0,
-          "current_range_pct": 5.6
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 5.0,
-          "high": 674.0,
-          "low": 640.0,
-          "vol_ratio": 0.73,
-          "resistance": 674.0
-        }
-      }
-    }
-  },
-  "2139": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.0,
-          "high": 556.0,
-          "low": 495.0,
-          "vol_ratio": 1.02,
-          "resistance": 556.0
-        }
-      }
-    }
-  },
-  "213A": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
+        "reason": "直近30日間のレンジ4.2%(高値5302円-安値5078円)。出来高比2.85倍。レジスタンス5302円",
         "details": {
           "length_days": 30,
-          "range_pct": 13.9,
-          "high": 315.5,
-          "low": 271.6,
-          "vol_ratio": 0.95,
-          "resistance": 315.5
+          "range_pct": 4.2,
+          "high": 5302.0,
+          "low": 5078.0,
+          "vol_ratio": 2.85,
+          "resistance": 5302.0
         }
       }
     }
@@ -292,6 +106,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 4.0%→13.1%→7.4%→5.4%。出来高減少1回。レジスタンス1920円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
@@ -308,6 +123,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ9.8%(高値1919円-安値1731円)。出来高比1.06倍。レジスタンス1919円",
         "details": {
           "length_days": 30,
           "range_pct": 9.8,
@@ -315,97 +131,6 @@
           "low": 1731.0,
           "vol_ratio": 1.06,
           "resistance": 1919.0
-        }
-      }
-    }
-  },
-  "2175": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            5.7,
-            20.9,
-            14.0,
-            9.9
-          ],
-          "resistance": 1789.0,
-          "current_range_pct": 9.9
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.1,
-          "high": 1785.0,
-          "low": 1622.0,
-          "vol_ratio": 0.94,
-          "resistance": 1785.0
-        }
-      }
-    }
-  },
-  "2180": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            13.8,
-            11.7,
-            16.1,
-            10.3
-          ],
-          "resistance": 1007.0,
-          "current_range_pct": 10.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.8,
-          "high": 1001.0,
-          "low": 903.0,
-          "vol_ratio": 0.85,
-          "resistance": 1001.0
-        }
-      }
-    }
-  },
-  "2185": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.0,
-          "high": 1960.0,
-          "low": 1822.0,
-          "vol_ratio": 0.69,
-          "resistance": 1960.0
         }
       }
     }
@@ -418,6 +143,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.1%(高値6290円-安値5782円)。出来高比1.03倍。レジスタンス6290円",
         "details": {
           "length_days": 30,
           "range_pct": 8.1,
@@ -437,6 +163,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ8.4%(高値2934円-安値2687円)。出来高比0.99倍。レジスタンス2934円",
         "details": {
           "length_days": 20,
           "range_pct": 8.4,
@@ -444,44 +171,6 @@
           "low": 2687.0,
           "vol_ratio": 0.99,
           "resistance": 2934.0
-        }
-      }
-    }
-  },
-  "2208": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 5.2,
-          "high": 3350.0,
-          "low": 3175.0,
-          "vol_ratio": 0.88,
-          "resistance": 3350.0
-        }
-      }
-    }
-  },
-  "221A": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.7,
-          "high": 890.0,
-          "low": 777.0,
-          "vol_ratio": 0.78,
-          "resistance": 890.0
         }
       }
     }
@@ -494,6 +183,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.3%(高値3365円-安値3085円)。出来高比1.02倍。レジスタンス3365円",
         "details": {
           "length_days": 30,
           "range_pct": 8.3,
@@ -501,6 +191,44 @@
           "low": 3085.0,
           "vol_ratio": 1.02,
           "resistance": 3365.0
+        }
+      }
+    }
+  },
+  "2251": {
+    "patterns": [
+      "vcp",
+      "flat_base"
+    ],
+    "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 5.3%→3.2%→5.0%→3.6%。出来高減少2回。レジスタンス864円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            5.3,
+            3.2,
+            5.0,
+            3.6
+          ],
+          "resistance": 864.0,
+          "current_range_pct": 3.6
+        }
+      },
+      "flat_base": {
+        "detected": true,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ2.9%(高値861円-安値836円)。出来高比1.21倍。レジスタンス861円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 2.9,
+          "high": 861.0,
+          "low": 836.0,
+          "vol_ratio": 1.21,
+          "resistance": 861.0
         }
       }
     }
@@ -513,6 +241,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.5%(高値1324円-安値1265円)。出来高比1.29倍。レジスタンス1324円",
         "details": {
           "length_days": 30,
           "range_pct": 4.5,
@@ -524,78 +253,98 @@
       }
     }
   },
-  "2254": {
+  "2256": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
-      "flat_base": {
+      "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 2.5%→9.7%→6.0%→3.4%。出来高減少1回。レジスタンス230円",
         "details": {
-          "length_days": 54,
-          "range_pct": 11.9,
-          "high": 1298.0,
-          "low": 1144.0,
-          "vol_ratio": 0.8,
-          "resistance": 1298.0
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            2.5,
+            9.7,
+            6.0,
+            3.4
+          ],
+          "resistance": 229.9,
+          "current_range_pct": 3.4
         }
-      }
-    }
-  },
-  "2264": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
+      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.4,
-          "high": 4961.0,
-          "low": 4592.0,
-          "vol_ratio": 1.16,
-          "resistance": 4961.0
-        }
-      }
-    }
-  },
-  "2269": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 1.0,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.4%(高値226円-安値219円)。出来高比1.18倍。レジスタンス226円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.8,
-          "high": 4060.0,
-          "low": 3823.0,
-          "vol_ratio": 0.76,
-          "resistance": 4060.0
+          "range_pct": 3.4,
+          "high": 226.3,
+          "low": 218.6,
+          "vol_ratio": 1.18,
+          "resistance": 226.3
         }
       }
     }
   },
-  "2337": {
+  "2257": {
+    "patterns": [
+      "vcp",
+      "flat_base"
+    ],
+    "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 2.1%→4.1%→3.4%→1.9%。出来高減少1回。レジスタンス228円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            2.1,
+            4.1,
+            3.4,
+            1.9
+          ],
+          "resistance": 228.2,
+          "current_range_pct": 1.9
+        }
+      },
+      "flat_base": {
+        "detected": true,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.0%(高値228円-安値221円)。出来高比1.17倍。レジスタンス228円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 3.0,
+          "high": 227.6,
+          "low": 220.8,
+          "vol_ratio": 1.17,
+          "resistance": 227.6
+        }
+      }
+    }
+  },
+  "2258": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.0%(高値228円-安値221円)。出来高比0.94倍。レジスタンス228円",
         "details": {
           "length_days": 30,
-          "range_pct": 14.5,
-          "high": 498.0,
-          "low": 426.0,
-          "vol_ratio": 1.1,
-          "resistance": 498.0
+          "range_pct": 3.0,
+          "high": 228.0,
+          "low": 221.2,
+          "vol_ratio": 0.94,
+          "resistance": 228.0
         }
       }
     }
@@ -608,6 +357,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.2%(高値195円-安値179円)。出来高比0.95倍。レジスタンス195円",
         "details": {
           "length_days": 30,
           "range_pct": 8.2,
@@ -627,6 +377,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ0.8%(高値1486円-安値1474円)。出来高比1.26倍。レジスタンス1486円",
         "details": {
           "length_days": 20,
           "range_pct": 0.8,
@@ -638,7 +389,7 @@
       }
     }
   },
-  "234A": {
+  "2454": {
     "patterns": [
       "flat_base"
     ],
@@ -646,128 +397,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.0%(高値402円-安値390円)。出来高比0.95倍。レジスタンス402円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.7,
-          "high": 1495.0,
-          "low": 1365.0,
-          "vol_ratio": 1.02,
-          "resistance": 1495.0
-        }
-      }
-    }
-  },
-  "2384": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.7,
-          "high": 4315.0,
-          "low": 3940.0,
-          "vol_ratio": 1.26,
-          "resistance": 4315.0
-        }
-      }
-    }
-  },
-  "2393": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 22,
-          "range_pct": 3.3,
-          "high": 2452.0,
-          "low": 2370.0,
-          "vol_ratio": 0.79,
-          "resistance": 2452.0
-        }
-      }
-    }
-  },
-  "2437": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 178,
-          "left_rim_price": 298.0,
-          "bottom_idx": 198,
-          "bottom_price": 240.0,
-          "right_rim_idx": 203,
-          "cup_depth_pct": 19.5,
-          "handle_depth_pct": 5.7,
-          "cup_length_days": 25,
-          "pivot_price": 542.7
-        }
-      }
-    }
-  },
-  "2469": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            13.6,
-            10.3,
-            20.1,
-            13.2
-          ],
-          "resistance": 4370.0,
-          "current_range_pct": 13.2
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.5,
-          "high": 4290.0,
-          "low": 3795.0,
-          "vol_ratio": 1.46,
-          "resistance": 4290.0
-        }
-      }
-    }
-  },
-  "2515": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 6.9,
-          "high": 1615.0,
-          "low": 1503.0,
-          "vol_ratio": 0.99,
-          "resistance": 1615.0
+          "range_pct": 3.0,
+          "high": 402.0,
+          "low": 390.0,
+          "vol_ratio": 0.95,
+          "resistance": 402.0
         }
       }
     }
@@ -780,6 +417,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近31日間のレンジ4.3%(高値4110円-安値3935円)。出来高比0.80倍。レジスタンス4110円",
         "details": {
           "length_days": 31,
           "range_pct": 4.3,
@@ -791,26 +429,27 @@
       }
     }
   },
-  "2579": {
+  "2597": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.5,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ4.6%(高値1076円-安値1027円)。出来高比0.57倍。レジスタンス1076円",
         "details": {
-          "length_days": 20,
-          "range_pct": 13.6,
-          "high": 4201.0,
-          "low": 3630.0,
-          "vol_ratio": 0.97,
-          "resistance": 4201.0
+          "length_days": 30,
+          "range_pct": 4.6,
+          "high": 1076.0,
+          "low": 1027.0,
+          "vol_ratio": 0.57,
+          "resistance": 1076.0
         }
       }
     }
   },
-  "2588": {
+  "2620": {
     "patterns": [
       "vcp",
       "flat_base"
@@ -819,105 +458,31 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 2.2%→5.8%→3.5%→2.4%。出来高減少1回。レジスタンス372円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
           "ranges_pct": [
-            9.6,
-            6.6,
-            19.4,
-            10.3
+            2.2,
+            5.8,
+            3.5,
+            2.4
           ],
-          "resistance": 4350.0,
-          "current_range_pct": 10.3
+          "resistance": 372.5,
+          "current_range_pct": 2.4
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 8.7,
-          "high": 4330.0,
-          "low": 3955.0,
-          "vol_ratio": 1.4,
-          "resistance": 4330.0
-        }
-      }
-    }
-  },
-  "2602": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.9%(高値372円-安値358円)。出来高比1.50倍。レジスタンス372円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.5,
-          "high": 6100.0,
-          "low": 5640.0,
-          "vol_ratio": 1.15,
-          "resistance": 6100.0
-        }
-      }
-    }
-  },
-  "2612": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 6.1,
-          "high": 5250.0,
-          "low": 4930.0,
-          "vol_ratio": 1.26,
-          "resistance": 5250.0
-        }
-      }
-    }
-  },
-  "2637": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.6,
-          "high": 2500.0,
-          "low": 2136.0,
-          "vol_ratio": 1.53,
-          "resistance": 2500.0
-        }
-      }
-    }
-  },
-  "2641": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.1,
-          "high": 4472.0,
-          "low": 4108.0,
-          "vol_ratio": 1.07,
-          "resistance": 4472.0
+          "range_pct": 3.9,
+          "high": 372.1,
+          "low": 357.5,
+          "vol_ratio": 1.5,
+          "resistance": 372.1
         }
       }
     }
@@ -931,6 +496,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 4.0%→3.0%→2.5%→4.1%。出来高減少2回。レジスタンス413円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -947,6 +513,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ2.9%(高値412円-安値400円)。出来高比0.98倍。レジスタンス412円",
         "details": {
           "length_days": 30,
           "range_pct": 2.9,
@@ -954,29 +521,6 @@
           "low": 400.0,
           "vol_ratio": 0.98,
           "resistance": 412.0
-        }
-      }
-    }
-  },
-  "268A": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            30.4,
-            12.2,
-            38.7,
-            26.5
-          ],
-          "resistance": 2206.0,
-          "current_range_pct": 26.5
         }
       }
     }
@@ -989,6 +533,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ4.4%(高値13130円-安値12550円)。出来高比2.01倍。レジスタンス13130円",
         "details": {
           "length_days": 20,
           "range_pct": 4.4,
@@ -996,6 +541,46 @@
           "low": 12550.0,
           "vol_ratio": 2.01,
           "resistance": 13130.0
+        }
+      }
+    }
+  },
+  "2693": {
+    "patterns": [
+      "flat_base"
+    ],
+    "details": {
+      "flat_base": {
+        "detected": true,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.2%(高値256円-安値235円)。出来高比1.68倍。レジスタンス256円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 8.2,
+          "high": 256.0,
+          "low": 235.0,
+          "vol_ratio": 1.68,
+          "resistance": 256.0
+        }
+      }
+    }
+  },
+  "2694": {
+    "patterns": [
+      "flat_base"
+    ],
+    "details": {
+      "flat_base": {
+        "detected": true,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ2.7%(高値74円-安値72円)。出来高比0.68倍。レジスタンス74円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 2.7,
+          "high": 74.0,
+          "low": 72.0,
+          "vol_ratio": 0.68,
+          "resistance": 74.0
         }
       }
     }
@@ -1008,6 +593,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ10.0%(高値8100円-安値7290円)。出来高比0.97倍。レジスタンス8100円",
         "details": {
           "length_days": 20,
           "range_pct": 10.0,
@@ -1015,44 +601,6 @@
           "low": 7290.0,
           "vol_ratio": 0.97,
           "resistance": 8100.0
-        }
-      }
-    }
-  },
-  "2705": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 8.7,
-          "high": 7560.0,
-          "low": 6900.0,
-          "vol_ratio": 1.79,
-          "resistance": 7560.0
-        }
-      }
-    }
-  },
-  "2750": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.6,
-          "high": 1494.0,
-          "low": 1306.0,
-          "vol_ratio": 1.25,
-          "resistance": 1494.0
         }
       }
     }
@@ -1066,6 +614,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 6.2%→3.0%→9.7%→5.8%。出来高減少2回。レジスタンス1296円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -1082,6 +631,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.8%(高値1295円-安値1233円)。出来高比1.65倍。レジスタンス1295円",
         "details": {
           "length_days": 30,
           "range_pct": 4.8,
@@ -1093,120 +643,62 @@
       }
     }
   },
-  "2782": {
+  "2816": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            15.4,
-            12.0,
-            17.8,
-            13.5
-          ],
-          "resistance": 4435.0,
-          "current_range_pct": 13.5
-        }
-      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.1%(高値1429円-安値1413円)。出来高比1.04倍。レジスタンス1429円",
         "details": {
           "length_days": 30,
-          "range_pct": 10.2,
-          "high": 4420.0,
-          "low": 3970.0,
-          "vol_ratio": 1.23,
-          "resistance": 4420.0
+          "range_pct": 1.1,
+          "high": 1429.0,
+          "low": 1413.0,
+          "vol_ratio": 1.04,
+          "resistance": 1429.0
         }
       }
     }
   },
-  "2802": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 174,
-          "left_rim_price": 4438.0,
-          "bottom_idx": 218,
-          "bottom_price": 3300.0,
-          "right_rim_idx": 238,
-          "cup_depth_pct": 25.6,
-          "handle_depth_pct": 2.2,
-          "cup_length_days": 64,
-          "pivot_price": 4992.8
-        }
-      }
-    }
-  },
-  "2805": {
+  "2818": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.9,
-          "high": 4795.0,
-          "low": 4415.0,
-          "vol_ratio": 1.11,
-          "resistance": 4795.0
-        }
-      }
-    }
-  },
-  "282A": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.7%(高値1799円-安値1768円)。出来高比1.37倍。レジスタンス1799円",
         "details": {
           "length_days": 30,
-          "range_pct": 15.0,
-          "high": 1963.0,
-          "low": 1669.0,
-          "vol_ratio": 1.36,
-          "resistance": 1963.0
+          "range_pct": 1.7,
+          "high": 1799.0,
+          "low": 1768.0,
+          "vol_ratio": 1.37,
+          "resistance": 1799.0
         }
       }
     }
   },
-  "285A": {
+  "2844": {
     "patterns": [
-      "cup_with_handle"
+      "flat_base"
     ],
     "details": {
-      "cup_with_handle": {
+      "flat_base": {
         "detected": true,
-        "confidence": 1.0,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.8%(高値5669円-安値5456円)。出来高比1.52倍。レジスタンス5669円",
         "details": {
-          "left_rim_idx": 241,
-          "left_rim_price": 22845.0,
-          "bottom_idx": 256,
-          "bottom_price": 18030.0,
-          "right_rim_idx": 261,
-          "cup_depth_pct": 21.1,
-          "handle_depth_pct": 6.7,
-          "cup_length_days": 20,
-          "pivot_price": 23506.9
+          "length_days": 30,
+          "range_pct": 3.8,
+          "high": 5669.0,
+          "low": 5456.0,
+          "vol_ratio": 1.52,
+          "resistance": 5669.0
         }
       }
     }
@@ -1220,6 +712,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 3.4%→2.5%→5.1%→3.6%。出来高減少1回。レジスタンス1237円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
@@ -1236,6 +729,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ5.4%(高値1235円-安値1168円)。出来高比0.93倍。レジスタンス1235円",
         "details": {
           "length_days": 30,
           "range_pct": 5.4,
@@ -1247,38 +741,22 @@
       }
     }
   },
-  "2874": {
+  "2883": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            11.6,
-            9.7,
-            22.6,
-            13.2
-          ],
-          "resistance": 1619.0,
-          "current_range_pct": 13.2
-        }
-      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.1%(高値2013円-安値1991円)。出来高比0.90倍。レジスタンス2013円",
         "details": {
           "length_days": 30,
-          "range_pct": 15.0,
-          "high": 1614.0,
-          "low": 1372.0,
-          "vol_ratio": 1.13,
-          "resistance": 1614.0
+          "range_pct": 1.1,
+          "high": 2013.0,
+          "low": 1991.0,
+          "vol_ratio": 0.9,
+          "resistance": 2013.0
         }
       }
     }
@@ -1291,6 +769,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ9.3%(高値377円-安値342円)。出来高比1.18倍。レジスタンス377円",
         "details": {
           "length_days": 30,
           "range_pct": 9.3,
@@ -1310,6 +789,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.4%(高値1495円-安値1369円)。出来高比1.11倍。レジスタンス1495円",
         "details": {
           "length_days": 30,
           "range_pct": 8.4,
@@ -1321,217 +801,45 @@
       }
     }
   },
-  "2914": {
+  "2984": {
     "patterns": [
+      "vcp",
       "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.8,
-          "high": 6140.0,
-          "low": 5660.0,
-          "vol_ratio": 1.02,
-          "resistance": 6140.0
-        }
-      }
-    }
-  },
-  "2915": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.9,
-          "high": 2334.0,
-          "low": 2103.0,
-          "vol_ratio": 1.34,
-          "resistance": 2334.0
-        }
-      }
-    }
-  },
-  "2970": {
-    "patterns": [
-      "vcp"
     ],
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.8,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 11.4%→5.4%→3.5%→7.1%。出来高減少2回。レジスタンス791円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 1,
+          "vol_declining_segments": 2,
           "ranges_pct": [
-            16.2,
-            8.9,
-            38.5,
-            20.9
+            11.4,
+            5.4,
+            3.5,
+            7.1
           ],
-          "resistance": 1233.0,
-          "current_range_pct": 20.9
-        }
-      }
-    }
-  },
-  "2975": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.7,
-          "high": 1683.0,
-          "low": 1536.0,
-          "vol_ratio": 0.87,
-          "resistance": 1683.0
-        }
-      }
-    }
-  },
-  "3021": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.6,
-          "high": 2492.0,
-          "low": 2153.0,
-          "vol_ratio": 0.9,
-          "resistance": 2492.0
-        }
-      }
-    }
-  },
-  "3076": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.3,
-          "high": 2938.0,
-          "low": 2724.0,
-          "vol_ratio": 1.1,
-          "resistance": 2938.0
-        }
-      }
-    }
-  },
-  "3087": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 4.3,
-          "high": 3005.0,
-          "low": 2876.0,
-          "vol_ratio": 1.48,
-          "resistance": 3005.0
-        }
-      }
-    }
-  },
-  "3096": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 6.1,
-          "high": 1797.0,
-          "low": 1687.0,
-          "vol_ratio": 1.19,
-          "resistance": 1797.0
-        }
-      }
-    }
-  },
-  "3097": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.7,
-          "high": 5240.0,
-          "low": 4680.0,
-          "vol_ratio": 0.72,
-          "resistance": 5240.0
-        }
-      }
-    }
-  },
-  "3099": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 182,
-          "left_rim_price": 2631.0,
-          "bottom_idx": 213,
-          "bottom_price": 2275.0,
-          "right_rim_idx": 219,
-          "cup_depth_pct": 13.5,
-          "handle_depth_pct": 4.7,
-          "cup_length_days": 37,
-          "pivot_price": 3164.7
+          "resistance": 791.0,
+          "current_range_pct": 7.1
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.2%(高値780円-安値747円)。出来高比1.19倍。レジスタンス780円",
         "details": {
           "length_days": 30,
-          "range_pct": 11.7,
-          "high": 3149.0,
-          "low": 2781.0,
-          "vol_ratio": 0.9,
-          "resistance": 3149.0
+          "range_pct": 4.2,
+          "high": 780.0,
+          "low": 747.0,
+          "vol_ratio": 1.19,
+          "resistance": 780.0
         }
       }
     }
   },
-  "3104": {
+  "3041": {
     "patterns": [
       "flat_base"
     ],
@@ -1539,163 +847,77 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ9.8%(高値533円-安値481円)。出来高比1.96倍。レジスタンス533円",
         "details": {
           "length_days": 20,
-          "range_pct": 9.7,
-          "high": 11020.0,
-          "low": 9950.0,
-          "vol_ratio": 1.31,
-          "resistance": 11020.0
+          "range_pct": 9.8,
+          "high": 533.0,
+          "low": 481.0,
+          "vol_ratio": 1.96,
+          "resistance": 533.0
         }
       }
     }
   },
-  "3110": {
+  "3082": {
+    "patterns": [
+      "flat_base"
+    ],
+    "details": {
+      "flat_base": {
+        "detected": true,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ2.1%(高値948円-安値928円)。出来高比0.66倍。レジスタンス948円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 2.1,
+          "high": 948.0,
+          "low": 928.0,
+          "vol_ratio": 0.66,
+          "resistance": 948.0
+        }
+      }
+    }
+  },
+  "3083": {
     "patterns": [
       "cup_with_handle"
     ],
     "details": {
       "cup_with_handle": {
         "detected": true,
-        "confidence": 0.8,
+        "confidence": 1.0,
+        "reason": "左リム858円→底711円(深さ17.1%)→右リム回復。ハンドル調整4.2%。ピボット1057円。カップ期間29日",
         "details": {
-          "left_rim_idx": 186,
-          "left_rim_price": 15160.0,
-          "bottom_idx": 211,
-          "bottom_price": 10200.0,
-          "right_rim_idx": 223,
-          "cup_depth_pct": 32.7,
-          "handle_depth_pct": 7.7,
-          "cup_length_days": 37,
-          "pivot_price": 27818.4
+          "left_rim_idx": 221,
+          "left_rim_price": 858.0,
+          "bottom_idx": 245,
+          "bottom_price": 711.0,
+          "right_rim_idx": 250,
+          "cup_depth_pct": 17.1,
+          "handle_depth_pct": 4.2,
+          "cup_length_days": 29,
+          "pivot_price": 1057.3
         }
       }
     }
   },
-  "3123": {
+  "3138": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 8.1,
-          "high": 704.0,
-          "low": 647.0,
-          "vol_ratio": 0.57,
-          "resistance": 704.0
-        }
-      }
-    }
-  },
-  "3143": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 178,
-          "left_rim_price": 770.0,
-          "bottom_idx": 205,
-          "bottom_price": 669.0,
-          "right_rim_idx": 238,
-          "cup_depth_pct": 13.1,
-          "handle_depth_pct": 5.5,
-          "cup_length_days": 60,
-          "pivot_price": 772.8
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            8.5,
-            6.4,
-            11.3,
-            8.4
-          ],
-          "resistance": 775.0,
-          "current_range_pct": 8.4
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ5.1%(高値1059円-安値1005円)。出来高比0.31倍。レジスタンス1059円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.5,
-          "high": 769.0,
-          "low": 719.0,
-          "vol_ratio": 1.29,
-          "resistance": 769.0
-        }
-      }
-    }
-  },
-  "3150": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.7,
-          "high": 2940.0,
-          "low": 2537.0,
-          "vol_ratio": 1.18,
-          "resistance": 2940.0
-        }
-      }
-    }
-  },
-  "3151": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.2,
-          "high": 1496.0,
-          "low": 1373.0,
-          "vol_ratio": 1.32,
-          "resistance": 1496.0
-        }
-      }
-    }
-  },
-  "3157": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.6,
-          "high": 1704.0,
-          "low": 1574.0,
-          "vol_ratio": 0.95,
-          "resistance": 1704.0
+          "range_pct": 5.1,
+          "high": 1059.0,
+          "low": 1005.0,
+          "vol_ratio": 0.31,
+          "resistance": 1059.0
         }
       }
     }
@@ -1708,6 +930,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ6.5%(高値1612円-安値1508円)。出来高比1.50倍。レジスタンス1612円",
         "details": {
           "length_days": 30,
           "range_pct": 6.5,
@@ -1719,7 +942,7 @@
       }
     }
   },
-  "3173": {
+  "3178": {
     "patterns": [
       "flat_base"
     ],
@@ -1727,375 +950,59 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 4.5,
-          "high": 1008.0,
-          "low": 963.0,
-          "vol_ratio": 0.47,
-          "resistance": 1008.0
-        }
-      }
-    }
-  },
-  "3183": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.0%(高値1342円-安値1288円)。出来高比1.21倍。レジスタンス1342円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.1,
-          "high": 1510.0,
-          "low": 1372.0,
-          "vol_ratio": 2.01,
-          "resistance": 1510.0
+          "range_pct": 4.0,
+          "high": 1342.0,
+          "low": 1288.0,
+          "vol_ratio": 1.21,
+          "resistance": 1342.0
         }
       }
     }
   },
-  "3185": {
+  "3248": {
     "patterns": [
       "flat_base"
     ],
     "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "length_days": 33,
-          "range_pct": 13.0,
-          "high": 253.0,
-          "low": 220.0,
-          "vol_ratio": 0.79,
-          "resistance": 253.0
-        }
-      }
-    }
-  },
-  "3202": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.1,
-          "high": 143.0,
-          "low": 130.0,
-          "vol_ratio": 1.16,
-          "resistance": 143.0
-        }
-      }
-    }
-  },
-  "3221": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 21,
-          "range_pct": 9.1,
-          "high": 3640.0,
-          "low": 3310.0,
-          "vol_ratio": 0.8,
-          "resistance": 3640.0
-        }
-      }
-    }
-  },
-  "3252": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.9,
-          "high": 3415.0,
-          "low": 3145.0,
-          "vol_ratio": 1.16,
-          "resistance": 3415.0
-        }
-      }
-    }
-  },
-  "3267": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.4,
-          "high": 1203.0,
-          "low": 1030.0,
-          "vol_ratio": 0.9,
-          "resistance": 1203.0
-        }
-      }
-    }
-  },
-  "3277": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 11.8,
-          "high": 1539.0,
-          "low": 1358.0,
-          "vol_ratio": 1.05,
-          "resistance": 1539.0
-        }
-      }
-    }
-  },
-  "3299": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 180,
-          "left_rim_price": 2059.0,
-          "bottom_idx": 200,
-          "bottom_price": 1806.0,
-          "right_rim_idx": 218,
-          "cup_depth_pct": 12.3,
-          "handle_depth_pct": 2.2,
-          "cup_length_days": 38,
-          "pivot_price": 2466.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.1,
-          "high": 2582.0,
-          "low": 2245.0,
-          "vol_ratio": 0.97,
-          "resistance": 2582.0
-        }
-      }
-    }
-  },
-  "3326": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            5.6,
-            29.3,
-            4.9,
-            3.9
-          ],
-          "resistance": 812.0,
-          "current_range_pct": 3.9
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近30日間のレンジ3.7%(高値899円-安値866円)。出来高比0.67倍。レジスタンス899円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.4,
-          "high": 805.0,
-          "low": 778.0,
-          "vol_ratio": 0.72,
-          "resistance": 805.0
+          "range_pct": 3.7,
+          "high": 899.0,
+          "low": 866.0,
+          "vol_ratio": 0.67,
+          "resistance": 899.0
         }
       }
     }
   },
-  "3355": {
+  "3297": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ5.5%(高値1296円-安値1225円)。出来高比1.47倍。レジスタンス1296円",
         "details": {
           "length_days": 30,
-          "range_pct": 12.6,
-          "high": 1853.0,
-          "low": 1619.0,
+          "range_pct": 5.5,
+          "high": 1296.0,
+          "low": 1225.0,
           "vol_ratio": 1.47,
-          "resistance": 1853.0
+          "resistance": 1296.0
         }
       }
     }
   },
-  "3359": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.4,
-          "high": 577.0,
-          "low": 494.0,
-          "vol_ratio": 1.05,
-          "resistance": 577.0
-        }
-      }
-    }
-  },
-  "3374": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.9,
-          "high": 2691.0,
-          "low": 2424.0,
-          "vol_ratio": 1.39,
-          "resistance": 2691.0
-        }
-      }
-    }
-  },
-  "3395": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 6.0,
-          "high": 3170.0,
-          "low": 2979.0,
-          "vol_ratio": 1.05,
-          "resistance": 3170.0
-        }
-      }
-    }
-  },
-  "3401": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.8,
-          "high": 1734.0,
-          "low": 1511.5,
-          "vol_ratio": 1.06,
-          "resistance": 1734.0
-        }
-      }
-    }
-  },
-  "3434": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            3.1,
-            10.4,
-            6.0,
-            5.1
-          ],
-          "resistance": 1405.0,
-          "current_range_pct": 5.1
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.7,
-          "high": 1397.0,
-          "low": 1276.0,
-          "vol_ratio": 1.21,
-          "resistance": 1397.0
-        }
-      }
-    }
-  },
-  "3436": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 166,
-          "left_rim_price": 1735.0,
-          "bottom_idx": 185,
-          "bottom_price": 1160.0,
-          "right_rim_idx": 221,
-          "cup_depth_pct": 33.1,
-          "handle_depth_pct": 9.3,
-          "cup_length_days": 55,
-          "pivot_price": 1773.3
-        }
-      }
-    }
-  },
-  "3447": {
+  "3329": {
     "patterns": [
       "vcp",
       "flat_base"
@@ -2104,108 +1011,89 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 3.2%→2.5%→1.6%→1.9%。出来高減少2回。レジスタンス2144円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            11.8,
-            9.7,
-            14.2,
-            9.6
+            3.2,
+            2.5,
+            1.6,
+            1.9
           ],
-          "resistance": 1089.0,
-          "current_range_pct": 9.6
+          "resistance": 2144.0,
+          "current_range_pct": 1.9
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ1.3%(高値2137円-安値2110円)。出来高比0.50倍。レジスタンス2137円",
         "details": {
-          "length_days": 23,
-          "range_pct": 8.8,
-          "high": 1085.0,
-          "low": 990.0,
-          "vol_ratio": 0.8,
-          "resistance": 1085.0
+          "length_days": 30,
+          "range_pct": 1.3,
+          "high": 2137.0,
+          "low": 2110.0,
+          "vol_ratio": 0.5,
+          "resistance": 2137.0
         }
       }
     }
   },
-  "3467": {
+  "3361": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
+        "confidence": 0.7,
+        "reason": "直近20日間のレンジ6.1%(高値967円-安値908円)。出来高比1.19倍。レジスタンス967円",
         "details": {
-          "length_days": 30,
-          "range_pct": 9.6,
-          "high": 2886.0,
-          "low": 2610.0,
-          "vol_ratio": 1.43,
-          "resistance": 2886.0
+          "length_days": 20,
+          "range_pct": 6.1,
+          "high": 967.0,
+          "low": 908.0,
+          "vol_ratio": 1.19,
+          "resistance": 967.0
         }
       }
     }
   },
-  "3489": {
+  "3541": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 10.7%→40.5%→1.0%→0.5%。出来高減少2回。レジスタンス763円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            10.7,
+            40.5,
+            1.0,
+            0.5
+          ],
+          "resistance": 763.0,
+          "current_range_pct": 0.5
+        }
+      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ1.0%(高値767円-安値759円)。出来高比0.22倍。レジスタンス767円",
         "details": {
           "length_days": 30,
-          "range_pct": 13.3,
-          "high": 959.0,
-          "low": 831.0,
-          "vol_ratio": 1.15,
-          "resistance": 959.0
-        }
-      }
-    }
-  },
-  "3501": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.8,
-          "high": 1439.0,
-          "low": 1327.0,
-          "vol_ratio": 1.18,
-          "resistance": 1439.0
-        }
-      }
-    }
-  },
-  "3512": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 220,
-          "left_rim_price": 969.0,
-          "bottom_idx": 238,
-          "bottom_price": 846.0,
-          "right_rim_idx": 252,
-          "cup_depth_pct": 12.7,
-          "handle_depth_pct": 4.8,
-          "cup_length_days": 32,
-          "pivot_price": 1077.4
+          "range_pct": 1.0,
+          "high": 767.0,
+          "low": 759.0,
+          "vol_ratio": 0.22,
+          "resistance": 767.0
         }
       }
     }
@@ -2218,6 +1106,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ0.2%(高値1463円-安値1460円)。出来高比1.52倍。レジスタンス1463円",
         "details": {
           "length_days": 20,
           "range_pct": 0.2,
@@ -2225,94 +1114,6 @@
           "low": 1460.0,
           "vol_ratio": 1.52,
           "resistance": 1463.0
-        }
-      }
-    }
-  },
-  "3550": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 159,
-          "left_rim_price": 240.0,
-          "bottom_idx": 184,
-          "bottom_price": 198.0,
-          "right_rim_idx": 230,
-          "cup_depth_pct": 17.5,
-          "handle_depth_pct": 5.7,
-          "cup_length_days": 71,
-          "pivot_price": 238.2
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            2.9,
-            14.7,
-            12.1,
-            10.0
-          ],
-          "resistance": 231.0,
-          "current_range_pct": 10.0
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 6.2,
-          "high": 227.0,
-          "low": 213.0,
-          "vol_ratio": 0.88,
-          "resistance": 227.0
-        }
-      }
-    }
-  },
-  "3551": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            11.4,
-            8.8,
-            13.7,
-            9.5
-          ],
-          "resistance": 1248.0,
-          "current_range_pct": 9.5
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.0,
-          "high": 1244.0,
-          "low": 1132.0,
-          "vol_ratio": 1.09,
-          "resistance": 1244.0
         }
       }
     }
@@ -2325,6 +1126,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ7.8%(高値1560円-安値1438円)。出来高比0.93倍。レジスタンス1560円",
         "details": {
           "length_days": 30,
           "range_pct": 7.8,
@@ -2336,89 +1138,22 @@
       }
     }
   },
-  "3563": {
+  "3593": {
     "patterns": [
-      "cup_with_handle",
       "flat_base"
     ],
     "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 250,
-          "left_rim_price": 10065.0,
-          "bottom_idx": 256,
-          "bottom_price": 8816.0,
-          "right_rim_idx": 263,
-          "cup_depth_pct": 12.4,
-          "handle_depth_pct": 3.0,
-          "cup_length_days": 13,
-          "pivot_price": 10100.2
-        }
-      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ1.8%(高値6770円-安値6650円)。出来高比0.36倍。レジスタンス6770円",
         "details": {
           "length_days": 30,
-          "range_pct": 12.4,
-          "high": 10065.0,
-          "low": 8816.0,
-          "vol_ratio": 1.01,
-          "resistance": 10065.0
-        }
-      }
-    }
-  },
-  "3640": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 183,
-          "left_rim_price": 3360.0,
-          "bottom_idx": 204,
-          "bottom_price": 2885.0,
-          "right_rim_idx": 227,
-          "cup_depth_pct": 14.1,
-          "handle_depth_pct": 4.5,
-          "cup_length_days": 44,
-          "pivot_price": 3939.6
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            14.6,
-            7.8,
-            23.1,
-            13.7
-          ],
-          "resistance": 3865.0,
-          "current_range_pct": 13.7
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.2,
-          "high": 3815.0,
-          "low": 3350.0,
-          "vol_ratio": 1.11,
-          "resistance": 3815.0
+          "range_pct": 1.8,
+          "high": 6770.0,
+          "low": 6650.0,
+          "vol_ratio": 0.36,
+          "resistance": 6770.0
         }
       }
     }
@@ -2431,6 +1166,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ5.0%(高値1111円-安値1055円)。出来高比1.29倍。レジスタンス1111円",
         "details": {
           "length_days": 30,
           "range_pct": 5.0,
@@ -2438,28 +1174,6 @@
           "low": 1055.0,
           "vol_ratio": 1.29,
           "resistance": 1111.0
-        }
-      }
-    }
-  },
-  "3656": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 213,
-          "left_rim_price": 378.0,
-          "bottom_idx": 234,
-          "bottom_price": 303.0,
-          "right_rim_idx": 254,
-          "cup_depth_pct": 19.8,
-          "handle_depth_pct": 8.8,
-          "cup_length_days": 41,
-          "pivot_price": 436.2
         }
       }
     }
@@ -2472,6 +1186,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
+        "reason": "直近30日間のレンジ12.9%(高値2438円-安値2124円)。出来高比1.11倍。レジスタンス2438円",
         "details": {
           "length_days": 30,
           "range_pct": 12.9,
@@ -2483,24 +1198,22 @@
       }
     }
   },
-  "3723": {
+  "3710": {
     "patterns": [
-      "cup_with_handle"
+      "flat_base"
     ],
     "details": {
-      "cup_with_handle": {
+      "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近31日間のレンジ4.2%(高値612円-安値586円)。出来高比0.78倍。レジスタンス612円",
         "details": {
-          "left_rim_idx": 157,
-          "left_rim_price": 1590.0,
-          "bottom_idx": 184,
-          "bottom_price": 1305.0,
-          "right_rim_idx": 190,
-          "cup_depth_pct": 17.9,
-          "handle_depth_pct": 2.8,
-          "cup_length_days": 33,
-          "pivot_price": 1724.6
+          "length_days": 31,
+          "range_pct": 4.2,
+          "high": 612.0,
+          "low": 586.0,
+          "vol_ratio": 0.78,
+          "resistance": 612.0
         }
       }
     }
@@ -2513,6 +1226,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近30日間のレンジ3.6%(高値890円-安値858円)。出来高比0.64倍。レジスタンス890円",
         "details": {
           "length_days": 30,
           "range_pct": 3.6,
@@ -2524,283 +1238,42 @@
       }
     }
   },
-  "3776": {
+  "3839": {
     "patterns": [
-      "vcp"
+      "flat_base"
     ],
     "details": {
-      "vcp": {
+      "flat_base": {
         "detected": true,
-        "confidence": 0.9,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.9%(高値653円-安値621円)。出来高比2.04倍。レジスタンス653円",
         "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            18.9,
-            13.4,
-            30.7,
-            19.5
-          ],
-          "resistance": 251.0,
-          "current_range_pct": 19.5
+          "length_days": 30,
+          "range_pct": 4.9,
+          "high": 653.0,
+          "low": 621.0,
+          "vol_ratio": 2.04,
+          "resistance": 653.0
         }
       }
     }
   },
-  "3848": {
+  "3902": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            4.8,
-            32.0,
-            13.1,
-            8.2
-          ],
-          "resistance": 1020.0,
-          "current_range_pct": 8.2
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "details": {
-          "length_days": 31,
-          "range_pct": 8.4,
-          "high": 1020.0,
-          "low": 934.0,
-          "vol_ratio": 0.79,
-          "resistance": 1020.0
-        }
-      }
-    }
-  },
-  "3864": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 158,
-          "left_rim_price": 684.0,
-          "bottom_idx": 175,
-          "bottom_price": 601.0,
-          "right_rim_idx": 191,
-          "cup_depth_pct": 12.1,
-          "handle_depth_pct": 2.6,
-          "cup_length_days": 33,
-          "pivot_price": 680.4
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.1,
-          "high": 887.0,
-          "low": 780.0,
-          "vol_ratio": 1.51,
-          "resistance": 887.0
-        }
-      }
-    }
-  },
-  "3878": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 15.0,
-          "high": 936.0,
-          "low": 796.0,
-          "vol_ratio": 1.57,
-          "resistance": 936.0
-        }
-      }
-    }
-  },
-  "3891": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 220,
-          "left_rim_price": 3670.0,
-          "bottom_idx": 235,
-          "bottom_price": 3065.0,
-          "right_rim_idx": 242,
-          "cup_depth_pct": 16.5,
-          "handle_depth_pct": 6.8,
-          "cup_length_days": 22,
-          "pivot_price": 4356.7
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            20.8,
-            13.7,
-            30.0,
-            23.6
-          ],
-          "resistance": 4450.0,
-          "current_range_pct": 23.6
-        }
-      }
-    }
-  },
-  "3912": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
+        "reason": "直近30日間のレンジ0.6%(高値1687円-安値1677円)。出来高比0.37倍。レジスタンス1687円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.3,
-          "high": 1217.0,
-          "low": 1140.0,
-          "vol_ratio": 0.8,
-          "resistance": 1217.0
-        }
-      }
-    }
-  },
-  "3917": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            8.9,
-            29.0,
-            18.8,
-            6.5
-          ],
-          "resistance": 628.0,
-          "current_range_pct": 6.5
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 5.8,
-          "high": 626.0,
-          "low": 590.0,
-          "vol_ratio": 0.93,
-          "resistance": 626.0
-        }
-      }
-    }
-  },
-  "3929": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.1,
-          "high": 323.0,
-          "low": 300.0,
-          "vol_ratio": 1.19,
-          "resistance": 323.0
-        }
-      }
-    }
-  },
-  "3950": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            5.0,
-            3.4,
-            9.4,
-            7.4
-          ],
-          "resistance": 1355.0,
-          "current_range_pct": 7.4
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.5,
-          "high": 1370.0,
-          "low": 1267.0,
-          "vol_ratio": 0.98,
-          "resistance": 1370.0
-        }
-      }
-    }
-  },
-  "3964": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.5,
-          "high": 2585.0,
-          "low": 2287.0,
-          "vol_ratio": 1.29,
-          "resistance": 2585.0
+          "range_pct": 0.6,
+          "high": 1687.0,
+          "low": 1677.0,
+          "vol_ratio": 0.37,
+          "resistance": 1687.0
         }
       }
     }
@@ -2813,6 +1286,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近30日間のレンジ2.7%(高値592円-安値576円)。出来高比0.28倍。レジスタンス592円",
         "details": {
           "length_days": 30,
           "range_pct": 2.7,
@@ -2820,213 +1294,6 @@
           "low": 576.0,
           "vol_ratio": 0.28,
           "resistance": 592.0
-        }
-      }
-    }
-  },
-  "399A": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.4,
-          "high": 2254.0,
-          "low": 2020.0,
-          "vol_ratio": 1.65,
-          "resistance": 2254.0
-        }
-      }
-    }
-  },
-  "4021": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            7.2,
-            5.4,
-            25.9,
-            19.1
-          ],
-          "resistance": 7180.0,
-          "current_range_pct": 19.1
-        }
-      }
-    }
-  },
-  "4026": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 167,
-          "left_rim_price": 1701.0,
-          "bottom_idx": 184,
-          "bottom_price": 1403.0,
-          "right_rim_idx": 216,
-          "cup_depth_pct": 17.5,
-          "handle_depth_pct": 2.0,
-          "cup_length_days": 49,
-          "pivot_price": 1758.7
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.0,
-          "high": 2026.0,
-          "low": 1783.0,
-          "vol_ratio": 1.65,
-          "resistance": 2026.0
-        }
-      }
-    }
-  },
-  "4044": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.9,
-          "high": 4410.0,
-          "low": 3840.0,
-          "vol_ratio": 1.54,
-          "resistance": 4410.0
-        }
-      }
-    }
-  },
-  "4061": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.3,
-          "high": 3679.0,
-          "low": 3190.0,
-          "vol_ratio": 1.42,
-          "resistance": 3679.0
-        }
-      }
-    }
-  },
-  "4063": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 156,
-          "left_rim_price": 5205.0,
-          "bottom_idx": 185,
-          "bottom_price": 4431.0,
-          "right_rim_idx": 202,
-          "cup_depth_pct": 14.9,
-          "handle_depth_pct": 4.2,
-          "cup_length_days": 46,
-          "pivot_price": 5728.5
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.7,
-          "high": 6720.0,
-          "low": 5934.0,
-          "vol_ratio": 1.26,
-          "resistance": 6720.0
-        }
-      }
-    }
-  },
-  "4093": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.9,
-          "high": 488.0,
-          "low": 420.0,
-          "vol_ratio": 2.71,
-          "resistance": 488.0
-        }
-      }
-    }
-  },
-  "4125": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.4,
-          "high": 3245.0,
-          "low": 2777.0,
-          "vol_ratio": 1.17,
-          "resistance": 3245.0
-        }
-      }
-    }
-  },
-  "4189": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.1,
-          "high": 3115.0,
-          "low": 2677.0,
-          "vol_ratio": 0.76,
-          "resistance": 3115.0
         }
       }
     }
@@ -3039,6 +1306,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近20日間のレンジ6.5%(高値1439円-安値1345円)。出来高比0.74倍。レジスタンス1439円",
         "details": {
           "length_days": 20,
           "range_pct": 6.5,
@@ -3046,80 +1314,6 @@
           "low": 1345.0,
           "vol_ratio": 0.74,
           "resistance": 1439.0
-        }
-      }
-    }
-  },
-  "4220": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 0,
-          "ranges_pct": [
-            9.9,
-            7.9,
-            18.1,
-            13.3
-          ],
-          "resistance": 1878.0,
-          "current_range_pct": 13.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 11.2,
-          "high": 1858.0,
-          "low": 1649.0,
-          "vol_ratio": 1.25,
-          "resistance": 1858.0
-        }
-      }
-    }
-  },
-  "4246": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.3,
-          "high": 944.0,
-          "low": 828.0,
-          "vol_ratio": 1.32,
-          "resistance": 944.0
-        }
-      }
-    }
-  },
-  "4320": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.8,
-          "high": 1320.0,
-          "low": 1191.0,
-          "vol_ratio": 0.72,
-          "resistance": 1320.0
         }
       }
     }
@@ -3133,6 +1327,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 21.9%→4.1%→20.4%→6.7%。出来高減少2回。レジスタンス2235円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -3149,6 +1344,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近20日間のレンジ4.7%(高値2201円-安値2097円)。出来高比0.67倍。レジスタンス2201円",
         "details": {
           "length_days": 20,
           "range_pct": 4.7,
@@ -3156,51 +1352,6 @@
           "low": 2097.0,
           "vol_ratio": 0.67,
           "resistance": 2201.0
-        }
-      }
-    }
-  },
-  "4366": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            13.5,
-            39.3,
-            28.1,
-            16.3
-          ],
-          "resistance": 460.0,
-          "current_range_pct": 16.3
-        }
-      }
-    }
-  },
-  "4379": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 209,
-          "left_rim_price": 453.0,
-          "bottom_idx": 242,
-          "bottom_price": 380.0,
-          "right_rim_idx": 250,
-          "cup_depth_pct": 16.1,
-          "handle_depth_pct": 4.1,
-          "cup_length_days": 41,
-          "pivot_price": 518.6
         }
       }
     }
@@ -3213,6 +1364,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
+        "reason": "直近30日間のレンジ13.9%(高値588円-安値506円)。出来高比1.14倍。レジスタンス588円",
         "details": {
           "length_days": 30,
           "range_pct": 13.9,
@@ -3224,95 +1376,22 @@
       }
     }
   },
-  "4385": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            19.8,
-            10.6,
-            16.9,
-            12.3
-          ],
-          "resistance": 3762.0,
-          "current_range_pct": 12.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.5,
-          "high": 3675.0,
-          "low": 3325.0,
-          "vol_ratio": 0.69,
-          "resistance": 3675.0
-        }
-      }
-    }
-  },
-  "4386": {
+  "4409": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ6.8%(高値795円-安値741円)。出来高比0.74倍。レジスタンス795円",
         "details": {
-          "length_days": 20,
-          "range_pct": 5.4,
-          "high": 999.0,
-          "low": 945.0,
-          "vol_ratio": 0.8,
-          "resistance": 999.0
-        }
-      }
-    }
-  },
-  "4415": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.5,
-          "high": 1378.0,
-          "low": 1192.0,
-          "vol_ratio": 0.67,
-          "resistance": 1378.0
-        }
-      }
-    }
-  },
-  "4440": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.6,
-          "high": 1577.0,
-          "low": 1394.0,
-          "vol_ratio": 0.76,
-          "resistance": 1577.0
+          "length_days": 30,
+          "range_pct": 6.8,
+          "high": 795.0,
+          "low": 741.0,
+          "vol_ratio": 0.74,
+          "resistance": 795.0
         }
       }
     }
@@ -3326,6 +1405,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 20.7%→9.2%→22.6%→9.5%。出来高減少2回。レジスタンス1437円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -3342,6 +1422,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ8.5%(高値1420円-安値1300円)。出来高比0.96倍。レジスタンス1420円",
         "details": {
           "length_days": 20,
           "range_pct": 8.5,
@@ -3349,64 +1430,6 @@
           "low": 1300.0,
           "vol_ratio": 0.96,
           "resistance": 1420.0
-        }
-      }
-    }
-  },
-  "4463": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.8,
-          "high": 1840.0,
-          "low": 1605.0,
-          "vol_ratio": 1.35,
-          "resistance": 1840.0
-        }
-      }
-    }
-  },
-  "4479": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 231,
-          "left_rim_price": 1127.0,
-          "bottom_idx": 242,
-          "bottom_price": 950.0,
-          "right_rim_idx": 250,
-          "cup_depth_pct": 15.7,
-          "handle_depth_pct": 7.0,
-          "cup_length_days": 19,
-          "pivot_price": 1295.4
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            26.5,
-            18.7,
-            28.9,
-            20.3
-          ],
-          "resistance": 1310.0,
-          "current_range_pct": 20.3
         }
       }
     }
@@ -3419,6 +1442,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ6.5%(高値5870円-安値5488円)。出来高比1.01倍。レジスタンス5870円",
         "details": {
           "length_days": 30,
           "range_pct": 6.5,
@@ -3426,44 +1450,6 @@
           "low": 5488.0,
           "vol_ratio": 1.01,
           "resistance": 5870.0
-        }
-      }
-    }
-  },
-  "4503": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.4,
-          "high": 2601.5,
-          "low": 2331.5,
-          "vol_ratio": 0.87,
-          "resistance": 2601.5
-        }
-      }
-    }
-  },
-  "4507": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 11.1,
-          "high": 3664.0,
-          "low": 3256.0,
-          "vol_ratio": 0.93,
-          "resistance": 3664.0
         }
       }
     }
@@ -3476,6 +1462,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
+        "reason": "直近30日間のレンジ12.4%(高値356円-安値312円)。出来高比1.41倍。レジスタンス356円",
         "details": {
           "length_days": 30,
           "range_pct": 12.4,
@@ -3483,114 +1470,6 @@
           "low": 312.0,
           "vol_ratio": 1.41,
           "resistance": 356.0
-        }
-      }
-    }
-  },
-  "4523": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            13.3,
-            8.7,
-            18.2,
-            11.6
-          ],
-          "resistance": 5243.0,
-          "current_range_pct": 11.6
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.9,
-          "high": 5241.0,
-          "low": 4563.0,
-          "vol_ratio": 1.06,
-          "resistance": 5241.0
-        }
-      }
-    }
-  },
-  "4553": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            16.1,
-            6.0,
-            21.1,
-            13.4
-          ],
-          "resistance": 4445.0,
-          "current_range_pct": 13.4
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.2,
-          "high": 4410.0,
-          "low": 3870.0,
-          "vol_ratio": 0.98,
-          "resistance": 4410.0
-        }
-      }
-    }
-  },
-  "4554": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            11.8,
-            6.6,
-            25.1,
-            10.2
-          ],
-          "resistance": 2414.0,
-          "current_range_pct": 10.2
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.1,
-          "high": 2399.0,
-          "low": 2181.0,
-          "vol_ratio": 1.25,
-          "resistance": 2399.0
         }
       }
     }
@@ -3604,6 +1483,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "収縮2回検出。レンジ: 8.5%→5.5%→10.7%→7.7%。出来高減少0回。レジスタンス1521円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 0,
@@ -3620,6 +1500,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ10.0%(高値1500円-安値1350円)。出来高比1.21倍。レジスタンス1500円",
         "details": {
           "length_days": 30,
           "range_pct": 10.0,
@@ -3627,65 +1508,6 @@
           "low": 1350.0,
           "vol_ratio": 1.21,
           "resistance": 1500.0
-        }
-      }
-    }
-  },
-  "4578": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            10.8,
-            7.4,
-            17.6,
-            14.1
-          ],
-          "resistance": 11175.0,
-          "current_range_pct": 14.1
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.6,
-          "high": 11120.0,
-          "low": 9611.0,
-          "vol_ratio": 1.2,
-          "resistance": 11120.0
-        }
-      }
-    }
-  },
-  "4620": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            7.8,
-            5.4,
-            47.7,
-            19.1
-          ],
-          "resistance": 1233.0,
-          "current_range_pct": 19.1
         }
       }
     }
@@ -3698,6 +1520,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ6.1%(高値1820円-安値1709円)。出来高比1.98倍。レジスタンス1820円",
         "details": {
           "length_days": 20,
           "range_pct": 6.1,
@@ -3705,47 +1528,6 @@
           "low": 1709.0,
           "vol_ratio": 1.98,
           "resistance": 1820.0
-        }
-      }
-    }
-  },
-  "4658": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.4,
-          "high": 1713.0,
-          "low": 1500.0,
-          "vol_ratio": 0.7,
-          "resistance": 1713.0
-        }
-      }
-    }
-  },
-  "4676": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 234,
-          "left_rim_price": 3948.0,
-          "bottom_idx": 245,
-          "bottom_price": 3373.0,
-          "right_rim_idx": 255,
-          "cup_depth_pct": 14.6,
-          "handle_depth_pct": 3.1,
-          "cup_length_days": 21,
-          "pivot_price": 4033.1
         }
       }
     }
@@ -3758,6 +1540,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.0%(高値349円-安値321円)。出来高比1.28倍。レジスタンス349円",
         "details": {
           "length_days": 30,
           "range_pct": 8.0,
@@ -3765,80 +1548,6 @@
           "low": 321.0,
           "vol_ratio": 1.28,
           "resistance": 349.0
-        }
-      }
-    }
-  },
-  "4679": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            7.7,
-            33.6,
-            19.3,
-            15.3
-          ],
-          "resistance": 393.0,
-          "current_range_pct": 15.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.2,
-          "high": 388.0,
-          "low": 333.0,
-          "vol_ratio": 0.39,
-          "resistance": 388.0
-        }
-      }
-    }
-  },
-  "4690": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 1.2,
-          "high": 2508.0,
-          "low": 2478.0,
-          "vol_ratio": 1.54,
-          "resistance": 2508.0
-        }
-      }
-    }
-  },
-  "4694": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.2,
-          "high": 4355.0,
-          "low": 3955.0,
-          "vol_ratio": 1.03,
-          "resistance": 4355.0
         }
       }
     }
@@ -3851,6 +1560,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近30日間のレンジ6.6%(高値303円-安値283円)。出来高比0.25倍。レジスタンス303円",
         "details": {
           "length_days": 30,
           "range_pct": 6.6,
@@ -3870,6 +1580,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ5.1%(高値2100円-安値1992円)。出来高比1.04倍。レジスタンス2100円",
         "details": {
           "length_days": 30,
           "range_pct": 5.1,
@@ -3881,168 +1592,26 @@
       }
     }
   },
-  "4911": {
+  "485A": {
     "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 164,
-          "left_rim_price": 2818.5,
-          "bottom_idx": 194,
-          "bottom_price": 2152.0,
-          "right_rim_idx": 221,
-          "cup_depth_pct": 23.6,
-          "handle_depth_pct": 7.3,
-          "cup_length_days": 57,
-          "pivot_price": 3317.5
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.9,
-          "high": 3300.0,
-          "low": 2940.0,
-          "vol_ratio": 0.73,
-          "resistance": 3300.0
-        }
-      }
-    }
-  },
-  "4926": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 5.3,
-          "high": 1366.0,
-          "low": 1293.0,
-          "vol_ratio": 1.08,
-          "resistance": 1366.0
-        }
-      }
-    }
-  },
-  "4956": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.6,
-          "high": 1439.0,
-          "low": 1330.0,
-          "vol_ratio": 1.32,
-          "resistance": 1439.0
-        }
-      }
-    }
-  },
-  "4966": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 15.0,
-          "high": 23400.0,
-          "low": 19890.0,
-          "vol_ratio": 1.4,
-          "resistance": 23400.0
-        }
-      }
-    }
-  },
-  "4971": {
-    "patterns": [
-      "vcp",
-      "flat_base"
+      "vcp"
     ],
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.8,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 64.0%→35.0%→54.1%→39.3%。出来高減少2回。レジスタンス6150円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 1,
+          "vol_declining_segments": 2,
           "ranges_pct": [
-            20.1,
-            15.0,
-            28.0,
-            17.6
+            64.0,
+            35.0,
+            54.1,
+            39.3
           ],
-          "resistance": 7620.0,
-          "current_range_pct": 17.6
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.7,
-          "high": 7490.0,
-          "low": 6540.0,
-          "vol_ratio": 1.21,
-          "resistance": 7490.0
-        }
-      }
-    }
-  },
-  "4972": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.3,
-          "high": 3450.0,
-          "low": 3130.0,
-          "vol_ratio": 1.36,
-          "resistance": 3450.0
-        }
-      }
-    }
-  },
-  "4973": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.8,
-          "high": 5330.0,
-          "low": 4650.0,
-          "vol_ratio": 1.29,
-          "resistance": 5330.0
+          "resistance": 6150.0,
+          "current_range_pct": 39.3
         }
       }
     }
@@ -4056,6 +1625,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 13.2%→8.1%→32.1%→0.2%。出来高減少1回。レジスタンス1148円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
@@ -4072,6 +1642,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ0.1%(高値1147円-安値1146円)。出来高比1.62倍。レジスタンス1147円",
         "details": {
           "length_days": 20,
           "range_pct": 0.1,
@@ -4091,6 +1662,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ6.9%(高値1016円-安値946円)。出来高比1.30倍。レジスタンス1016円",
         "details": {
           "length_days": 30,
           "range_pct": 6.9,
@@ -4102,412 +1674,27 @@
       }
     }
   },
-  "5019": {
+  "5352": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.7,
-          "high": 1536.5,
-          "low": 1387.0,
-          "vol_ratio": 1.23,
-          "resistance": 1536.5
-        }
-      }
-    }
-  },
-  "5021": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.1,
-          "high": 4940.0,
-          "low": 4341.0,
-          "vol_ratio": 1.54,
-          "resistance": 4940.0
-        }
-      }
-    }
-  },
-  "5071": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.8,
-          "high": 1688.0,
-          "low": 1556.0,
-          "vol_ratio": 0.95,
-          "resistance": 1688.0
-        }
-      }
-    }
-  },
-  "5074": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 181,
-          "left_rim_price": 367.0,
-          "bottom_idx": 204,
-          "bottom_price": 306.0,
-          "right_rim_idx": 210,
-          "cup_depth_pct": 16.6,
-          "handle_depth_pct": 2.8,
-          "cup_length_days": 29,
-          "pivot_price": 408.0
-        }
-      }
-    }
-  },
-  "5121": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.5,
-          "high": 2750.0,
-          "low": 2351.0,
-          "vol_ratio": 1.3,
-          "resistance": 2750.0
-        }
-      }
-    }
-  },
-  "5122": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.0,
-          "high": 6170.0,
-          "low": 5740.0,
-          "vol_ratio": 1.49,
-          "resistance": 6170.0
-        }
-      }
-    }
-  },
-  "5184": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 8.6,
-          "high": 4375.0,
-          "low": 4000.0,
-          "vol_ratio": 0.9,
-          "resistance": 4375.0
-        }
-      }
-    }
-  },
-  "5186": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.6,
-          "high": 4735.0,
-          "low": 4235.0,
-          "vol_ratio": 1.3,
-          "resistance": 4735.0
-        }
-      }
-    }
-  },
-  "5187": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.9,
-          "high": 1224.0,
-          "low": 1090.0,
-          "vol_ratio": 1.29,
-          "resistance": 1224.0
-        }
-      }
-    }
-  },
-  "5237": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 15.0,
-          "high": 1284.0,
-          "low": 1092.0,
-          "vol_ratio": 2.01,
-          "resistance": 1284.0
-        }
-      }
-    }
-  },
-  "5208": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.9,
-          "high": 2660.0,
-          "low": 2344.0,
-          "vol_ratio": 1.43,
-          "resistance": 2660.0
-        }
-      }
-    }
-  },
-  "5261": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.3,
-          "high": 8930.0,
-          "low": 8010.0,
-          "vol_ratio": 1.0,
-          "resistance": 8930.0
-        }
-      }
-    }
-  },
-  "5332": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.0,
-          "high": 6337.0,
-          "low": 5448.0,
-          "vol_ratio": 1.33,
-          "resistance": 6337.0
-        }
-      }
-    }
-  },
-  "5334": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.6,
-          "high": 7907.0,
-          "low": 7069.0,
-          "vol_ratio": 1.07,
-          "resistance": 7907.0
-        }
-      }
-    }
-  },
-  "5368": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.7,
-          "high": 1357.0,
-          "low": 1158.0,
-          "vol_ratio": 1.34,
-          "resistance": 1357.0
-        }
-      }
-    }
-  },
-  "5393": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.0,
-          "high": 9601.0,
-          "low": 8256.0,
-          "vol_ratio": 1.26,
-          "resistance": 9601.0
-        }
-      }
-    }
-  },
-  "5444": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.1,
-          "high": 13005.0,
-          "low": 11430.0,
-          "vol_ratio": 1.07,
-          "resistance": 13005.0
-        }
-      }
-    }
-  },
-  "5451": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.4,
-          "high": 1651.0,
-          "low": 1414.0,
-          "vol_ratio": 1.96,
-          "resistance": 1651.0
-        }
-      }
-    }
-  },
-  "5532": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
         "detected": true,
         "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 180,
-          "left_rim_price": 2869.0,
-          "bottom_idx": 200,
-          "bottom_price": 2175.0,
-          "right_rim_idx": 229,
-          "cup_depth_pct": 24.2,
-          "handle_depth_pct": 8.0,
-          "cup_length_days": 49,
-          "pivot_price": 3316.5
-        }
-      }
-    }
-  },
-  "5542": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.3,
-          "high": 861.0,
-          "low": 781.0,
-          "vol_ratio": 0.87,
-          "resistance": 861.0
-        }
-      }
-    }
-  },
-  "5563": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
+        "reason": "直近30日間のレンジ1.0%(高値4205円-安値4165円)。出来高比1.36倍。レジスタンス4205円",
         "details": {
           "length_days": 30,
-          "range_pct": 14.9,
-          "high": 469.0,
-          "low": 399.0,
-          "vol_ratio": 1.59,
-          "resistance": 469.0
+          "range_pct": 1.0,
+          "high": 4205.0,
+          "low": 4165.0,
+          "vol_ratio": 1.36,
+          "resistance": 4205.0
         }
       }
     }
   },
-  "5631": {
+  "5884": {
     "patterns": [
       "cup_with_handle",
       "flat_base"
@@ -4516,120 +1703,35 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "左リム470円→底376円(深さ20.0%)→右リム回復。ハンドル調整4.2%。ピボット476円。カップ期間62日",
         "details": {
-          "left_rim_idx": 169,
-          "left_rim_price": 10375.0,
-          "bottom_idx": 205,
-          "bottom_price": 7395.0,
-          "right_rim_idx": 245,
-          "cup_depth_pct": 28.7,
-          "handle_depth_pct": 8.2,
-          "cup_length_days": 76,
-          "pivot_price": 10447.0
+          "left_rim_idx": 180,
+          "left_rim_price": 470.0,
+          "bottom_idx": 211,
+          "bottom_price": 376.0,
+          "right_rim_idx": 242,
+          "cup_depth_pct": 20.0,
+          "handle_depth_pct": 4.2,
+          "cup_length_days": 62,
+          "pivot_price": 476.4
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.8,
-          "high": 10395.0,
-          "low": 8852.0,
-          "vol_ratio": 1.21,
-          "resistance": 10395.0
-        }
-      }
-    }
-  },
-  "5698": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            18.8,
-            51.8,
-            31.4,
-            19.9
-          ],
-          "resistance": 1070.0,
-          "current_range_pct": 19.9
-        }
-      }
-    }
-  },
-  "5801": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
         "confidence": 0.7,
-        "details": {
-          "left_rim_idx": 251,
-          "left_rim_price": 29820.0,
-          "bottom_idx": 256,
-          "bottom_price": 25300.0,
-          "right_rim_idx": 261,
-          "cup_depth_pct": 15.2,
-          "handle_depth_pct": 6.7,
-          "cup_length_days": 10,
-          "pivot_price": 31396.2
-        }
-      }
-    }
-  },
-  "5802": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            18.6,
-            12.2,
-            40.5,
-            25.6
-          ],
-          "resistance": 11495.0,
-          "current_range_pct": 25.6
-        }
-      }
-    }
-  },
-  "5816": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
+        "reason": "直近20日間のレンジ7.8%(高値474円-安値437円)。出来高比0.87倍。レジスタンス474円",
         "details": {
           "length_days": 20,
-          "range_pct": 7.5,
-          "high": 1774.0,
-          "low": 1641.0,
-          "vol_ratio": 0.41,
-          "resistance": 1774.0
+          "range_pct": 7.8,
+          "high": 474.0,
+          "low": 437.0,
+          "vol_ratio": 0.87,
+          "resistance": 474.0
         }
       }
     }
   },
-  "5821": {
+  "6087": {
     "patterns": [
       "vcp",
       "flat_base"
@@ -4638,171 +1740,36 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 5.5%→3.5%→3.0%→1.4%。出来高減少2回。レジスタンス3460円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            15.3,
-            8.4,
-            43.2,
-            22.2
+            5.5,
+            3.5,
+            3.0,
+            1.4
           ],
-          "resistance": 4685.0,
-          "current_range_pct": 22.2
+          "resistance": 3460.0,
+          "current_range_pct": 1.4
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.8,
-          "high": 4470.0,
-          "low": 3810.0,
-          "vol_ratio": 0.97,
-          "resistance": 4470.0
-        }
-      }
-    }
-  },
-  "5869": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.6%(高値3460円-安値3405円)。出来高比0.95倍。レジスタンス3460円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.3,
-          "high": 1352.0,
-          "low": 1240.0,
-          "vol_ratio": 1.12,
-          "resistance": 1352.0
+          "range_pct": 1.6,
+          "high": 3460.0,
+          "low": 3405.0,
+          "vol_ratio": 0.95,
+          "resistance": 3460.0
         }
       }
     }
   },
-  "5906": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            25.7,
-            14.0,
-            35.2,
-            19.3
-          ],
-          "resistance": 1009.0,
-          "current_range_pct": 19.3
-        }
-      }
-    }
-  },
-  "5923": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "length_days": 30,
-          "range_pct": 4.7,
-          "high": 1364.0,
-          "low": 1300.0,
-          "vol_ratio": 0.66,
-          "resistance": 1364.0
-        }
-      }
-    }
-  },
-  "5928": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.7,
-          "high": 327.0,
-          "low": 279.0,
-          "vol_ratio": 1.22,
-          "resistance": 327.0
-        }
-      }
-    }
-  },
-  "5932": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 11.1,
-          "high": 731.0,
-          "low": 650.0,
-          "vol_ratio": 1.33,
-          "resistance": 731.0
-        }
-      }
-    }
-  },
-  "5936": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 5.3,
-          "high": 993.0,
-          "low": 940.0,
-          "vol_ratio": 1.34,
-          "resistance": 993.0
-        }
-      }
-    }
-  },
-  "5943": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 6.5,
-          "high": 2433.0,
-          "low": 2276.0,
-          "vol_ratio": 0.9,
-          "resistance": 2433.0
-        }
-      }
-    }
-  },
-  "5951": {
+  "6135": {
     "patterns": [
       "vcp",
       "flat_base"
@@ -4811,395 +1778,31 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 7.3%→6.0%→5.9%→2.0%。出来高減少1回。レジスタンス11660円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
           "ranges_pct": [
-            11.3,
-            5.0,
-            15.3,
-            9.9
+            7.3,
+            6.0,
+            5.9,
+            2.0
           ],
-          "resistance": 1110.0,
-          "current_range_pct": 9.9
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 6.8,
-          "high": 1096.0,
-          "low": 1021.0,
-          "vol_ratio": 1.62,
-          "resistance": 1096.0
-        }
-      }
-    }
-  },
-  "5957": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "length_days": 32,
-          "range_pct": 9.4,
-          "high": 811.0,
-          "low": 735.0,
-          "vol_ratio": 0.79,
-          "resistance": 811.0
-        }
-      }
-    }
-  },
-  "5958": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.9,
-          "high": 5300.0,
-          "low": 4615.0,
-          "vol_ratio": 1.43,
-          "resistance": 5300.0
-        }
-      }
-    }
-  },
-  "5965": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.9,
-          "high": 1286.0,
-          "low": 1094.0,
-          "vol_ratio": 1.84,
-          "resistance": 1286.0
-        }
-      }
-    }
-  },
-  "5974": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "length_days": 30,
-          "range_pct": 11.4,
-          "high": 900.0,
-          "low": 797.0,
-          "vol_ratio": 0.46,
-          "resistance": 900.0
-        }
-      }
-    }
-  },
-  "5982": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            11.8,
-            7.1,
-            15.4,
-            10.6
-          ],
-          "resistance": 4250.0,
-          "current_range_pct": 10.6
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.7,
-          "high": 4255.0,
-          "low": 3800.0,
-          "vol_ratio": 1.04,
-          "resistance": 4255.0
-        }
-      }
-    }
-  },
-  "5986": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.4,
-          "high": 247.0,
-          "low": 214.0,
-          "vol_ratio": 1.67,
-          "resistance": 247.0
-        }
-      }
-    }
-  },
-  "5992": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.2,
-          "high": 3655.0,
-          "low": 3320.0,
-          "vol_ratio": 0.95,
-          "resistance": 3655.0
-        }
-      }
-    }
-  },
-  "6013": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.7,
-          "high": 3050.0,
-          "low": 2602.0,
-          "vol_ratio": 1.36,
-          "resistance": 3050.0
-        }
-      }
-    }
-  },
-  "6033": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            13.6,
-            6.1,
-            15.5,
-            9.8
-          ],
-          "resistance": 1605.0,
-          "current_range_pct": 9.8
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.5,
-          "high": 1590.0,
-          "low": 1471.0,
-          "vol_ratio": 1.27,
-          "resistance": 1590.0
-        }
-      }
-    }
-  },
-  "6046": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 239,
-          "left_rim_price": 210.0,
-          "bottom_idx": 253,
-          "bottom_price": 184.0,
-          "right_rim_idx": 258,
-          "cup_depth_pct": 12.4,
-          "handle_depth_pct": 2.9,
-          "cup_length_days": 19,
-          "pivot_price": 213.1
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.2,
-          "high": 212.0,
-          "low": 184.0,
-          "vol_ratio": 0.29,
-          "resistance": 212.0
-        }
-      }
-    }
-  },
-  "6083": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.1,
-          "high": 4840.0,
-          "low": 4350.0,
-          "vol_ratio": 0.94,
-          "resistance": 4840.0
-        }
-      }
-    }
-  },
-  "6093": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 238,
-          "left_rim_price": 199.0,
-          "bottom_idx": 252,
-          "bottom_price": 168.0,
-          "right_rim_idx": 258,
-          "cup_depth_pct": 15.6,
-          "handle_depth_pct": 3.2,
-          "cup_length_days": 20,
-          "pivot_price": 196.0
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.8,
-          "high": 195.0,
-          "low": 168.0,
-          "vol_ratio": 1.27,
-          "resistance": 195.0
-        }
-      }
-    }
-  },
-  "6094": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            9.7,
-            7.7,
-            34.4,
-            16.3
-          ],
-          "resistance": 780.0,
-          "current_range_pct": 16.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.6,
-          "high": 765.0,
-          "low": 653.0,
-          "vol_ratio": 1.52,
-          "resistance": 765.0
-        }
-      }
-    }
-  },
-  "6144": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            28.7,
-            12.4,
-            12.7,
-            10.6
-          ],
-          "resistance": 2978.0,
-          "current_range_pct": 10.6
+          "resistance": 11660.0,
+          "current_range_pct": 2.0
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近20日間のレンジ1.8%(高値11650円-安値11440円)。出来高比0.70倍。レジスタンス11650円",
         "details": {
-          "length_days": 30,
-          "range_pct": 9.5,
-          "high": 2975.0,
-          "low": 2692.0,
-          "vol_ratio": 0.9,
-          "resistance": 2975.0
+          "length_days": 20,
+          "range_pct": 1.8,
+          "high": 11650.0,
+          "low": 11440.0,
+          "vol_ratio": 0.7,
+          "resistance": 11650.0
         }
       }
     }
@@ -5213,6 +1816,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 15.8%→10.8%→4.7%→7.2%。出来高減少2回。レジスタンス348円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -5229,6 +1833,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近46日間のレンジ4.7%(高値341円-安値325円)。出来高比0.79倍。レジスタンス341円",
         "details": {
           "length_days": 46,
           "range_pct": 4.7,
@@ -5249,6 +1854,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "収縮2回検出。レンジ: 4.7%→9.8%→7.1%→3.3%。出来高減少0回。レジスタンス20765円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 0,
@@ -5265,6 +1871,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.5%(高値20590円-安値19670円)。出来高比1.52倍。レジスタンス20590円",
         "details": {
           "length_days": 30,
           "range_pct": 4.5,
@@ -5272,163 +1879,6 @@
           "low": 19670.0,
           "vol_ratio": 1.52,
           "resistance": 20590.0
-        }
-      }
-    }
-  },
-  "6208": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 157,
-          "left_rim_price": 1707.0,
-          "bottom_idx": 205,
-          "bottom_price": 1425.0,
-          "right_rim_idx": 219,
-          "cup_depth_pct": 16.5,
-          "handle_depth_pct": 3.4,
-          "cup_length_days": 62,
-          "pivot_price": 2336.6
-        }
-      }
-    }
-  },
-  "6218": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.2,
-          "high": 597.0,
-          "low": 548.0,
-          "vol_ratio": 1.36,
-          "resistance": 597.0
-        }
-      }
-    }
-  },
-  "6227": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 164,
-          "left_rim_price": 5130.0,
-          "bottom_idx": 203,
-          "bottom_price": 4340.0,
-          "right_rim_idx": 210,
-          "cup_depth_pct": 15.4,
-          "handle_depth_pct": 2.1,
-          "cup_length_days": 46,
-          "pivot_price": 9346.5
-        }
-      }
-    }
-  },
-  "6229": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "left_rim_idx": 245,
-          "left_rim_price": 2236.0,
-          "bottom_idx": 253,
-          "bottom_price": 1947.0,
-          "right_rim_idx": 258,
-          "cup_depth_pct": 12.9,
-          "handle_depth_pct": 5.6,
-          "cup_length_days": 13,
-          "pivot_price": 2372.8
-        }
-      }
-    }
-  },
-  "6231": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            14.9,
-            8.2,
-            25.1,
-            14.9
-          ],
-          "resistance": 16480.0,
-          "current_range_pct": 14.9
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.6,
-          "high": 16150.0,
-          "low": 14110.0,
-          "vol_ratio": 0.97,
-          "resistance": 16150.0
-        }
-      }
-    }
-  },
-  "6238": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            5.3,
-            4.2,
-            17.2,
-            13.9
-          ],
-          "resistance": 1356.0,
-          "current_range_pct": 13.9
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.6,
-          "high": 1319.0,
-          "low": 1179.0,
-          "vol_ratio": 1.83,
-          "resistance": 1319.0
         }
       }
     }
@@ -5442,6 +1892,7 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "左リム1534円→底1342円(深さ12.5%)→右リム回復。ハンドル調整2.8%。ピボット1527円。カップ期間45日",
         "details": {
           "left_rim_idx": 170,
           "left_rim_price": 1534.0,
@@ -5457,6 +1908,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
+        "reason": "直近30日間のレンジ14.2%(高値1644円-安値1410円)。出来高比1.41倍。レジスタンス1644円",
         "details": {
           "length_days": 30,
           "range_pct": 14.2,
@@ -5464,406 +1916,6 @@
           "low": 1410.0,
           "vol_ratio": 1.41,
           "resistance": 1644.0
-        }
-      }
-    }
-  },
-  "6250": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.7,
-          "high": 3890.0,
-          "low": 3395.0,
-          "vol_ratio": 1.05,
-          "resistance": 3890.0
-        }
-      }
-    }
-  },
-  "6255": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 169,
-          "left_rim_price": 781.0,
-          "bottom_idx": 205,
-          "bottom_price": 680.0,
-          "right_rim_idx": 226,
-          "cup_depth_pct": 12.9,
-          "handle_depth_pct": 3.3,
-          "cup_length_days": 57,
-          "pivot_price": 833.1
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.5,
-          "high": 829.0,
-          "low": 717.0,
-          "vol_ratio": 0.93,
-          "resistance": 829.0
-        }
-      }
-    }
-  },
-  "6262": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.2,
-          "high": 850.0,
-          "low": 746.0,
-          "vol_ratio": 0.62,
-          "resistance": 850.0
-        }
-      }
-    }
-  },
-  "6269": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            32.0,
-            26.9,
-            18.7,
-            27.0
-          ],
-          "resistance": 15925.0,
-          "current_range_pct": 27.0
-        }
-      }
-    }
-  },
-  "6284": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 179,
-          "left_rim_price": 7100.0,
-          "bottom_idx": 204,
-          "bottom_price": 5990.0,
-          "right_rim_idx": 240,
-          "cup_depth_pct": 15.6,
-          "handle_depth_pct": 3.0,
-          "cup_length_days": 61,
-          "pivot_price": 9306.3
-        }
-      }
-    }
-  },
-  "6286": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 0,
-          "ranges_pct": [
-            14.7,
-            10.9,
-            28.6,
-            15.6
-          ],
-          "resistance": 1876.0,
-          "current_range_pct": 15.6
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.3,
-          "high": 1825.0,
-          "low": 1583.0,
-          "vol_ratio": 1.75,
-          "resistance": 1825.0
-        }
-      }
-    }
-  },
-  "6291": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.2,
-          "high": 1398.0,
-          "low": 1200.0,
-          "vol_ratio": 1.21,
-          "resistance": 1398.0
-        }
-      }
-    }
-  },
-  "6324": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 158,
-          "left_rim_price": 3450.0,
-          "bottom_idx": 184,
-          "bottom_price": 2503.0,
-          "right_rim_idx": 195,
-          "cup_depth_pct": 27.4,
-          "handle_depth_pct": 4.1,
-          "cup_length_days": 37,
-          "pivot_price": 3969.7
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            31.9,
-            13.8,
-            31.6,
-            25.1
-          ],
-          "resistance": 4935.0,
-          "current_range_pct": 25.1
-        }
-      }
-    }
-  },
-  "6335": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.5,
-          "high": 551.0,
-          "low": 493.0,
-          "vol_ratio": 1.51,
-          "resistance": 551.0
-        }
-      }
-    }
-  },
-  "6336": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            15.1,
-            7.1,
-            18.7,
-            15.8
-          ],
-          "resistance": 1015.0,
-          "current_range_pct": 15.8
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.6,
-          "high": 995.0,
-          "low": 880.0,
-          "vol_ratio": 2.39,
-          "resistance": 995.0
-        }
-      }
-    }
-  },
-  "6337": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.8,
-          "high": 2893.0,
-          "low": 2494.0,
-          "vol_ratio": 0.73,
-          "resistance": 2893.0
-        }
-      }
-    }
-  },
-  "6363": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.9,
-          "high": 2774.0,
-          "low": 2472.0,
-          "vol_ratio": 1.4,
-          "resistance": 2774.0
-        }
-      }
-    }
-  },
-  "6364": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 164,
-          "left_rim_price": 2010.0,
-          "bottom_idx": 203,
-          "bottom_price": 1710.0,
-          "right_rim_idx": 222,
-          "cup_depth_pct": 14.9,
-          "handle_depth_pct": 7.4,
-          "cup_length_days": 58,
-          "pivot_price": 2163.8
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.2,
-          "high": 2258.0,
-          "low": 1938.0,
-          "vol_ratio": 1.26,
-          "resistance": 2258.0
-        }
-      }
-    }
-  },
-  "6369": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.5,
-          "high": 3095.0,
-          "low": 2709.0,
-          "vol_ratio": 1.3,
-          "resistance": 3095.0
-        }
-      }
-    }
-  },
-  "6378": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 158,
-          "left_rim_price": 1177.0,
-          "bottom_idx": 177,
-          "bottom_price": 1015.0,
-          "right_rim_idx": 182,
-          "cup_depth_pct": 13.8,
-          "handle_depth_pct": 4.7,
-          "cup_length_days": 24,
-          "pivot_price": 1282.4
-        }
-      }
-    }
-  },
-  "6376": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 11.1,
-          "high": 2480.0,
-          "low": 2205.0,
-          "vol_ratio": 1.2,
-          "resistance": 2480.0
         }
       }
     }
@@ -5876,6 +1928,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ6.3%(高値1878円-安値1760円)。出来高比1.82倍。レジスタンス1878円",
         "details": {
           "length_days": 20,
           "range_pct": 6.3,
@@ -5883,25 +1936,6 @@
           "low": 1760.0,
           "vol_ratio": 1.82,
           "resistance": 1878.0
-        }
-      }
-    }
-  },
-  "6402": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.7,
-          "high": 2085.0,
-          "low": 1799.0,
-          "vol_ratio": 2.17,
-          "resistance": 2085.0
         }
       }
     }
@@ -5914,6 +1948,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.1%(高値4050円-安値4005円)。出来高比1.58倍。レジスタンス4050円",
         "details": {
           "length_days": 30,
           "range_pct": 1.1,
@@ -5925,301 +1960,22 @@
       }
     }
   },
-  "6440": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            19.8,
-            12.4,
-            31.3,
-            22.0
-          ],
-          "resistance": 792.0,
-          "current_range_pct": 22.0
-        }
-      }
-    }
-  },
-  "6445": {
+  "6513": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.6,
-          "high": 1482.0,
-          "low": 1265.0,
-          "vol_ratio": 1.49,
-          "resistance": 1482.0
-        }
-      }
-    }
-  },
-  "6454": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            8.2,
-            6.4,
-            14.9,
-            12.6
-          ],
-          "resistance": 7310.0,
-          "current_range_pct": 12.6
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.2,
-          "high": 7190.0,
-          "low": 6460.0,
-          "vol_ratio": 0.99,
-          "resistance": 7190.0
-        }
-      }
-    }
-  },
-  "6470": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            21.8,
-            9.4,
-            28.7,
-            17.7
-          ],
-          "resistance": 1155.0,
-          "current_range_pct": 17.7
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.6,
-          "high": 1147.0,
-          "low": 991.0,
-          "vol_ratio": 1.35,
-          "resistance": 1147.0
-        }
-      }
-    }
-  },
-  "6481": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 158,
-          "left_rim_price": 4437.0,
-          "bottom_idx": 185,
-          "bottom_price": 3777.0,
-          "right_rim_idx": 199,
-          "cup_depth_pct": 14.9,
-          "handle_depth_pct": 5.0,
-          "cup_length_days": 41,
-          "pivot_price": 4374.8
-        }
-      }
-    }
-  },
-  "6490": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 165,
-          "left_rim_price": 5170.0,
-          "bottom_idx": 184,
-          "bottom_price": 4400.0,
-          "right_rim_idx": 212,
-          "cup_depth_pct": 14.9,
-          "handle_depth_pct": 2.6,
-          "cup_length_days": 47,
-          "pivot_price": 6723.4
-        }
-      }
-    }
-  },
-  "6496": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.8,
-          "high": 8160.0,
-          "low": 6950.0,
-          "vol_ratio": 1.05,
-          "resistance": 8160.0
-        }
-      }
-    }
-  },
-  "6503": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            15.3,
-            11.4,
-            20.5,
-            16.4
-          ],
-          "resistance": 6060.0,
-          "current_range_pct": 16.4
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.2,
-          "high": 5994.0,
-          "low": 5144.0,
-          "vol_ratio": 1.08,
-          "resistance": 5994.0
-        }
-      }
-    }
-  },
-  "6505": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.3,
-          "high": 2497.0,
-          "low": 2140.0,
-          "vol_ratio": 1.17,
-          "resistance": 2497.0
-        }
-      }
-    }
-  },
-  "6507": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近30日間のレンジ3.7%(高値1108円-安値1067円)。出来高比0.64倍。レジスタンス1108円",
         "details": {
-          "left_rim_idx": 158,
-          "left_rim_price": 10810.0,
-          "bottom_idx": 193,
-          "bottom_price": 8320.0,
-          "right_rim_idx": 219,
-          "cup_depth_pct": 23.0,
-          "handle_depth_pct": 4.3,
-          "cup_length_days": 61,
-          "pivot_price": 11728.3
-        }
-      }
-    }
-  },
-  "6508": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 172,
-          "left_rim_price": 7350.0,
-          "bottom_idx": 205,
-          "bottom_price": 5450.0,
-          "right_rim_idx": 239,
-          "cup_depth_pct": 25.9,
-          "handle_depth_pct": 4.1,
-          "cup_length_days": 67,
-          "pivot_price": 7979.7
-        }
-      }
-    }
-  },
-  "6516": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            12.6,
-            8.7,
-            21.2,
-            17.8
-          ],
-          "resistance": 5190.0,
-          "current_range_pct": 17.8
+          "length_days": 30,
+          "range_pct": 3.7,
+          "high": 1108.0,
+          "low": 1067.0,
+          "vol_ratio": 0.64,
+          "resistance": 1108.0
         }
       }
     }
@@ -6232,6 +1988,7 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "左リム1796円→底1398円(深さ22.2%)→右リム回復。ハンドル調整7.8%。ピボット3105円。カップ期間31日",
         "details": {
           "left_rim_idx": 186,
           "left_rim_price": 1796.0,
@@ -6246,363 +2003,6 @@
       }
     }
   },
-  "6524": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            18.2,
-            10.5,
-            31.0,
-            22.7
-          ],
-          "resistance": 5280.0,
-          "current_range_pct": 22.7
-        }
-      }
-    }
-  },
-  "6540": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 6.7,
-          "high": 1951.0,
-          "low": 1820.0,
-          "vol_ratio": 0.57,
-          "resistance": 1951.0
-        }
-      }
-    }
-  },
-  "6616": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 11.5,
-          "high": 1758.0,
-          "low": 1555.0,
-          "vol_ratio": 1.26,
-          "resistance": 1758.0
-        }
-      }
-    }
-  },
-  "6648": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.3,
-          "high": 2477.0,
-          "low": 2123.0,
-          "vol_ratio": 0.61,
-          "resistance": 2477.0
-        }
-      }
-    }
-  },
-  "6651": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.9,
-          "high": 4860.0,
-          "low": 4235.0,
-          "vol_ratio": 1.17,
-          "resistance": 4860.0
-        }
-      }
-    }
-  },
-  "6652": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            12.8,
-            4.8,
-            14.3,
-            11.9
-          ],
-          "resistance": 3330.0,
-          "current_range_pct": 11.9
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 20,
-          "range_pct": 8.8,
-          "high": 3305.0,
-          "low": 3015.0,
-          "vol_ratio": 0.79,
-          "resistance": 3305.0
-        }
-      }
-    }
-  },
-  "6668": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.8,
-          "high": 2085.0,
-          "low": 1776.0,
-          "vol_ratio": 1.11,
-          "resistance": 2085.0
-        }
-      }
-    }
-  },
-  "6670": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 6.7,
-          "high": 2357.0,
-          "low": 2198.0,
-          "vol_ratio": 2.37,
-          "resistance": 2357.0
-        }
-      }
-    }
-  },
-  "6674": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 0,
-          "ranges_pct": [
-            12.7,
-            10.1,
-            35.3,
-            16.6
-          ],
-          "resistance": 5616.0,
-          "current_range_pct": 16.6
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.3,
-          "high": 5560.0,
-          "low": 4823.0,
-          "vol_ratio": 1.34,
-          "resistance": 5560.0
-        }
-      }
-    }
-  },
-  "6676": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.7,
-          "high": 5420.0,
-          "low": 4680.0,
-          "vol_ratio": 1.05,
-          "resistance": 5420.0
-        }
-      }
-    }
-  },
-  "6678": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.8,
-          "high": 2706.0,
-          "low": 2332.0,
-          "vol_ratio": 1.14,
-          "resistance": 2706.0
-        }
-      }
-    }
-  },
-  "6706": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 12.7,
-          "high": 3435.0,
-          "low": 3000.0,
-          "vol_ratio": 1.3,
-          "resistance": 3435.0
-        }
-      }
-    }
-  },
-  "6741": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            10.4,
-            6.5,
-            24.0,
-            13.3
-          ],
-          "resistance": 1809.0,
-          "current_range_pct": 13.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.1,
-          "high": 1802.0,
-          "low": 1584.0,
-          "vol_ratio": 1.06,
-          "resistance": 1802.0
-        }
-      }
-    }
-  },
-  "6744": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            15.1,
-            6.8,
-            14.9,
-            10.7
-          ],
-          "resistance": 4680.0,
-          "current_range_pct": 10.7
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 9.0,
-          "high": 4610.0,
-          "low": 4195.0,
-          "vol_ratio": 1.01,
-          "resistance": 4610.0
-        }
-      }
-    }
-  },
-  "6745": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.5,
-          "high": 6750.0,
-          "low": 6040.0,
-          "vol_ratio": 1.49,
-          "resistance": 6750.0
-        }
-      }
-    }
-  },
   "6752": {
     "patterns": [
       "vcp",
@@ -6612,6 +2012,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 20.4%→15.9%→20.3%→14.4%。出来高減少2回。レジスタンス2679円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -6628,6 +2029,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
+        "reason": "直近30日間のレンジ11.3%(高値2652円-安値2352円)。出来高比0.91倍。レジスタンス2652円",
         "details": {
           "length_days": 30,
           "range_pct": 11.3,
@@ -6635,85 +2037,6 @@
           "low": 2351.5,
           "vol_ratio": 0.91,
           "resistance": 2652.0
-        }
-      }
-    }
-  },
-  "6754": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.4,
-          "high": 3103.0,
-          "low": 2657.5,
-          "vol_ratio": 1.38,
-          "resistance": 3103.0
-        }
-      }
-    }
-  },
-  "6768": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 181,
-          "left_rim_price": 664.0,
-          "bottom_idx": 205,
-          "bottom_price": 560.0,
-          "right_rim_idx": 220,
-          "cup_depth_pct": 15.7,
-          "handle_depth_pct": 7.1,
-          "cup_length_days": 39,
-          "pivot_price": 698.5
-        }
-      }
-    }
-  },
-  "6771": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.0,
-          "high": 830.0,
-          "low": 714.0,
-          "vol_ratio": 2.36,
-          "resistance": 830.0
-        }
-      }
-    }
-  },
-  "6770": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.1,
-          "high": 2370.5,
-          "low": 2036.0,
-          "vol_ratio": 1.02,
-          "resistance": 2370.5
         }
       }
     }
@@ -6726,6 +2049,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ6.3%(高値285円-安値267円)。出来高比1.29倍。レジスタンス285円",
         "details": {
           "length_days": 30,
           "range_pct": 6.3,
@@ -6733,335 +2057,6 @@
           "low": 267.0,
           "vol_ratio": 1.29,
           "resistance": 285.0
-        }
-      }
-    }
-  },
-  "6777": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "left_rim_idx": 156,
-          "left_rim_price": 8600.0,
-          "bottom_idx": 187,
-          "bottom_price": 7460.0,
-          "right_rim_idx": 192,
-          "cup_depth_pct": 13.3,
-          "handle_depth_pct": 4.5,
-          "cup_length_days": 36,
-          "pivot_price": 9939.4
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            24.3,
-            17.2,
-            52.3,
-            29.9
-          ],
-          "resistance": 25660.0,
-          "current_range_pct": 29.9
-        }
-      }
-    }
-  },
-  "6779": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 0,
-          "ranges_pct": [
-            11.9,
-            7.6,
-            28.9,
-            21.4
-          ],
-          "resistance": 1463.0,
-          "current_range_pct": 21.4
-        }
-      }
-    }
-  },
-  "6785": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            7.2,
-            5.8,
-            24.8,
-            17.1
-          ],
-          "resistance": 3135.0,
-          "current_range_pct": 17.1
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.5,
-          "high": 3080.0,
-          "low": 2664.0,
-          "vol_ratio": 0.93,
-          "resistance": 3080.0
-        }
-      }
-    }
-  },
-  "6794": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            10.3,
-            8.0,
-            21.4,
-            11.5
-          ],
-          "resistance": 3175.0,
-          "current_range_pct": 11.5
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.7,
-          "high": 3220.0,
-          "low": 2811.0,
-          "vol_ratio": 1.08,
-          "resistance": 3220.0
-        }
-      }
-    }
-  },
-  "6800": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            14.8,
-            9.0,
-            36.7,
-            26.1
-          ],
-          "resistance": 3770.0,
-          "current_range_pct": 26.1
-        }
-      }
-    }
-  },
-  "6866": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.7,
-        "details": {
-          "length_days": 20,
-          "range_pct": 7.2,
-          "high": 7810.0,
-          "low": 7250.0,
-          "vol_ratio": 1.18,
-          "resistance": 7810.0
-        }
-      }
-    }
-  },
-  "6875": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 9.5,
-          "high": 9350.0,
-          "low": 8460.0,
-          "vol_ratio": 0.98,
-          "resistance": 9350.0
-        }
-      }
-    }
-  },
-  "6912": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            10.6,
-            3.7,
-            21.9,
-            18.2
-          ],
-          "resistance": 2396.0,
-          "current_range_pct": 18.2
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.0,
-          "high": 2328.0,
-          "low": 2025.0,
-          "vol_ratio": 1.11,
-          "resistance": 2328.0
-        }
-      }
-    }
-  },
-  "6914": {
-    "patterns": [
-      "cup_with_handle",
-      "vcp"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 201,
-          "left_rim_price": 2750.0,
-          "bottom_idx": 231,
-          "bottom_price": 2355.0,
-          "right_rim_idx": 242,
-          "cup_depth_pct": 14.4,
-          "handle_depth_pct": 4.4,
-          "cup_length_days": 41,
-          "pivot_price": 3216.0
-        }
-      },
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            14.4,
-            11.8,
-            23.3,
-            19.3
-          ],
-          "resistance": 3200.0,
-          "current_range_pct": 19.3
-        }
-      }
-    }
-  },
-  "6927": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            8.4,
-            5.4,
-            26.6,
-            14.8
-          ],
-          "resistance": 1402.0,
-          "current_range_pct": 14.8
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.4,
-          "high": 1397.0,
-          "low": 1196.0,
-          "vol_ratio": 1.51,
-          "resistance": 1397.0
-        }
-      }
-    }
-  },
-  "6928": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            17.7,
-            11.6,
-            27.2,
-            21.3
-          ],
-          "resistance": 3420.0,
-          "current_range_pct": 21.3
         }
       }
     }
@@ -7074,6 +2069,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.0%(高値1388円-安値1277円)。出来高比1.66倍。レジスタンス1388円",
         "details": {
           "length_days": 30,
           "range_pct": 8.0,
@@ -7081,47 +2077,6 @@
           "low": 1277.0,
           "vol_ratio": 1.66,
           "resistance": 1388.0
-        }
-      }
-    }
-  },
-  "6946": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 1.0,
-        "details": {
-          "left_rim_idx": 172,
-          "left_rim_price": 5500.0,
-          "bottom_idx": 194,
-          "bottom_price": 4360.0,
-          "right_rim_idx": 219,
-          "cup_depth_pct": 20.7,
-          "handle_depth_pct": 3.2,
-          "cup_length_days": 47,
-          "pivot_price": 7316.4
-        }
-      }
-    }
-  },
-  "6958": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.2,
-          "high": 632.0,
-          "low": 542.0,
-          "vol_ratio": 1.04,
-          "resistance": 632.0
         }
       }
     }
@@ -7134,6 +2089,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
+        "reason": "直近20日間のレンジ7.3%(高値10380円-安値9620円)。出来高比1.22倍。レジスタンス10380円",
         "details": {
           "length_days": 20,
           "range_pct": 7.3,
@@ -7141,129 +2097,6 @@
           "low": 9620.0,
           "vol_ratio": 1.22,
           "resistance": 10380.0
-        }
-      }
-    }
-  },
-  "6961": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            21.4,
-            13.5,
-            41.9,
-            19.3
-          ],
-          "resistance": 16250.0,
-          "current_range_pct": 19.3
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.0,
-          "high": 15900.0,
-          "low": 13670.0,
-          "vol_ratio": 1.12,
-          "resistance": 15900.0
-        }
-      }
-    }
-  },
-  "6964": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.7,
-          "high": 746.0,
-          "low": 681.0,
-          "vol_ratio": 1.06,
-          "resistance": 746.0
-        }
-      }
-    }
-  },
-  "6965": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 169,
-          "left_rim_price": 1816.5,
-          "bottom_idx": 187,
-          "bottom_price": 1503.0,
-          "right_rim_idx": 197,
-          "cup_depth_pct": 17.3,
-          "handle_depth_pct": 6.9,
-          "cup_length_days": 28,
-          "pivot_price": 1814.5
-        }
-      }
-    }
-  },
-  "6976": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            20.4,
-            9.7,
-            37.2,
-            29.6
-          ],
-          "resistance": 5326.0,
-          "current_range_pct": 29.6
-        }
-      }
-    }
-  },
-  "6981": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            12.9,
-            9.7,
-            30.4,
-            22.6
-          ],
-          "resistance": 4322.0,
-          "current_range_pct": 22.6
         }
       }
     }
@@ -7276,6 +2109,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近37日間のレンジ8.2%(高値670円-安値615円)。出来高比0.79倍。レジスタンス670円",
         "details": {
           "length_days": 37,
           "range_pct": 8.2,
@@ -7283,141 +2117,6 @@
           "low": 615.0,
           "vol_ratio": 0.79,
           "resistance": 670.0
-        }
-      }
-    }
-  },
-  "6986": {
-    "patterns": [
-      "cup_with_handle",
-      "flat_base"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 156,
-          "left_rim_price": 683.0,
-          "bottom_idx": 205,
-          "bottom_price": 557.0,
-          "right_rim_idx": 216,
-          "cup_depth_pct": 18.4,
-          "handle_depth_pct": 7.3,
-          "cup_length_days": 60,
-          "pivot_price": 757.8
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.8,
-          "high": 762.0,
-          "low": 649.0,
-          "vol_ratio": 1.14,
-          "resistance": 762.0
-        }
-      }
-    }
-  },
-  "6993": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            67.0,
-            71.0,
-            34.4,
-            28.0
-          ],
-          "resistance": 164.0,
-          "current_range_pct": 28.0
-        }
-      }
-    }
-  },
-  "6994": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "left_rim_idx": 197,
-          "left_rim_price": 994.0,
-          "bottom_idx": 238,
-          "bottom_price": 822.0,
-          "right_rim_idx": 244,
-          "cup_depth_pct": 17.3,
-          "handle_depth_pct": 8.2,
-          "cup_length_days": 47,
-          "pivot_price": 1202.0
-        }
-      }
-    }
-  },
-  "7011": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.7,
-          "high": 5195.0,
-          "low": 4430.0,
-          "vol_ratio": 1.05,
-          "resistance": 5195.0
-        }
-      }
-    }
-  },
-  "7047": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            13.1,
-            10.8,
-            19.8,
-            12.9
-          ],
-          "resistance": 2453.0,
-          "current_range_pct": 12.9
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.5,
-          "high": 2520.0,
-          "low": 2154.0,
-          "vol_ratio": 1.2,
-          "resistance": 2520.0
         }
       }
     }
@@ -7430,6 +2129,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ9.1%(高値842円-安値765円)。出来高比1.32倍。レジスタンス842円",
         "details": {
           "length_days": 30,
           "range_pct": 9.1,
@@ -7441,37 +2141,78 @@
       }
     }
   },
-  "7091": {
+  "7088": {
     "patterns": [
-      "cup_with_handle",
+      "vcp",
       "flat_base"
     ],
     "details": {
-      "cup_with_handle": {
+      "vcp": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 0.9%→0.9%→0.7%→0.5%。出来高減少2回。レジスタンス1703円",
         "details": {
-          "left_rim_idx": 241,
-          "left_rim_price": 1307.0,
-          "bottom_idx": 253,
-          "bottom_price": 1130.0,
-          "right_rim_idx": 258,
-          "cup_depth_pct": 13.5,
-          "handle_depth_pct": 5.1,
-          "cup_length_days": 17,
-          "pivot_price": 1254.2
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            0.9,
+            0.9,
+            0.7,
+            0.5
+          ],
+          "resistance": 1703.0,
+          "current_range_pct": 0.5
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ0.2%(高値1700円-安値1696円)。出来高比0.11倍。レジスタンス1700円",
         "details": {
-          "length_days": 20,
-          "range_pct": 9.5,
-          "high": 1248.0,
-          "low": 1130.0,
-          "vol_ratio": 1.17,
-          "resistance": 1248.0
+          "length_days": 30,
+          "range_pct": 0.2,
+          "high": 1700.0,
+          "low": 1696.0,
+          "vol_ratio": 0.11,
+          "resistance": 1700.0
+        }
+      }
+    }
+  },
+  "7092": {
+    "patterns": [
+      "vcp",
+      "flat_base"
+    ],
+    "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 9.5%→1.0%→0.2%→1.3%。出来高減少2回。レジスタンス2331円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            9.5,
+            1.0,
+            0.2,
+            1.3
+          ],
+          "resistance": 2331.0,
+          "current_range_pct": 1.3
+        }
+      },
+      "flat_base": {
+        "detected": true,
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ0.9%(高値2320円-安値2300円)。出来高比0.35倍。レジスタンス2320円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 0.9,
+          "high": 2320.0,
+          "low": 2300.0,
+          "vol_ratio": 0.35,
+          "resistance": 2320.0
         }
       }
     }
@@ -7484,6 +2225,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
+        "reason": "直近40日間のレンジ1.4%(高値1180円-安値1163円)。出来高比0.79倍。レジスタンス1180円",
         "details": {
           "length_days": 40,
           "range_pct": 1.4,
@@ -7503,6 +2245,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 7.4%→6.1%→3.3%→21.4%。出来高減少2回。レジスタンス1700円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
@@ -7518,81 +2261,7 @@
       }
     }
   },
-  "7130": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.7,
-          "high": 3190.0,
-          "low": 2753.0,
-          "vol_ratio": 1.13,
-          "resistance": 3190.0
-        }
-      }
-    }
-  },
-  "7173": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.2,
-          "high": 12220.0,
-          "low": 10480.0,
-          "vol_ratio": 1.28,
-          "resistance": 12220.0
-        }
-      }
-    }
-  },
-  "7192": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            9.3,
-            4.5,
-            30.2,
-            14.5
-          ],
-          "resistance": 738.0,
-          "current_range_pct": 14.5
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 12.6,
-          "high": 729.0,
-          "low": 637.0,
-          "vol_ratio": 1.67,
-          "resistance": 729.0
-        }
-      }
-    }
-  },
-  "7214": {
+  "7127": {
     "patterns": [
       "flat_base"
     ],
@@ -7600,55 +2269,34 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ2.1%(高値715円-安値700円)。出来高比1.09倍。レジスタンス715円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.5,
-          "high": 993.0,
-          "low": 928.0,
-          "vol_ratio": 1.17,
-          "resistance": 993.0
+          "range_pct": 2.1,
+          "high": 715.0,
+          "low": 700.0,
+          "vol_ratio": 1.09,
+          "resistance": 715.0
         }
       }
     }
   },
-  "7247": {
+  "7213": {
     "patterns": [
       "flat_base"
     ],
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ5.8%(高値483円-安値455円)。出来高比1.08倍。レジスタンス483円",
         "details": {
           "length_days": 30,
-          "range_pct": 11.3,
-          "high": 435.0,
-          "low": 386.0,
-          "vol_ratio": 1.31,
-          "resistance": 435.0
-        }
-      }
-    }
-  },
-  "7256": {
-    "patterns": [
-      "vcp"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            31.3,
-            21.6,
-            64.3,
-            25.9
-          ],
-          "resistance": 336.0,
-          "current_range_pct": 25.9
+          "range_pct": 5.8,
+          "high": 483.0,
+          "low": 455.0,
+          "vol_ratio": 1.08,
+          "resistance": 483.0
         }
       }
     }
@@ -7662,6 +2310,7 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 27.5%→1.2%→1.1%→0.9%。出来高減少1回。レジスタンス1092円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
@@ -7678,6 +2327,7 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
+        "reason": "直近30日間のレンジ0.9%(高値1093円-安値1083円)。出来高比0.99倍。レジスタンス1093円",
         "details": {
           "length_days": 30,
           "range_pct": 0.9,
@@ -7685,85 +2335,6 @@
           "low": 1083.0,
           "vol_ratio": 0.99,
           "resistance": 1093.0
-        }
-      }
-    }
-  },
-  "7318": {
-    "patterns": [
-      "cup_with_handle"
-    ],
-    "details": {
-      "cup_with_handle": {
-        "detected": true,
-        "confidence": 0.8,
-        "details": {
-          "left_rim_idx": 157,
-          "left_rim_price": 1392.5,
-          "bottom_idx": 200,
-          "bottom_price": 955.0,
-          "right_rim_idx": 242,
-          "cup_depth_pct": 31.4,
-          "handle_depth_pct": 8.3,
-          "cup_length_days": 85,
-          "pivot_price": 1948.7
-        }
-      }
-    }
-  },
-  "7322": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "details": {
-          "length_days": 30,
-          "range_pct": 10.6,
-          "high": 6310.0,
-          "low": 5640.0,
-          "vol_ratio": 1.33,
-          "resistance": 6310.0
-        }
-      }
-    }
-  },
-  "7327": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.5,
-          "high": 2089.0,
-          "low": 1912.0,
-          "vol_ratio": 1.08,
-          "resistance": 2089.0
-        }
-      }
-    }
-  },
-  "7343": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "details": {
-          "length_days": 30,
-          "range_pct": 7.0,
-          "high": 1392.0,
-          "low": 1294.0,
-          "vol_ratio": 1.46,
-          "resistance": 1392.0
         }
       }
     }
