@@ -6,7 +6,9 @@
       "entry_method": "ミネルヴィニStage-2基準、RS多時間軸、VCP/CWHパターン",
       "position_size": "総資産の10-15%以内",
       "stop_loss": "エントリーから-7〜8%",
-      "target": "RR比1.5以上を目安"
+      "target": "RR比1.5以上を目安",
+      "tracking_period": "2週間（10営業日）。期間内に損切り/目標到達した場合はその時点で結果確定",
+      "exit_conditions": "①損切りライン到達 ②目標①到達 ③2週間経過のいずれか早い方で結果を記録"
     }
   },
   "simulations": [
