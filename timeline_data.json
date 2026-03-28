@@ -47,6 +47,18 @@
     "high52_date": "2026-03-27",
     "high52_price": 870.9
   },
+  "2253": {
+    "ytd_high_date": "2026-03-03",
+    "ytd_high_price": 1324.0,
+    "high52_date": "2026-03-03",
+    "high52_price": 1324.0
+  },
+  "2254": {
+    "ytd_high_date": "2026-03-16",
+    "ytd_high_price": 1298.0,
+    "high52_date": "2025-10-09",
+    "high52_price": 1307.0
+  },
   "2256": {
     "ytd_high_date": "2026-03-03",
     "ytd_high_price": 226.3,
@@ -65,17 +77,11 @@
     "high52_date": "2026-01-14",
     "high52_price": 229.9
   },
-  "2264": {
+  "2294": {
     "ytd_high_date": "2026-02-27",
-    "ytd_high_price": 4961.0,
-    "high52_date": "2026-02-27",
-    "high52_price": 4961.0
-  },
-  "2341": {
-    "ytd_high_date": "2026-01-07",
-    "ytd_high_price": 195.0,
-    "high52_date": "2026-01-07",
-    "high52_price": 195.0
+    "ytd_high_price": 2945.0,
+    "high52_date": "2025-03-28",
+    "high52_price": 3155.0
   },
   "2344": {
     "ytd_high_date": "2026-03-13",
@@ -95,12 +101,6 @@
     "high52_date": "2026-03-27",
     "high52_price": 4345.0
   },
-  "2454": {
-    "ytd_high_date": "2026-02-10",
-    "ytd_high_price": 402.0,
-    "high52_date": "2025-08-28",
-    "high52_price": 419.0
-  },
   "2612": {
     "ytd_high_date": "2026-03-26",
     "ytd_high_price": 5340.0,
@@ -112,18 +112,6 @@
     "ytd_high_price": 372.1,
     "high52_date": "2026-03-19",
     "high52_price": 372.1
-  },
-  "2654": {
-    "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 412.0,
-    "high52_date": "2025-09-25",
-    "high52_price": 416.0
-  },
-  "268A": {
-    "ytd_high_date": "2026-03-26",
-    "ytd_high_price": 2339.0,
-    "high52_date": "2026-03-26",
-    "high52_price": 2339.0
   },
   "2692": {
     "ytd_high_date": "2026-02-27",
@@ -137,17 +125,23 @@
     "high52_date": "2025-07-02",
     "high52_price": 263.0
   },
-  "2694": {
-    "ytd_high_date": "2026-02-12",
-    "ytd_high_price": 74.0,
-    "high52_date": "2025-03-17",
-    "high52_price": 75.0
-  },
   "2702": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 8360.0,
     "high52_date": "2026-03-27",
     "high52_price": 8360.0
+  },
+  "273A": {
+    "ytd_high_date": "2026-01-26",
+    "ytd_high_price": 10180.0,
+    "high52_date": "2026-01-26",
+    "high52_price": 10180.0
+  },
+  "2763": {
+    "ytd_high_date": "2026-02-09",
+    "ytd_high_price": 1295.0,
+    "high52_date": "2026-02-09",
+    "high52_price": 1295.0
   },
   "2805": {
     "ytd_high_date": "2026-03-26",
@@ -185,23 +179,23 @@
     "high52_date": "2025-09-26",
     "high52_price": 2070.0
   },
-  "2894": {
-    "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 377.0,
-    "high52_date": "2026-03-18",
-    "high52_price": 377.0
-  },
   "2907": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 1508.0,
     "high52_date": "2026-03-27",
     "high52_price": 1508.0
   },
-  "2937": {
-    "ytd_high_date": "2026-01-21",
-    "ytd_high_price": 1802.0,
-    "high52_date": "2025-09-24",
-    "high52_price": 1954.0
+  "2915": {
+    "ytd_high_date": "2026-03-02",
+    "ytd_high_price": 2334.0,
+    "high52_date": "2026-03-02",
+    "high52_price": 2334.0
+  },
+  "2927": {
+    "ytd_high_date": "2026-01-15",
+    "ytd_high_price": 916.0,
+    "high52_date": "2026-01-15",
+    "high52_price": 916.0
   },
   "296A": {
     "ytd_high_date": "2026-03-27",
@@ -257,11 +251,11 @@
     "high52_date": "2026-03-25",
     "high52_price": 11020.0
   },
-  "3143": {
-    "ytd_high_date": "2026-02-26",
-    "ytd_high_price": 769.0,
-    "high52_date": "2025-11-10",
-    "high52_price": 770.0
+  "3140": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 1050.0,
+    "high52_date": "2025-12-26",
+    "high52_price": 1063.0
   },
   "3151": {
     "ytd_high_date": "2026-03-25",
@@ -269,23 +263,29 @@
     "high52_date": "2026-03-25",
     "high52_price": 1496.0
   },
-  "3178": {
-    "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 1342.0,
-    "high52_date": "2026-03-18",
-    "high52_price": 1342.0
-  },
-  "3241": {
-    "ytd_high_date": "2026-02-02",
-    "ytd_high_price": 599.0,
-    "high52_date": "2025-12-18",
-    "high52_price": 599.0
+  "3248": {
+    "ytd_high_date": "2026-03-11",
+    "ytd_high_price": 899.0,
+    "high52_date": "2025-10-06",
+    "high52_price": 916.0
   },
   "3293": {
     "ytd_high_date": "2026-03-02",
     "ytd_high_price": 802.0,
     "high52_date": "2026-03-02",
     "high52_price": 802.0
+  },
+  "3297": {
+    "ytd_high_date": "2026-03-02",
+    "ytd_high_price": 1296.0,
+    "high52_date": "2026-03-02",
+    "high52_price": 1296.0
+  },
+  "3326": {
+    "ytd_high_date": "2026-01-08",
+    "ytd_high_price": 828.0,
+    "high52_date": "2026-01-08",
+    "high52_price": 828.0
   },
   "3329": {
     "ytd_high_date": "2026-02-26",
@@ -311,12 +311,6 @@
     "high52_date": "2026-03-26",
     "high52_price": 1851.5
   },
-  "3467": {
-    "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 2886.0,
-    "high52_date": "2026-03-18",
-    "high52_price": 2886.0
-  },
   "3475": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 1627.0,
@@ -335,12 +329,6 @@
     "high52_date": "2026-03-18",
     "high52_price": 1463.0
   },
-  "3563": {
-    "ytd_high_date": "2026-02-27",
-    "ytd_high_price": 10065.0,
-    "high52_date": "2026-02-27",
-    "high52_price": 10065.0
-  },
   "3593": {
     "ytd_high_date": "2026-03-05",
     "ytd_high_price": 6770.0,
@@ -353,11 +341,11 @@
     "high52_date": "2025-09-16",
     "high52_price": 186.0
   },
-  "3641": {
-    "ytd_high_date": "2026-03-17",
-    "ytd_high_price": 1111.0,
-    "high52_date": "2026-03-17",
-    "high52_price": 1111.0
+  "367A": {
+    "ytd_high_date": "2026-03-18",
+    "ytd_high_price": 2438.0,
+    "high52_date": "2026-03-18",
+    "high52_price": 2438.0
   },
   "3710": {
     "ytd_high_date": "2026-03-27",
@@ -383,6 +371,30 @@
     "high52_date": "2025-08-22",
     "high52_price": 571.0
   },
+  "3920": {
+    "ytd_high_date": "2026-01-06",
+    "ytd_high_price": 1010.0,
+    "high52_date": "2025-08-21",
+    "high52_price": 1057.0
+  },
+  "3927": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 1269.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 1269.0
+  },
+  "3943": {
+    "ytd_high_date": "2026-02-26",
+    "ytd_high_price": 1494.0,
+    "high52_date": "2025-03-18",
+    "high52_price": 1579.0
+  },
+  "3965": {
+    "ytd_high_date": "2026-03-25",
+    "ytd_high_price": 870.0,
+    "high52_date": "2025-09-05",
+    "high52_price": 910.0
+  },
   "3974": {
     "ytd_high_date": "2026-03-16",
     "ytd_high_price": 592.0,
@@ -407,17 +419,23 @@
     "high52_date": "2026-03-26",
     "high52_price": 5450.0
   },
+  "4125": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 3345.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 3345.0
+  },
   "4196": {
     "ytd_high_date": "2026-03-13",
     "ytd_high_price": 1439.0,
     "high52_date": "2025-09-03",
     "high52_price": 1513.0
   },
-  "4262": {
-    "ytd_high_date": "2026-03-06",
-    "ytd_high_price": 1470.0,
-    "high52_date": "2025-08-04",
-    "high52_price": 1495.0
+  "4299": {
+    "ytd_high_date": "2026-03-11",
+    "ytd_high_price": 1378.0,
+    "high52_date": "2026-03-11",
+    "high52_price": 1378.0
   },
   "4337": {
     "ytd_high_date": "2026-03-27",
@@ -431,6 +449,36 @@
     "high52_date": "2026-03-27",
     "high52_price": 2229.0
   },
+  "4350": {
+    "ytd_high_date": "2026-02-12",
+    "ytd_high_price": 546.0,
+    "high52_date": "2026-02-12",
+    "high52_price": 546.0
+  },
+  "4381": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 605.0,
+    "high52_date": "2025-09-11",
+    "high52_price": 615.0
+  },
+  "4385": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 3764.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 3764.0
+  },
+  "4441": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 1431.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 1431.0
+  },
+  "4442": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 460.0,
+    "high52_date": "2025-09-26",
+    "high52_price": 483.0
+  },
   "4492": {
     "ytd_high_date": "2026-03-16",
     "ytd_high_price": 498.0,
@@ -442,6 +490,12 @@
     "ytd_high_price": 5870.0,
     "high52_date": "2026-03-18",
     "high52_price": 5870.0
+  },
+  "4503": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 2609.5,
+    "high52_date": "2026-03-27",
+    "high52_price": 2609.5
   },
   "4512": {
     "ytd_high_date": "2026-03-26",
@@ -473,11 +527,11 @@
     "high52_date": "2026-03-27",
     "high52_price": 11400.0
   },
-  "4627": {
-    "ytd_high_date": "2026-03-19",
-    "ytd_high_price": 1820.0,
-    "high52_date": "2026-03-19",
-    "high52_price": 1820.0
+  "4673": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 5800.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 5800.0
   },
   "4676": {
     "ytd_high_date": "2026-03-27",
@@ -485,11 +539,11 @@
     "high52_date": "2026-03-27",
     "high52_price": 4170.0
   },
-  "4678": {
-    "ytd_high_date": "2026-03-02",
-    "ytd_high_price": 349.0,
-    "high52_date": "2026-03-02",
-    "high52_price": 349.0
+  "4743": {
+    "ytd_high_date": "2026-01-23",
+    "ytd_high_price": 1754.0,
+    "high52_date": "2026-01-23",
+    "high52_price": 1754.0
   },
   "4809": {
     "ytd_high_date": "2026-03-25",
@@ -502,6 +556,12 @@
     "ytd_high_price": 617.0,
     "high52_date": "2026-03-27",
     "high52_price": 617.0
+  },
+  "4888": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 881.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 881.0
   },
   "4926": {
     "ytd_high_date": "2026-02-26",
@@ -521,12 +581,6 @@
     "high52_date": "2026-02-18",
     "high52_price": 1148.0
   },
-  "5015": {
-    "ytd_high_date": "2026-03-06",
-    "ytd_high_price": 1016.0,
-    "high52_date": "2026-03-06",
-    "high52_price": 1016.0
-  },
   "5019": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 1553.5,
@@ -539,23 +593,11 @@
     "high52_date": "2026-03-27",
     "high52_price": 1291.0
   },
-  "5352": {
-    "ytd_high_date": "2026-02-03",
-    "ytd_high_price": 4205.0,
-    "high52_date": "2026-02-03",
-    "high52_price": 4205.0
-  },
-  "5801": {
-    "ytd_high_date": "2026-03-26",
-    "ytd_high_price": 32210.0,
-    "high52_date": "2026-03-26",
-    "high52_price": 32210.0
-  },
-  "5803": {
-    "ytd_high_date": "2026-03-02",
-    "ytd_high_price": 28425.0,
-    "high52_date": "2026-03-02",
-    "high52_price": 28425.0
+  "5461": {
+    "ytd_high_date": "2026-02-19",
+    "ytd_high_price": 2598.0,
+    "high52_date": "2026-02-19",
+    "high52_price": 2598.0
   },
   "5844": {
     "ytd_high_date": "2026-03-27",
@@ -599,6 +641,12 @@
     "high52_date": "2026-03-27",
     "high52_price": 343.0
   },
+  "6183": {
+    "ytd_high_date": "2026-03-02",
+    "ytd_high_price": 1492.0,
+    "high52_date": "2026-03-02",
+    "high52_price": 1492.0
+  },
   "6197": {
     "ytd_high_date": "2026-03-26",
     "ytd_high_price": 1115.0,
@@ -617,12 +665,6 @@
     "high52_date": "2026-03-27",
     "high52_price": 3125.0
   },
-  "6367": {
-    "ytd_high_date": "2026-02-25",
-    "ytd_high_price": 20530.0,
-    "high52_date": "2025-11-13",
-    "high52_price": 20770.0
-  },
   "6387": {
     "ytd_high_date": "2026-03-26",
     "ytd_high_price": 8620.0,
@@ -640,12 +682,6 @@
     "ytd_high_price": 1973.0,
     "high52_date": "2026-03-27",
     "high52_price": 1973.0
-  },
-  "6505": {
-    "ytd_high_date": "2026-02-27",
-    "ytd_high_price": 2497.0,
-    "high52_date": "2026-02-27",
-    "high52_price": 2497.0
   },
   "6508": {
     "ytd_high_date": "2026-03-26",
@@ -676,6 +712,12 @@
     "ytd_high_price": 2694.0,
     "high52_date": "2026-03-26",
     "high52_price": 2694.0
+  },
+  "6763": {
+    "ytd_high_date": "2026-02-12",
+    "ytd_high_price": 2911.0,
+    "high52_date": "2026-02-12",
+    "high52_price": 2911.0
   },
   "6787": {
     "ytd_high_date": "2026-03-26",
@@ -713,17 +755,35 @@
     "high52_date": "2026-03-17",
     "high52_price": 1640.0
   },
+  "7127": {
+    "ytd_high_date": "2026-02-24",
+    "ytd_high_price": 715.0,
+    "high52_date": "2025-08-27",
+    "high52_price": 730.0
+  },
   "7213": {
     "ytd_high_date": "2026-03-03",
     "ytd_high_price": 483.0,
     "high52_date": "2025-03-21",
     "high52_price": 502.0
   },
+  "7217": {
+    "ytd_high_date": "2026-02-12",
+    "ytd_high_price": 427.0,
+    "high52_date": "2026-02-12",
+    "high52_price": 427.0
+  },
   "7317": {
     "ytd_high_date": "2026-02-06",
     "ytd_high_price": 1093.0,
     "high52_date": "2026-02-06",
     "high52_price": 1093.0
+  },
+  "7322": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 6310.0,
+    "high52_date": "2026-02-27",
+    "high52_price": 6310.0
   },
   "7358": {
     "ytd_high_date": "2026-01-13",
@@ -755,11 +815,23 @@
     "high52_date": "2025-09-26",
     "high52_price": 1688.0
   },
-  "7455": {
-    "ytd_high_date": "2026-02-05",
-    "ytd_high_price": 578.0,
-    "high52_date": "2025-11-25",
-    "high52_price": 582.0
+  "7435": {
+    "ytd_high_date": "2026-03-13",
+    "ytd_high_price": 1120.0,
+    "high52_date": "2026-03-13",
+    "high52_price": 1120.0
+  },
+  "7442": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 491.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 491.0
+  },
+  "7458": {
+    "ytd_high_date": "2026-03-02",
+    "ytd_high_price": 1743.0,
+    "high52_date": "2025-03-27",
+    "high52_price": 1774.5
   },
   "7487": {
     "ytd_high_date": "2026-03-02",
@@ -767,11 +839,11 @@
     "high52_date": "2026-03-02",
     "high52_price": 1869.0
   },
-  "7521": {
-    "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 2900.0,
-    "high52_date": "2026-03-18",
-    "high52_price": 2900.0
+  "7539": {
+    "ytd_high_date": "2026-03-12",
+    "ytd_high_price": 845.0,
+    "high52_date": "2026-03-12",
+    "high52_price": 845.0
   },
   "7551": {
     "ytd_high_date": "2026-03-13",
@@ -797,17 +869,41 @@
     "high52_date": "2026-03-27",
     "high52_price": 5420.0
   },
+  "7731": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 1997.0,
+    "high52_date": "2026-02-27",
+    "high52_price": 1997.0
+  },
   "7739": {
     "ytd_high_date": "2026-02-16",
     "ytd_high_price": 3650.0,
     "high52_date": "2026-02-16",
     "high52_price": 3650.0
   },
+  "7743": {
+    "ytd_high_date": "2026-03-13",
+    "ytd_high_price": 627.0,
+    "high52_date": "2026-03-13",
+    "high52_price": 627.0
+  },
+  "7747": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 3366.0,
+    "high52_date": "2026-02-27",
+    "high52_price": 3366.0
+  },
   "7749": {
     "ytd_high_date": "2026-01-09",
     "ytd_high_price": 3040.0,
     "high52_date": "2026-01-09",
     "high52_price": 3040.0
+  },
+  "7806": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 6470.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 6470.0
   },
   "7840": {
     "ytd_high_date": "2026-03-27",
@@ -833,6 +929,12 @@
     "high52_date": "2026-03-11",
     "high52_price": 572.0
   },
+  "7939": {
+    "ytd_high_date": "2026-02-13",
+    "ytd_high_price": 638.0,
+    "high52_date": "2026-02-13",
+    "high52_price": 638.0
+  },
   "7944": {
     "ytd_high_date": "2026-03-02",
     "ytd_high_price": 4045.0,
@@ -851,6 +953,12 @@
     "high52_date": "2026-02-27",
     "high52_price": 7640.0
   },
+  "8031": {
+    "ytd_high_date": "2026-03-18",
+    "ytd_high_price": 6659.0,
+    "high52_date": "2026-03-18",
+    "high52_price": 6659.0
+  },
   "8037": {
     "ytd_high_date": "2026-02-27",
     "ytd_high_price": 3395.0,
@@ -863,11 +971,17 @@
     "high52_date": "2026-03-27",
     "high52_price": 5762.0
   },
-  "8089": {
+  "8086": {
+    "ytd_high_date": "2026-03-02",
+    "ytd_high_price": 1591.5,
+    "high52_date": "2026-03-02",
+    "high52_price": 1591.5
+  },
+  "8088": {
     "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 2361.0,
+    "ytd_high_price": 2094.5,
     "high52_date": "2026-03-18",
-    "high52_price": 2361.0
+    "high52_price": 2094.5
   },
   "8131": {
     "ytd_high_date": "2026-03-27",
@@ -881,17 +995,23 @@
     "high52_date": "2026-03-27",
     "high52_price": 8000.0
   },
+  "8141": {
+    "ytd_high_date": "2026-03-25",
+    "ytd_high_price": 1231.0,
+    "high52_date": "2026-03-25",
+    "high52_price": 1231.0
+  },
+  "8142": {
+    "ytd_high_date": "2026-01-19",
+    "ytd_high_price": 1356.7,
+    "high52_date": "2026-01-19",
+    "high52_price": 1356.7
+  },
   "8153": {
     "ytd_high_date": "2026-02-10",
     "ytd_high_price": 4370.0,
     "high52_date": "2026-02-10",
     "high52_price": 4370.0
-  },
-  "8160": {
-    "ytd_high_date": "2026-02-13",
-    "ytd_high_price": 2620.0,
-    "high52_date": "2025-09-26",
-    "high52_price": 2669.0
   },
   "8173": {
     "ytd_high_date": "2026-03-27",
@@ -911,17 +1031,23 @@
     "high52_date": "2026-03-06",
     "high52_price": 338.0
   },
+  "8242": {
+    "ytd_high_date": "2026-02-19",
+    "ytd_high_price": 2504.0,
+    "high52_date": "2026-02-19",
+    "high52_price": 2504.0
+  },
   "8282": {
     "ytd_high_date": "2026-02-27",
     "ytd_high_price": 1715.5,
     "high52_date": "2026-02-27",
     "high52_price": 1715.5
   },
-  "8362": {
-    "ytd_high_date": "2026-02-27",
-    "ytd_high_price": 3530.0,
-    "high52_date": "2026-02-27",
-    "high52_price": 3530.0
+  "8334": {
+    "ytd_high_date": "2026-02-12",
+    "ytd_high_price": 2324.0,
+    "high52_date": "2026-02-12",
+    "high52_price": 2324.0
   },
   "8366": {
     "ytd_high_date": "2026-03-27",
@@ -929,11 +1055,41 @@
     "high52_date": "2026-03-27",
     "high52_price": 9640.0
   },
+  "8388": {
+    "ytd_high_date": "2026-02-12",
+    "ytd_high_price": 6010.0,
+    "high52_date": "2026-02-12",
+    "high52_price": 6010.0
+  },
+  "8393": {
+    "ytd_high_date": "2026-03-25",
+    "ytd_high_price": 9740.0,
+    "high52_date": "2026-03-25",
+    "high52_price": 9740.0
+  },
+  "8522": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 6340.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 6340.0
+  },
   "8624": {
     "ytd_high_date": "2026-02-27",
     "ytd_high_price": 1515.0,
     "high52_date": "2026-02-27",
     "high52_price": 1515.0
+  },
+  "8628": {
+    "ytd_high_date": "2026-03-25",
+    "ytd_high_price": 1006.0,
+    "high52_date": "2026-03-25",
+    "high52_price": 1006.0
+  },
+  "8630": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 6245.0,
+    "high52_date": "2026-02-27",
+    "high52_price": 6245.0
   },
   "8700": {
     "ytd_high_date": "2026-03-27",
@@ -965,6 +1121,12 @@
     "high52_date": "2026-03-27",
     "high52_price": 1162.0
   },
+  "8918": {
+    "ytd_high_date": "2026-01-07",
+    "ytd_high_price": 10.0,
+    "high52_date": "2025-07-01",
+    "high52_price": 11.0
+  },
   "8945": {
     "ytd_high_date": "2026-03-17",
     "ytd_high_price": 1209.0,
@@ -989,23 +1151,29 @@
     "high52_date": "2026-03-27",
     "high52_price": 3151.0
   },
-  "9046": {
-    "ytd_high_date": "2026-02-19",
-    "ytd_high_price": 2601.0,
-    "high52_date": "2025-09-25",
-    "high52_price": 2633.0
-  },
   "9072": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 5279.0,
     "high52_date": "2026-03-27",
     "high52_price": 5279.0
   },
+  "9104": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 7022.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 7022.0
+  },
   "9119": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 1867.0,
     "high52_date": "2026-03-27",
     "high52_price": 1867.0
+  },
+  "9163": {
+    "ytd_high_date": "2026-02-27",
+    "ytd_high_price": 2437.0,
+    "high52_date": "2025-09-29",
+    "high52_price": 2502.0
   },
   "9249": {
     "ytd_high_date": "2026-02-26",
@@ -1019,6 +1187,12 @@
     "high52_date": "2026-03-25",
     "high52_price": 917.0
   },
+  "9279": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 4815.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 4815.0
+  },
   "9287": {
     "ytd_high_date": "2026-03-13",
     "ytd_high_price": 66600.0,
@@ -1031,11 +1205,17 @@
     "high52_date": "2025-09-09",
     "high52_price": 4350.0
   },
-  "9303": {
+  "9306": {
     "ytd_high_date": "2026-03-25",
-    "ytd_high_price": 4245.0,
+    "ytd_high_price": 2150.0,
     "high52_date": "2026-03-25",
-    "high52_price": 4245.0
+    "high52_price": 2150.0
+  },
+  "9319": {
+    "ytd_high_date": "2026-03-18",
+    "ytd_high_price": 1947.0,
+    "high52_date": "2026-03-18",
+    "high52_price": 1947.0
   },
   "9330": {
     "ytd_high_date": "2026-02-25",
@@ -1055,17 +1235,35 @@
     "high52_date": "2025-08-05",
     "high52_price": 2933.0
   },
+  "9409": {
+    "ytd_high_date": "2026-02-12",
+    "ytd_high_price": 3710.0,
+    "high52_date": "2026-02-12",
+    "high52_price": 3710.0
+  },
   "9412": {
     "ytd_high_date": "2026-03-13",
     "ytd_high_price": 3095.0,
     "high52_date": "2026-03-13",
     "high52_price": 3095.0
   },
+  "9421": {
+    "ytd_high_date": "2026-02-26",
+    "ytd_high_price": 661.0,
+    "high52_date": "2025-06-18",
+    "high52_price": 729.0
+  },
   "9436": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 3505.0,
     "high52_date": "2026-03-27",
     "high52_price": 3505.0
+  },
+  "9439": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 243.0,
+    "high52_date": "2025-05-16",
+    "high52_price": 245.0
   },
   "9441": {
     "ytd_high_date": "2026-03-26",
@@ -1079,6 +1277,42 @@
     "high52_date": "2026-03-25",
     "high52_price": 582.0
   },
+  "9502": {
+    "ytd_high_date": "2026-03-18",
+    "ytd_high_price": 2686.5,
+    "high52_date": "2026-03-18",
+    "high52_price": 2686.5
+  },
+  "9507": {
+    "ytd_high_date": "2026-02-19",
+    "ytd_high_price": 1813.5,
+    "high52_date": "2026-02-19",
+    "high52_price": 1813.5
+  },
+  "9513": {
+    "ytd_high_date": "2026-03-27",
+    "ytd_high_price": 4207.0,
+    "high52_date": "2026-03-27",
+    "high52_price": 4207.0
+  },
+  "9531": {
+    "ytd_high_date": "2026-03-03",
+    "ytd_high_price": 7861.0,
+    "high52_date": "2026-03-03",
+    "high52_price": 7861.0
+  },
+  "9535": {
+    "ytd_high_date": "2026-03-25",
+    "ytd_high_price": 416.0,
+    "high52_date": "2026-03-25",
+    "high52_price": 416.0
+  },
+  "9536": {
+    "ytd_high_date": "2026-03-02",
+    "ytd_high_price": 2625.0,
+    "high52_date": "2026-03-02",
+    "high52_price": 2625.0
+  },
   "9605": {
     "ytd_high_date": "2026-03-26",
     "ytd_high_price": 5970.0,
@@ -1091,17 +1325,41 @@
     "high52_date": "2026-03-11",
     "high52_price": 1709.0
   },
+  "9639": {
+    "ytd_high_date": "2026-02-26",
+    "ytd_high_price": 2276.0,
+    "high52_date": "2026-02-26",
+    "high52_price": 2276.0
+  },
   "9708": {
     "ytd_high_date": "2026-03-27",
     "ytd_high_price": 1645.0,
     "high52_date": "2026-03-27",
     "high52_price": 1645.0
   },
+  "9723": {
+    "ytd_high_date": "2026-03-12",
+    "ytd_high_price": 700.0,
+    "high52_date": "2025-05-13",
+    "high52_price": 736.0
+  },
   "9733": {
     "ytd_high_date": "2026-03-26",
     "ytd_high_price": 2845.0,
     "high52_date": "2026-03-26",
     "high52_price": 2845.0
+  },
+  "9793": {
+    "ytd_high_date": "2026-03-18",
+    "ytd_high_price": 3985.0,
+    "high52_date": "2026-03-18",
+    "high52_price": 3985.0
+  },
+  "9853": {
+    "ytd_high_date": "2026-02-05",
+    "ytd_high_price": 975.0,
+    "high52_date": "2026-02-05",
+    "high52_price": 975.0
   },
   "9895": {
     "ytd_high_date": "2026-02-27",
@@ -1114,12 +1372,6 @@
     "ytd_high_price": 3755.0,
     "high52_date": "2026-02-27",
     "high52_price": 3755.0
-  },
-  "9969": {
-    "ytd_high_date": "2026-03-18",
-    "ytd_high_price": 265.0,
-    "high52_date": "2026-03-18",
-    "high52_price": 265.0
   },
   "9986": {
     "ytd_high_date": "2026-03-26",
