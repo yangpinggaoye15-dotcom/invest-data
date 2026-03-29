@@ -3,15 +3,6 @@
     "date": "2026-03-29",
     "teams": {
       "情報収集": {
-        "coverage": "3/5",
-        "specificity": "3/5",
-        "usefulness": "4/5",
-        "consistency": "4/5",
-        "linkage": "3/5",
-        "ai_usage": "3/5",
-        "total": "**3.3/5**"
-      },
-      "分析": {
         "coverage": "2/5",
         "specificity": "3/5",
         "usefulness": "3/5",
@@ -30,6 +21,15 @@
         "total": "**3.8/5**"
       },
       "投資戦略": {
+        "coverage": "3/5",
+        "specificity": "2/5",
+        "usefulness": "3/5",
+        "consistency": "4/5",
+        "linkage": "4/5",
+        "ai_usage": "3/5",
+        "total": "**3.2/5**"
+      },
+      "統括": {
         "coverage": "4/5",
         "specificity": "3/5",
         "usefulness": "4/5",
@@ -38,23 +38,14 @@
         "ai_usage": "3/5",
         "total": "**3.7/5**"
       },
-      "統括": {
-        "coverage": "4/5",
-        "specificity": "3/5",
-        "usefulness": "4/5",
-        "consistency": "4/5",
-        "linkage": "3/5",
-        "ai_usage": "3/5",
-        "total": "**3.5/5**"
-      },
       "セキュリティ": {
         "coverage": "4/5",
         "specificity": "4/5",
-        "usefulness": "3/5",
+        "usefulness": "4/5",
         "consistency": "4/5",
         "linkage": "3/5",
         "ai_usage": "4/5",
-        "total": "**3.7/5**"
+        "total": "**3.8/5**"
       }
     }
   }
