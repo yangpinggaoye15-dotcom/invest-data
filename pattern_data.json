@@ -1,26 +1,6 @@
 {
   "2012": {
     "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.5%(高値239円-安値228円)。出来高比1.33倍。レジスタンス239円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 4.5,
-          "high": 239.3,
-          "low": 228.5,
-          "vol_ratio": 1.33,
-          "resistance": 239.3
-        }
-      }
-    }
-  },
-  "2015": {
-    "patterns": [
       "vcp",
       "flat_base"
     ],
@@ -28,36 +8,36 @@
       "vcp": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "収縮2回検出。レンジ: 2.6%→4.9%→4.0%→3.2%。出来高減少0回。レジスタンス2239円",
+        "reason": "収縮2回検出。レンジ: 2.1%→11.3%→3.4%→2.6%。出来高減少0回。レジスタンス240円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 0,
           "ranges_pct": [
-            2.6,
-            4.9,
-            4.0,
-            3.2
+            2.1,
+            11.3,
+            3.4,
+            2.6
           ],
-          "resistance": 2239.0,
-          "current_range_pct": 3.2
+          "resistance": 240.4,
+          "current_range_pct": 2.6
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.3%(高値2209円-安値2137円)。出来高比1.86倍。レジスタンス2209円",
+        "reason": "直近30日間のレンジ4.6%(高値240円-安値228円)。出来高比1.31倍。レジスタンス240円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.3,
-          "high": 2209.0,
-          "low": 2137.0,
-          "vol_ratio": 1.86,
-          "resistance": 2209.0
+          "range_pct": 4.6,
+          "high": 239.5,
+          "low": 228.5,
+          "vol_ratio": 1.31,
+          "resistance": 239.5
         }
       }
     }
   },
-  "2093": {
+  "2015": {
     "patterns": [
       "flat_base"
     ],
@@ -65,13 +45,51 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.2%(高値5302円-安値5078円)。出来高比2.80倍。レジスタンス5302円",
+        "reason": "直近30日間のレンジ2.4%(高値2209円-安値2155円)。出来高比1.80倍。レジスタンス2209円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 2.4,
+          "high": 2209.0,
+          "low": 2155.0,
+          "vol_ratio": 1.8,
+          "resistance": 2209.0
+        }
+      }
+    }
+  },
+  "2093": {
+    "patterns": [
+      "vcp",
+      "flat_base"
+    ],
+    "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 2.1%→5.0%→3.6%→2.1%。出来高減少1回。レジスタンス5314円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            2.1,
+            5.0,
+            3.6,
+            2.1
+          ],
+          "resistance": 5314.0,
+          "current_range_pct": 2.1
+        }
+      },
+      "flat_base": {
+        "detected": true,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.2%(高値5302円-安値5078円)。出来高比2.82倍。レジスタンス5302円",
         "details": {
           "length_days": 30,
           "range_pct": 4.2,
           "high": 5302.0,
           "low": 5078.0,
-          "vol_ratio": 2.8,
+          "vol_ratio": 2.82,
           "resistance": 5302.0
         }
       }
@@ -85,13 +103,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.3%(高値3435円-安値3185円)。出来高比1.80倍。レジスタンス3435円",
+        "reason": "直近30日間のレンジ6.3%(高値3435円-安値3220円)。出来高比1.78倍。レジスタンス3435円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.3,
+          "range_pct": 6.3,
           "high": 3435.0,
-          "low": 3185.0,
-          "vol_ratio": 1.8,
+          "low": 3220.0,
+          "vol_ratio": 1.78,
           "resistance": 3435.0
         }
       }
@@ -105,14 +123,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ6.8%(高値2934円-安値2735円)。出来高比1.04倍。レジスタンス2934円",
+        "reason": "直近20日間のレンジ9.8%(高値3065円-安値2765円)。出来高比1.15倍。レジスタンス3065円",
         "details": {
           "length_days": 20,
-          "range_pct": 6.8,
-          "high": 2934.0,
-          "low": 2735.0,
-          "vol_ratio": 1.04,
-          "resistance": 2934.0
+          "range_pct": 9.8,
+          "high": 3065.0,
+          "low": 2765.0,
+          "vol_ratio": 1.15,
+          "resistance": 3065.0
         }
       }
     }
@@ -125,52 +143,34 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ5.2%(高値3350円-安値3175円)。出来高比0.92倍。レジスタンス3350円",
+        "reason": "直近20日間のレンジ5.1%(高値3345円-安値3175円)。出来高比0.81倍。レジスタンス3345円",
         "details": {
           "length_days": 20,
-          "range_pct": 5.2,
-          "high": 3350.0,
+          "range_pct": 5.1,
+          "high": 3345.0,
           "low": 3175.0,
-          "vol_ratio": 0.92,
-          "resistance": 3350.0
+          "vol_ratio": 0.81,
+          "resistance": 3345.0
         }
       }
     }
   },
   "2220": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 6.2%→4.1%→14.8%→6.6%。出来高減少1回。レジスタンス4500円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            6.2,
-            4.1,
-            14.8,
-            6.6
-          ],
-          "resistance": 4500.0,
-          "current_range_pct": 6.6
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.8%(高値4445円-安値4100円)。出来高比1.16倍。レジスタンス4445円",
+        "reason": "直近30日間のレンジ7.8%(高値1482円-安値1367円)。出来高比1.22倍。レジスタンス1482円",
         "details": {
           "length_days": 30,
           "range_pct": 7.8,
-          "high": 4445.0,
-          "low": 4100.0,
-          "vol_ratio": 1.16,
-          "resistance": 4445.0
+          "high": 1481.7,
+          "low": 1366.7,
+          "vol_ratio": 1.22,
+          "resistance": 1481.7
         }
       }
     }
@@ -183,13 +183,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.0%(高値871円-安値836円)。出来高比1.20倍。レジスタンス871円",
+        "reason": "直近21日間のレンジ3.7%(高値871円-安値838円)。出来高比0.78倍。レジスタンス871円",
         "details": {
-          "length_days": 30,
-          "range_pct": 4.0,
+          "length_days": 21,
+          "range_pct": 3.7,
           "high": 870.9,
-          "low": 836.0,
-          "vol_ratio": 1.2,
+          "low": 838.3,
+          "vol_ratio": 0.78,
           "resistance": 870.9
         }
       }
@@ -203,13 +203,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.5%(高値1324円-安値1265円)。出来高比1.25倍。レジスタンス1324円",
+        "reason": "直近30日間のレンジ4.5%(高値1324円-安値1265円)。出来高比1.17倍。レジスタンス1324円",
         "details": {
           "length_days": 30,
           "range_pct": 4.5,
           "high": 1324.0,
           "low": 1265.0,
-          "vol_ratio": 1.25,
+          "vol_ratio": 1.17,
           "resistance": 1324.0
         }
       }
@@ -222,14 +222,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.8,
-        "reason": "直近57日間のレンジ11.9%(高値1298円-安値1144円)。出来高比0.80倍。レジスタンス1298円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ11.3%(高値1298円-安値1151円)。出来高比1.00倍。レジスタンス1298円",
         "details": {
-          "length_days": 57,
-          "range_pct": 11.9,
+          "length_days": 30,
+          "range_pct": 11.3,
           "high": 1298.0,
-          "low": 1144.0,
-          "vol_ratio": 0.8,
+          "low": 1151.0,
+          "vol_ratio": 1.0,
           "resistance": 1298.0
         }
       }
@@ -244,14 +244,14 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 4.5%→11.3%→5.1%→3.0%。出来高減少1回。レジスタンス230円",
+        "reason": "収縮2回検出。レンジ: 10.4%→9.8%→4.8%→3.0%。出来高減少1回。レジスタンス230円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
           "ranges_pct": [
-            4.5,
-            11.3,
-            5.1,
+            10.4,
+            9.8,
+            4.8,
             3.0
           ],
           "resistance": 229.9,
@@ -261,13 +261,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.4%(高値226円-安値219円)。出来高比1.10倍。レジスタンス226円",
+        "reason": "直近30日間のレンジ2.9%(高値226円-安値220円)。出来高比1.04倍。レジスタンス226円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.4,
+          "range_pct": 2.9,
           "high": 226.3,
-          "low": 218.6,
-          "vol_ratio": 1.1,
+          "low": 219.7,
+          "vol_ratio": 1.04,
           "resistance": 226.3
         }
       }
@@ -282,14 +282,14 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 2.1%→5.6%→4.1%→1.9%。出来高減少1回。レジスタンス228円",
+        "reason": "収縮2回検出。レンジ: 3.0%→6.4%→3.8%→1.9%。出来高減少1回。レジスタンス228円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
           "ranges_pct": [
-            2.1,
-            5.6,
-            4.1,
+            3.0,
+            6.4,
+            3.8,
             1.9
           ],
           "resistance": 228.2,
@@ -299,13 +299,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.0%(高値228円-安値221円)。出来高比1.18倍。レジスタンス228円",
+        "reason": "直近30日間のレンジ2.5%(高値228円-安値222円)。出来高比1.10倍。レジスタンス228円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.0,
+          "range_pct": 2.5,
           "high": 227.6,
-          "low": 220.8,
-          "vol_ratio": 1.18,
+          "low": 221.9,
+          "vol_ratio": 1.1,
           "resistance": 227.6
         }
       }
@@ -313,19 +313,37 @@
   },
   "2258": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 2.3%→4.1%→2.9%→1.3%。出来高減少2回。レジスタンス228円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            2.3,
+            4.1,
+            2.9,
+            1.3
+          ],
+          "resistance": 228.1,
+          "current_range_pct": 1.3
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.0%(高値228円-安値221円)。出来高比0.89倍。レジスタンス228円",
+        "reason": "直近30日間のレンジ3.0%(高値228円-安値221円)。出来高比0.85倍。レジスタンス228円",
         "details": {
           "length_days": 30,
           "range_pct": 3.0,
           "high": 228.0,
           "low": 221.2,
-          "vol_ratio": 0.89,
+          "vol_ratio": 0.85,
           "resistance": 228.0
         }
       }
@@ -339,13 +357,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.2%(高値2945円-安値2762円)。出来高比1.45倍。レジスタンス2945円",
+        "reason": "直近30日間のレンジ6.2%(高値2945円-安値2762円)。出来高比1.56倍。レジスタンス2945円",
         "details": {
           "length_days": 30,
           "range_pct": 6.2,
           "high": 2945.0,
           "low": 2762.0,
-          "vol_ratio": 1.45,
+          "vol_ratio": 1.56,
           "resistance": 2945.0
         }
       }
@@ -358,15 +376,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ0.8%(高値1486円-安値1474円)。出来高比1.09倍。レジスタンス1486円",
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.1%(高値1490円-安値1474円)。出来高比1.76倍。レジスタンス1490円",
         "details": {
-          "length_days": 20,
-          "range_pct": 0.8,
-          "high": 1486.0,
+          "length_days": 30,
+          "range_pct": 1.1,
+          "high": 1490.0,
           "low": 1474.0,
-          "vol_ratio": 1.09,
-          "resistance": 1486.0
+          "vol_ratio": 1.76,
+          "resistance": 1490.0
         }
       }
     }
@@ -379,13 +397,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.9%(高値2305円-安値2146円)。出来高比1.67倍。レジスタンス2305円",
+        "reason": "直近30日間のレンジ6.9%(高値2305円-安値2146円)。出来高比1.75倍。レジスタンス2305円",
         "details": {
           "length_days": 30,
           "range_pct": 6.9,
           "high": 2305.0,
           "low": 2146.0,
-          "vol_ratio": 1.67,
+          "vol_ratio": 1.75,
           "resistance": 2305.0
         }
       }
@@ -398,35 +416,53 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.3%(高値4345円-安値3940円)。出来高比1.30倍。レジスタンス4345円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ10.8%(高値4415円-安値3940円)。出来高比1.24倍。レジスタンス4415円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.3,
-          "high": 4345.0,
+          "range_pct": 10.8,
+          "high": 4415.0,
           "low": 3940.0,
-          "vol_ratio": 1.3,
-          "resistance": 4345.0
+          "vol_ratio": 1.24,
+          "resistance": 4415.0
         }
       }
     }
   },
   "2612": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 3.8%→1.6%→25.8%→14.6%。出来高減少1回。レジスタンス1800円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            3.8,
+            1.6,
+            25.8,
+            14.6
+          ],
+          "resistance": 1800.0,
+          "current_range_pct": 14.6
+        }
+      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ7.7%(高値5340円-安値4930円)。出来高比1.41倍。レジスタンス5340円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ12.8%(高値1780円-安値1553円)。出来高比1.43倍。レジスタンス1780円",
         "details": {
-          "length_days": 20,
-          "range_pct": 7.7,
-          "high": 5340.0,
-          "low": 4930.0,
-          "vol_ratio": 1.41,
-          "resistance": 5340.0
+          "length_days": 30,
+          "range_pct": 12.8,
+          "high": 1780.0,
+          "low": 1553.0,
+          "vol_ratio": 1.43,
+          "resistance": 1780.0
         }
       }
     }
@@ -440,30 +476,30 @@
       "vcp": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "収縮2回検出。レンジ: 2.2%→7.3%→3.5%→2.3%。出来高減少0回。レジスタンス372円",
+        "reason": "収縮2回検出。レンジ: 2.2%→8.3%→3.6%→2.0%。出来高減少0回。レジスタンス373円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 0,
           "ranges_pct": [
             2.2,
-            7.3,
-            3.5,
-            2.3
+            8.3,
+            3.6,
+            2.0
           ],
-          "resistance": 372.5,
-          "current_range_pct": 2.3
+          "resistance": 373.2,
+          "current_range_pct": 2.0
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.9%(高値372円-安値358円)。出来高比1.43倍。レジスタンス372円",
+        "reason": "直近30日間のレンジ3.9%(高値372円-安値358円)。出来高比1.39倍。レジスタンス372円",
         "details": {
           "length_days": 30,
           "range_pct": 3.9,
           "high": 372.1,
-          "low": 357.5,
-          "vol_ratio": 1.43,
+          "low": 357.7,
+          "vol_ratio": 1.39,
           "resistance": 372.1
         }
       }
@@ -477,13 +513,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.2%(高値13130円-安値11920円)。出来高比1.60倍。レジスタンス13130円",
+        "reason": "直近30日間のレンジ9.2%(高値13130円-安値11920円)。出来高比1.67倍。レジスタンス13130円",
         "details": {
           "length_days": 30,
           "range_pct": 9.2,
           "high": 13130.0,
           "low": 11920.0,
-          "vol_ratio": 1.6,
+          "vol_ratio": 1.67,
           "resistance": 13130.0
         }
       }
@@ -497,14 +533,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.8%(高値256円-安値236円)。出来高比1.71倍。レジスタンス256円",
+        "reason": "直近30日間のレンジ6.2%(高値257円-安値241円)。出来高比1.69倍。レジスタンス257円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.8,
-          "high": 256.0,
-          "low": 236.0,
-          "vol_ratio": 1.71,
-          "resistance": 256.0
+          "range_pct": 6.2,
+          "high": 257.0,
+          "low": 241.0,
+          "vol_ratio": 1.69,
+          "resistance": 257.0
         }
       }
     }
@@ -517,39 +553,19 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.5,
-        "reason": "直近20日間のレンジ11.1%(高値8360円-安値7430円)。出来高比1.01倍。レジスタンス8360円",
+        "reason": "直近20日間のレンジ10.2%(高値8430円-安値7570円)。出来高比1.01倍。レジスタンス8430円",
         "details": {
           "length_days": 20,
-          "range_pct": 11.1,
-          "high": 8360.0,
-          "low": 7430.0,
+          "range_pct": 10.2,
+          "high": 8430.0,
+          "low": 7570.0,
           "vol_ratio": 1.01,
-          "resistance": 8360.0
+          "resistance": 8430.0
         }
       }
     }
   },
   "273A": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.0%(高値10005円-安値9400円)。出来高比0.96倍。レジスタンス10005円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 6.0,
-          "high": 10005.0,
-          "low": 9400.0,
-          "vol_ratio": 0.96,
-          "resistance": 10005.0
-        }
-      }
-    }
-  },
-  "2763": {
     "patterns": [
       "vcp",
       "flat_base"
@@ -558,31 +574,51 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 6.2%→2.2%→9.7%→5.8%。出来高減少2回。レジスタンス1296円",
+        "reason": "収縮2回検出。レンジ: 5.1%→14.9%→8.9%→7.4%。出来高減少2回。レジスタンス10150円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            6.2,
-            2.2,
-            9.7,
-            5.8
+            5.1,
+            14.9,
+            8.9,
+            7.4
           ],
-          "resistance": 1296.0,
-          "current_range_pct": 5.8
+          "resistance": 10150.0,
+          "current_range_pct": 7.4
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.8%(高値1295円-安値1233円)。出来高比1.57倍。レジスタンス1295円",
+        "reason": "直近30日間のレンジ7.2%(高値10125円-安値9400円)。出来高比0.89倍。レジスタンス10125円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.8,
-          "high": 1295.0,
-          "low": 1233.0,
-          "vol_ratio": 1.57,
-          "resistance": 1295.0
+          "range_pct": 7.2,
+          "high": 10125.0,
+          "low": 9400.0,
+          "vol_ratio": 0.89,
+          "resistance": 10125.0
+        }
+      }
+    }
+  },
+  "2763": {
+    "patterns": [
+      "flat_base"
+    ],
+    "details": {
+      "flat_base": {
+        "detected": true,
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ8.4%(高値1293円-安値1185円)。出来高比1.70倍。レジスタンス1293円",
+        "details": {
+          "length_days": 30,
+          "range_pct": 8.4,
+          "high": 1293.0,
+          "low": 1185.0,
+          "vol_ratio": 1.7,
+          "resistance": 1293.0
         }
       }
     }
@@ -595,14 +631,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ9.3%(高値4870円-安値4415円)。出来高比1.18倍。レジスタンス4870円",
+        "reason": "直近20日間のレンジ9.7%(高値4890円-安値4415円)。出来高比1.15倍。レジスタンス4890円",
         "details": {
           "length_days": 20,
-          "range_pct": 9.3,
-          "high": 4870.0,
+          "range_pct": 9.7,
+          "high": 4890.0,
           "low": 4415.0,
-          "vol_ratio": 1.18,
-          "resistance": 4870.0
+          "vol_ratio": 1.15,
+          "resistance": 4890.0
         }
       }
     }
@@ -615,14 +651,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.5%(高値3106円-安値2968円)。出来高比0.86倍。レジスタンス3106円",
+        "reason": "直近30日間のレンジ4.3%(高値3102円-安値2968円)。出来高比0.90倍。レジスタンス3102円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.5,
-          "high": 3106.0,
+          "range_pct": 4.3,
+          "high": 3102.0,
           "low": 2967.5,
-          "vol_ratio": 0.86,
-          "resistance": 3106.0
+          "vol_ratio": 0.9,
+          "resistance": 3102.0
         }
       }
     }
@@ -635,13 +671,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.1%(高値1429円-安値1413円)。出来高比1.18倍。レジスタンス1429円",
+        "reason": "直近30日間のレンジ1.3%(高値1429円-安値1410円)。出来高比1.32倍。レジスタンス1429円",
         "details": {
           "length_days": 30,
-          "range_pct": 1.1,
+          "range_pct": 1.3,
           "high": 1429.0,
-          "low": 1413.0,
-          "vol_ratio": 1.18,
+          "low": 1410.0,
+          "vol_ratio": 1.32,
           "resistance": 1429.0
         }
       }
@@ -655,13 +691,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.7%(高値1799円-安値1768円)。出来高比1.59倍。レジスタンス1799円",
+        "reason": "直近30日間のレンジ3.7%(高値1799円-安値1732円)。出来高比1.68倍。レジスタンス1799円",
         "details": {
           "length_days": 30,
-          "range_pct": 1.7,
+          "range_pct": 3.7,
           "high": 1799.0,
-          "low": 1768.0,
-          "vol_ratio": 1.59,
+          "low": 1732.0,
+          "vol_ratio": 1.68,
           "resistance": 1799.0
         }
       }
@@ -669,19 +705,37 @@
   },
   "2874": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 9.3%→7.0%→19.2%→15.3%。出来高減少1回。レジスタンス1659円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            9.3,
+            7.0,
+            19.2,
+            15.3
+          ],
+          "resistance": 1659.0,
+          "current_range_pct": 15.3
+        }
+      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.5,
-        "reason": "直近20日間のレンジ13.2%(高値1648円-安値1430円)。出来高比1.07倍。レジスタンス1648円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ14.0%(高値1648円-安値1418円)。出来高比1.03倍。レジスタンス1648円",
         "details": {
-          "length_days": 20,
-          "range_pct": 13.2,
+          "length_days": 30,
+          "range_pct": 14.0,
           "high": 1648.0,
-          "low": 1430.0,
-          "vol_ratio": 1.07,
+          "low": 1418.0,
+          "vol_ratio": 1.03,
           "resistance": 1648.0
         }
       }
@@ -695,13 +749,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.5%(高値2021円-安値1991円)。出来高比0.92倍。レジスタンス2021円",
+        "reason": "直近30日間のレンジ2.0%(高値2021円-安値1980円)。出来高比1.06倍。レジスタンス2021円",
         "details": {
           "length_days": 30,
-          "range_pct": 1.5,
+          "range_pct": 2.0,
           "high": 2021.0,
-          "low": 1991.0,
-          "vol_ratio": 0.92,
+          "low": 1980.0,
+          "vol_ratio": 1.06,
           "resistance": 2021.0
         }
       }
@@ -709,19 +763,37 @@
   },
   "2907": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 8.9%→5.4%→12.5%→9.0%。出来高減少1回。レジスタンス1508円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            8.9,
+            5.4,
+            12.5,
+            9.0
+          ],
+          "resistance": 1508.0,
+          "current_range_pct": 9.0
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.2%(高値1508円-安値1384円)。出来高比1.15倍。レジスタンス1508円",
+        "reason": "直近30日間のレンジ8.7%(高値1508円-安値1377円)。出来高比1.18倍。レジスタンス1508円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.2,
+          "range_pct": 8.7,
           "high": 1508.0,
-          "low": 1384.0,
-          "vol_ratio": 1.15,
+          "low": 1377.0,
+          "vol_ratio": 1.18,
           "resistance": 1508.0
         }
       }
@@ -735,13 +807,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.9%(高値2334円-安値2103円)。出来高比1.36倍。レジスタンス2334円",
+        "reason": "直近30日間のレンジ9.9%(高値2334円-安値2103円)。出来高比1.30倍。レジスタンス2334円",
         "details": {
           "length_days": 30,
           "range_pct": 9.9,
           "high": 2334.0,
           "low": 2103.0,
-          "vol_ratio": 1.36,
+          "vol_ratio": 1.3,
           "resistance": 2334.0
         }
       }
@@ -755,57 +827,19 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.7%(高値908円-安値865円)。出来高比1.39倍。レジスタンス908円",
+        "reason": "直近30日間のレンジ4.6%(高値907円-安値865円)。出来高比1.35倍。レジスタンス907円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.7,
-          "high": 908.0,
+          "range_pct": 4.6,
+          "high": 907.0,
           "low": 865.0,
-          "vol_ratio": 1.39,
-          "resistance": 908.0
+          "vol_ratio": 1.35,
+          "resistance": 907.0
         }
       }
     }
   },
   "2975": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 13.6%→17.6%→14.7%→12.0%。出来高減少2回。レジスタンス1736円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            13.6,
-            17.6,
-            14.7,
-            12.0
-          ],
-          "resistance": 1736.0,
-          "current_range_pct": 12.0
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.7%(高値1683円-安値1536円)。出来高比0.89倍。レジスタンス1683円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 8.7,
-          "high": 1683.0,
-          "low": 1536.0,
-          "vol_ratio": 0.89,
-          "resistance": 1683.0
-        }
-      }
-    }
-  },
-  "3041": {
     "patterns": [
       "flat_base"
     ],
@@ -813,14 +847,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.0%(高値558円-安値480円)。出来高比1.62倍。レジスタンス558円",
+        "reason": "直近30日間のレンジ10.7%(高値1721円-安値1536円)。出来高比0.95倍。レジスタンス1721円",
         "details": {
           "length_days": 30,
-          "range_pct": 14.0,
-          "high": 558.0,
-          "low": 480.0,
-          "vol_ratio": 1.62,
-          "resistance": 558.0
+          "range_pct": 10.7,
+          "high": 1721.0,
+          "low": 1536.0,
+          "vol_ratio": 0.95,
+          "resistance": 1721.0
         }
       }
     }
@@ -833,17 +867,17 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "左リム542円→底466円(深さ14.0%)→右リム回復。ハンドル調整3.4%。ピボット633円。カップ期間24日",
+        "reason": "左リム542円→底466円(深さ14.0%)→右リム回復。ハンドル調整3.4%。ピボット640円。カップ期間24日",
         "details": {
-          "left_rim_idx": 218,
+          "left_rim_idx": 217,
           "left_rim_price": 542.0,
-          "bottom_idx": 237,
+          "bottom_idx": 236,
           "bottom_price": 466.0,
-          "right_rim_idx": 242,
+          "right_rim_idx": 241,
           "cup_depth_pct": 14.0,
           "handle_depth_pct": 3.4,
           "cup_length_days": 24,
-          "pivot_price": 633.1
+          "pivot_price": 640.2
         }
       }
     }
@@ -856,37 +890,55 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "左リム858円→底711円(深さ17.1%)→右リム回復。ハンドル調整4.2%。ピボット1132円。カップ期間29日",
+        "reason": "左リム858円→底711円(深さ17.1%)→右リム回復。ハンドル調整4.2%。ピボット1176円。カップ期間29日",
         "details": {
-          "left_rim_idx": 218,
+          "left_rim_idx": 217,
           "left_rim_price": 858.0,
-          "bottom_idx": 242,
+          "bottom_idx": 241,
           "bottom_price": 711.0,
-          "right_rim_idx": 247,
+          "right_rim_idx": 246,
           "cup_depth_pct": 17.1,
           "handle_depth_pct": 4.2,
           "cup_length_days": 29,
-          "pivot_price": 1131.6
+          "pivot_price": 1175.8
         }
       }
     }
   },
   "3087": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 3.7%→10.0%→7.1%→5.5%。出来高減少1回。レジスタンス3000円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            3.7,
+            10.0,
+            7.1,
+            5.5
+          ],
+          "resistance": 3000.0,
+          "current_range_pct": 5.5
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近20日間のレンジ4.0%(高値2996円-安値2876円)。出来高比0.79倍。レジスタンス2996円",
+        "reason": "直近20日間のレンジ3.9%(高値2994円-安値2876円)。出来高比0.73倍。レジスタンス2994円",
         "details": {
           "length_days": 20,
-          "range_pct": 4.0,
-          "high": 2996.0,
+          "range_pct": 3.9,
+          "high": 2994.0,
           "low": 2876.0,
-          "vol_ratio": 0.79,
-          "resistance": 2996.0
+          "vol_ratio": 0.73,
+          "resistance": 2994.0
         }
       }
     }
@@ -899,13 +951,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.3%(高値4585円-安値3930円)。出来高比0.93倍。レジスタンス4585円",
+        "reason": "直近30日間のレンジ14.3%(高値4585円-安値3930円)。出来高比0.94倍。レジスタンス4585円",
         "details": {
           "length_days": 30,
           "range_pct": 14.3,
           "high": 4585.0,
           "low": 3930.0,
-          "vol_ratio": 0.93,
+          "vol_ratio": 0.94,
           "resistance": 4585.0
         }
       }
@@ -918,15 +970,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.7%(高値11020円-安値9950円)。出来高比1.14倍。レジスタンス11020円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ13.1%(高値3815円-安値3317円)。出来高比1.27倍。レジスタンス3815円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.7,
-          "high": 11020.0,
-          "low": 9950.0,
-          "vol_ratio": 1.14,
-          "resistance": 11020.0
+          "range_pct": 13.1,
+          "high": 3815.0,
+          "low": 3316.7,
+          "vol_ratio": 1.27,
+          "resistance": 3815.0
         }
       }
     }
@@ -939,31 +991,31 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 2.0%→5.7%→3.3%→2.8%。出来高減少1回。レジスタンス1050円",
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 4.8%→1.5%→3.5%→2.4%。出来高減少2回。レジスタンス1046円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 1,
+          "vol_declining_segments": 2,
           "ranges_pct": [
-            2.0,
-            5.7,
-            3.3,
-            2.8
+            4.8,
+            1.5,
+            3.5,
+            2.4
           ],
-          "resistance": 1050.0,
-          "current_range_pct": 2.8
+          "resistance": 1046.0,
+          "current_range_pct": 2.4
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ2.6%(高値1050円-安値1023円)。出来高比0.66倍。レジスタンス1050円",
+        "reason": "直近30日間のレンジ2.6%(高値1050円-安値1023円)。出来高比0.64倍。レジスタンス1050円",
         "details": {
           "length_days": 30,
           "range_pct": 2.6,
           "high": 1050.0,
           "low": 1023.0,
-          "vol_ratio": 0.66,
+          "vol_ratio": 0.64,
           "resistance": 1050.0
         }
       }
@@ -977,13 +1029,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.2%(高値1496円-安値1373円)。出来高比1.29倍。レジスタンス1496円",
+        "reason": "直近30日間のレンジ7.8%(高値1496円-安値1379円)。出来高比1.25倍。レジスタンス1496円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.2,
+          "range_pct": 7.8,
           "high": 1496.0,
-          "low": 1373.0,
-          "vol_ratio": 1.29,
+          "low": 1379.0,
+          "vol_ratio": 1.25,
           "resistance": 1496.0
         }
       }
@@ -996,14 +1048,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 1.0,
-        "reason": "直近30日間のレンジ3.7%(高値899円-安値866円)。出来高比0.69倍。レジスタンス899円",
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ3.7%(高値899円-安値866円)。出来高比1.11倍。レジスタンス899円",
         "details": {
           "length_days": 30,
           "range_pct": 3.7,
           "high": 899.0,
           "low": 866.0,
-          "vol_ratio": 0.69,
+          "vol_ratio": 1.11,
           "resistance": 899.0
         }
       }
@@ -1017,13 +1069,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.7%(高値802円-安値780円)。出来高比1.22倍。レジスタンス802円",
+        "reason": "直近30日間のレンジ2.6%(高値802円-安値781円)。出来高比1.13倍。レジスタンス802円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.7,
+          "range_pct": 2.6,
           "high": 802.0,
-          "low": 780.0,
-          "vol_ratio": 1.22,
+          "low": 781.0,
+          "vol_ratio": 1.13,
           "resistance": 802.0
         }
       }
@@ -1037,34 +1089,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.5%(高値1296円-安値1225円)。出来高比1.51倍。レジスタンス1296円",
+        "reason": "直近30日間のレンジ5.5%(高値1296円-安値1225円)。出来高比1.52倍。レジスタンス1296円",
         "details": {
           "length_days": 30,
           "range_pct": 5.5,
           "high": 1296.0,
           "low": 1225.0,
-          "vol_ratio": 1.51,
+          "vol_ratio": 1.52,
           "resistance": 1296.0
-        }
-      }
-    }
-  },
-  "3326": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 1.0,
-        "reason": "直近30日間のレンジ4.4%(高値814円-安値778円)。出来高比0.78倍。レジスタンス814円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 4.4,
-          "high": 814.0,
-          "low": 778.0,
-          "vol_ratio": 0.78,
-          "resistance": 814.0
         }
       }
     }
@@ -1076,14 +1108,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 1.0,
-        "reason": "直近30日間のレンジ1.2%(高値2137円-安値2112円)。出来高比0.57倍。レジスタンス2137円",
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ1.2%(高値2137円-安値2112円)。出来高比1.24倍。レジスタンス2137円",
         "details": {
           "length_days": 30,
           "range_pct": 1.2,
           "high": 2137.0,
           "low": 2112.0,
-          "vol_ratio": 0.57,
+          "vol_ratio": 1.24,
           "resistance": 2137.0
         }
       }
@@ -1097,13 +1129,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.1%(高値1885円-安値1619円)。出来高比1.51倍。レジスタンス1885円",
+        "reason": "直近30日間のレンジ14.1%(高値1885円-安値1619円)。出来高比1.49倍。レジスタンス1885円",
         "details": {
           "length_days": 30,
           "range_pct": 14.1,
           "high": 1885.0,
           "low": 1619.0,
-          "vol_ratio": 1.51,
+          "vol_ratio": 1.49,
           "resistance": 1885.0
         }
       }
@@ -1116,15 +1148,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.7%(高値299円-安値285円)。出来高比1.01倍。レジスタンス299円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ13.3%(高値324円-安値281円)。出来高比2.14倍。レジスタンス324円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.7,
-          "high": 299.0,
-          "low": 285.0,
-          "vol_ratio": 1.01,
-          "resistance": 299.0
+          "range_pct": 13.3,
+          "high": 324.0,
+          "low": 281.0,
+          "vol_ratio": 2.14,
+          "resistance": 324.0
         }
       }
     }
@@ -1139,11 +1171,11 @@
         "confidence": 0.8,
         "reason": "左リム1735円→底1160円(深さ33.1%)→右リム回復。ハンドル調整9.3%。ピボット1773円。カップ期間55日",
         "details": {
-          "left_rim_idx": 163,
+          "left_rim_idx": 162,
           "left_rim_price": 1735.0,
-          "bottom_idx": 182,
+          "bottom_idx": 181,
           "bottom_price": 1160.0,
-          "right_rim_idx": 218,
+          "right_rim_idx": 217,
           "cup_depth_pct": 33.1,
           "handle_depth_pct": 9.3,
           "cup_length_days": 55,
@@ -1162,47 +1194,47 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "左リム1552円→底1109円(深さ28.5%)→右リム回復。ハンドル調整5.8%。ピボット1635円。カップ期間79日",
+        "reason": "左リム1552円→底1109円(深さ28.5%)→右リム回復。ハンドル調整5.8%。ピボット1652円。カップ期間79日",
         "details": {
-          "left_rim_idx": 166,
+          "left_rim_idx": 165,
           "left_rim_price": 1552.0,
-          "bottom_idx": 198,
+          "bottom_idx": 197,
           "bottom_price": 1109.0,
-          "right_rim_idx": 245,
+          "right_rim_idx": 244,
           "cup_depth_pct": 28.5,
           "handle_depth_pct": 5.8,
           "cup_length_days": 79,
-          "pivot_price": 1635.1
+          "pivot_price": 1652.2
         }
       },
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 17.0%→10.1%→17.9%→14.4%。出来高減少2回。レジスタンス1636円",
+        "reason": "収縮2回検出。レンジ: 17.0%→7.9%→17.8%→14.8%。出来高減少2回。レジスタンス1645円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
             17.0,
-            10.1,
-            17.9,
-            14.4
+            7.9,
+            17.8,
+            14.8
           ],
-          "resistance": 1636.0,
-          "current_range_pct": 14.4
+          "resistance": 1645.0,
+          "current_range_pct": 14.8
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "直近30日間のレンジ14.6%(高値1627円-安値1390円)。出来高比0.71倍。レジスタンス1627円",
+        "reason": "直近30日間のレンジ14.7%(高値1644円-安値1403円)。出来高比0.79倍。レジスタンス1644円",
         "details": {
           "length_days": 30,
-          "range_pct": 14.6,
-          "high": 1627.0,
-          "low": 1390.0,
-          "vol_ratio": 0.71,
-          "resistance": 1627.0
+          "range_pct": 14.7,
+          "high": 1644.0,
+          "low": 1403.0,
+          "vol_ratio": 0.79,
+          "resistance": 1644.0
         }
       }
     }
@@ -1216,13 +1248,13 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 14.8%→34.9%→1.0%→0.5%。出来高減少2回。レジスタンス763円",
+        "reason": "収縮2回検出。レンジ: 40.5%→1.0%→1.0%→0.5%。出来高減少2回。レジスタンス763円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            14.8,
-            34.9,
+            40.5,
+            1.0,
             1.0,
             0.5
           ],
@@ -1233,14 +1265,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ0.9%(高値766円-安値759円)。出来高比0.20倍。レジスタンス766円",
+        "reason": "直近30日間のレンジ0.4%(高値762円-安値759円)。出来高比0.16倍。レジスタンス762円",
         "details": {
           "length_days": 30,
-          "range_pct": 0.9,
-          "high": 766.0,
+          "range_pct": 0.4,
+          "high": 762.0,
           "low": 759.0,
-          "vol_ratio": 0.2,
-          "resistance": 766.0
+          "vol_ratio": 0.16,
+          "resistance": 762.0
         }
       }
     }
@@ -1252,14 +1284,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ0.3%(高値1463円-安値1459円)。出来高比1.44倍。レジスタンス1463円",
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ0.8%(高値1463円-安値1452円)。出来高比1.49倍。レジスタンス1463円",
         "details": {
-          "length_days": 20,
-          "range_pct": 0.3,
+          "length_days": 30,
+          "range_pct": 0.8,
           "high": 1463.0,
-          "low": 1459.0,
-          "vol_ratio": 1.44,
+          "low": 1452.0,
+          "vol_ratio": 1.49,
           "resistance": 1463.0
         }
       }
@@ -1273,13 +1305,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ1.8%(高値6770円-安値6650円)。出来高比0.37倍。レジスタンス6770円",
+        "reason": "直近30日間のレンジ1.9%(高値6770円-安値6640円)。出来高比0.59倍。レジスタンス6770円",
         "details": {
           "length_days": 30,
-          "range_pct": 1.8,
+          "range_pct": 1.9,
           "high": 6770.0,
-          "low": 6650.0,
-          "vol_ratio": 0.37,
+          "low": 6640.0,
+          "vol_ratio": 0.59,
           "resistance": 6770.0
         }
       }
@@ -1293,13 +1325,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.7%(高値172円-安値169円)。出来高比1.10倍。レジスタンス172円",
+        "reason": "直近30日間のレンジ2.9%(高値172円-安値167円)。出来高比1.04倍。レジスタンス172円",
         "details": {
           "length_days": 30,
-          "range_pct": 1.7,
+          "range_pct": 2.9,
           "high": 172.0,
-          "low": 169.0,
-          "vol_ratio": 1.1,
+          "low": 167.0,
+          "vol_ratio": 1.04,
           "resistance": 172.0
         }
       }
@@ -1313,13 +1345,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ10.0%(高値2438円-安値2195円)。出来高比0.93倍。レジスタンス2438円",
+        "reason": "直近20日間のレンジ10.0%(高値2438円-安値2195円)。出来高比0.81倍。レジスタンス2438円",
         "details": {
           "length_days": 20,
           "range_pct": 10.0,
           "high": 2438.0,
           "low": 2195.0,
-          "vol_ratio": 0.93,
+          "vol_ratio": 0.81,
           "resistance": 2438.0
         }
       }
@@ -1333,14 +1365,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.6%(高値624円-安値589円)。出来高比0.99倍。レジスタンス624円",
+        "reason": "直近30日間のレンジ7.7%(高値640円-安値591円)。出来高比1.13倍。レジスタンス640円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.6,
-          "high": 624.0,
-          "low": 589.0,
-          "vol_ratio": 0.99,
-          "resistance": 624.0
+          "range_pct": 7.7,
+          "high": 640.0,
+          "low": 591.0,
+          "vol_ratio": 1.13,
+          "resistance": 640.0
         }
       }
     }
@@ -1353,13 +1385,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ3.6%(高値890円-安値858円)。出来高比0.68倍。レジスタンス890円",
+        "reason": "直近30日間のレンジ8.5%(高値890円-安値814円)。出来高比0.76倍。レジスタンス890円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.6,
+          "range_pct": 8.5,
           "high": 890.0,
-          "low": 858.0,
-          "vol_ratio": 0.68,
+          "low": 814.0,
+          "vol_ratio": 0.76,
           "resistance": 890.0
         }
       }
@@ -1373,34 +1405,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ0.6%(高値1687円-安値1677円)。出来高比0.39倍。レジスタンス1687円",
+        "reason": "直近30日間のレンジ0.4%(高値1684円-安値1677円)。出来高比0.40倍。レジスタンス1684円",
         "details": {
           "length_days": 30,
-          "range_pct": 0.6,
-          "high": 1687.0,
+          "range_pct": 0.4,
+          "high": 1684.0,
           "low": 1677.0,
-          "vol_ratio": 0.39,
-          "resistance": 1687.0
-        }
-      }
-    }
-  },
-  "3908": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "reason": "直近20日間のレンジ13.4%(高値456円-安値395円)。出来高比0.66倍。レジスタンス456円",
-        "details": {
-          "length_days": 20,
-          "range_pct": 13.4,
-          "high": 456.0,
-          "low": 395.0,
-          "vol_ratio": 0.66,
-          "resistance": 456.0
+          "vol_ratio": 0.4,
+          "resistance": 1684.0
         }
       }
     }
@@ -1417,11 +1429,11 @@
         "confidence": 1.0,
         "reason": "左リム1010円→底773円(深さ23.5%)→右リム回復。ハンドル調整2.6%。ピボット998円。カップ期間35日",
         "details": {
-          "left_rim_idx": 212,
+          "left_rim_idx": 211,
           "left_rim_price": 1010.0,
-          "bottom_idx": 242,
+          "bottom_idx": 241,
           "bottom_price": 773.0,
-          "right_rim_idx": 247,
+          "right_rim_idx": 246,
           "cup_depth_pct": 23.5,
           "handle_depth_pct": 2.6,
           "cup_length_days": 35,
@@ -1431,30 +1443,30 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 10.0%→5.6%→24.2%→6.7%。出来高減少2回。レジスタンス1008円",
+        "reason": "収縮2回検出。レンジ: 10.3%→8.3%→24.2%→6.8%。出来高減少2回。レジスタンス1008円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            10.0,
-            5.6,
+            10.3,
+            8.3,
             24.2,
-            6.7
+            6.8
           ],
           "resistance": 1008.0,
-          "current_range_pct": 6.7
+          "current_range_pct": 6.8
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ4.9%(高値993円-安値944円)。出来高比0.84倍。レジスタンス993円",
+        "confidence": 0.85,
+        "reason": "直近20日間のレンジ4.9%(高値993円-安値944円)。出来高比0.80倍。レジスタンス993円",
         "details": {
           "length_days": 20,
           "range_pct": 4.9,
           "high": 993.0,
           "low": 944.0,
-          "vol_ratio": 0.84,
+          "vol_ratio": 0.8,
           "resistance": 993.0
         }
       }
@@ -1468,13 +1480,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.2%(高値1494円-安値1416円)。出来高比1.06倍。レジスタンス1494円",
+        "reason": "直近30日間のレンジ6.0%(高値1494円-安値1404円)。出来高比0.99倍。レジスタンス1494円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.2,
+          "range_pct": 6.0,
           "high": 1494.0,
-          "low": 1416.0,
-          "vol_ratio": 1.06,
+          "low": 1404.0,
+          "vol_ratio": 0.99,
           "resistance": 1494.0
         }
       }
@@ -1482,19 +1494,37 @@
   },
   "3965": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 12.0%→10.0%→8.2%→10.4%。出来高減少2回。レジスタンス904円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            12.0,
+            10.0,
+            8.2,
+            10.4
+          ],
+          "resistance": 904.0,
+          "current_range_pct": 10.4
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.9%(高値870円-安値801円)。出来高比1.26倍。レジスタンス870円",
+        "reason": "直近30日間のレンジ6.9%(高値870円-安値810円)。出来高比1.18倍。レジスタンス870円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.9,
+          "range_pct": 6.9,
           "high": 870.0,
-          "low": 801.0,
-          "vol_ratio": 1.26,
+          "low": 810.0,
+          "vol_ratio": 1.18,
           "resistance": 870.0
         }
       }
@@ -1508,14 +1538,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ2.7%(高値592円-安値576円)。出来高比0.29倍。レジスタンス592円",
+        "reason": "直近30日間のレンジ5.1%(高値610円-安値579円)。出来高比0.44倍。レジスタンス610円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.7,
-          "high": 592.0,
-          "low": 576.0,
-          "vol_ratio": 0.29,
-          "resistance": 592.0
+          "range_pct": 5.1,
+          "high": 610.0,
+          "low": 579.0,
+          "vol_ratio": 0.44,
+          "resistance": 610.0
         }
       }
     }
@@ -1528,13 +1558,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近20日間のレンジ5.9%(高値1439円-安値1354円)。出来高比0.74倍。レジスタンス1439円",
+        "reason": "直近20日間のレンジ5.2%(高値1439円-安値1364円)。出来高比0.79倍。レジスタンス1439円",
         "details": {
           "length_days": 20,
-          "range_pct": 5.9,
+          "range_pct": 5.2,
           "high": 1439.0,
-          "low": 1354.0,
-          "vol_ratio": 0.74,
+          "low": 1364.0,
+          "vol_ratio": 0.79,
           "resistance": 1439.0
         }
       }
@@ -1547,14 +1577,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.2%(高値1378円-安値1251円)。出来高比1.52倍。レジスタンス1378円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ14.6%(高値1378円-安値1177円)。出来高比1.71倍。レジスタンス1378円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.2,
+          "range_pct": 14.6,
           "high": 1378.0,
-          "low": 1251.0,
-          "vol_ratio": 1.52,
+          "low": 1177.0,
+          "vol_ratio": 1.71,
           "resistance": 1378.0
         }
       }
@@ -1568,14 +1598,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近20日間のレンジ13.1%(高値3350円-安値2912円)。出来高比0.78倍。レジスタンス3350円",
+        "reason": "直近20日間のレンジ13.5%(高値3390円-安値2933円)。出来高比0.77倍。レジスタンス3390円",
         "details": {
           "length_days": 20,
-          "range_pct": 13.1,
-          "high": 3350.0,
-          "low": 2912.0,
-          "vol_ratio": 0.78,
-          "resistance": 3350.0
+          "range_pct": 13.5,
+          "high": 3390.0,
+          "low": 2933.0,
+          "vol_ratio": 0.77,
+          "resistance": 3390.0
         }
       }
     }
@@ -1588,15 +1618,15 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 21.2%→7.3%→20.4%→7.8%。出来高減少2回。レジスタンス2261円",
+        "confidence": 1.0,
+        "reason": "収縮2回検出。レンジ: 21.2%→14.0%→13.1%→7.8%。出来高減少3回。レジスタンス2261円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 2,
+          "vol_declining_segments": 3,
           "ranges_pct": [
             21.2,
-            7.3,
-            20.4,
+            14.0,
+            13.1,
             7.8
           ],
           "resistance": 2261.0,
@@ -1605,15 +1635,15 @@
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近20日間のレンジ5.9%(高値2229円-安値2097円)。出来高比0.63倍。レジスタンス2229円",
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ7.3%(高値2249円-安値2085円)。出来高比0.62倍。レジスタンス2249円",
         "details": {
-          "length_days": 20,
-          "range_pct": 5.9,
-          "high": 2229.0,
-          "low": 2097.0,
-          "vol_ratio": 0.63,
-          "resistance": 2229.0
+          "length_days": 30,
+          "range_pct": 7.3,
+          "high": 2249.0,
+          "low": 2085.0,
+          "vol_ratio": 0.62,
+          "resistance": 2249.0
         }
       }
     }
@@ -1626,52 +1656,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.3%(高値546円-安値506円)。出来高比1.31倍。レジスタンス546円",
+        "reason": "直近30日間のレンジ8.3%(高値552円-安値506円)。出来高比1.30倍。レジスタンス552円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.3,
-          "high": 546.0,
+          "range_pct": 8.3,
+          "high": 552.0,
           "low": 506.0,
-          "vol_ratio": 1.31,
-          "resistance": 546.0
-        }
-      }
-    }
-  },
-  "4381": {
-    "patterns": [
-      "vcp",
-      "flat_base"
-    ],
-    "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 21.2%→20.0%→14.2%→10.7%。出来高減少2回。レジスタンス605円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            21.2,
-            20.0,
-            14.2,
-            10.7
-          ],
-          "resistance": 605.0,
-          "current_range_pct": 10.7
-        }
-      },
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "reason": "直近20日間のレンジ10.7%(高値605円-安値540円)。出来高比1.52倍。レジスタンス605円",
-        "details": {
-          "length_days": 20,
-          "range_pct": 10.7,
-          "high": 605.0,
-          "low": 540.0,
-          "vol_ratio": 1.52,
-          "resistance": 605.0
+          "vol_ratio": 1.3,
+          "resistance": 552.0
         }
       }
     }
@@ -1685,31 +1677,31 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 17.3%→13.4%→16.9%→12.5%。出来高減少2回。レジスタンス3771円",
+        "reason": "収縮2回検出。レンジ: 19.2%→13.8%→18.6%→15.2%。出来高減少2回。レジスタンス3891円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            17.3,
-            13.4,
-            16.9,
-            12.5
+            19.2,
+            13.8,
+            18.6,
+            15.2
           ],
-          "resistance": 3771.0,
-          "current_range_pct": 12.5
+          "resistance": 3891.0,
+          "current_range_pct": 15.2
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "直近30日間のレンジ11.7%(高値3764円-安値3325円)。出来高比0.75倍。レジスタンス3764円",
+        "reason": "直近30日間のレンジ14.5%(高値3891円-安値3325円)。出来高比0.74倍。レジスタンス3891円",
         "details": {
           "length_days": 30,
-          "range_pct": 11.7,
-          "high": 3764.0,
+          "range_pct": 14.5,
+          "high": 3891.0,
           "low": 3325.0,
-          "vol_ratio": 0.75,
-          "resistance": 3764.0
+          "vol_ratio": 0.74,
+          "resistance": 3891.0
         }
       }
     }
@@ -1722,14 +1714,14 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 23.3%→9.5%→22.8%→9.3%。出来高減少2回。レジスタンス1434円",
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 23.3%→11.1%→22.8%→9.3%。出来高減少1回。レジスタンス1434円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 2,
+          "vol_declining_segments": 1,
           "ranges_pct": [
             23.3,
-            9.5,
+            11.1,
             22.8,
             9.3
           ],
@@ -1740,13 +1732,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ9.2%(高値1431円-安値1300円)。出来高比0.96倍。レジスタンス1431円",
+        "reason": "直近20日間のレンジ9.2%(高値1431円-安値1300円)。出来高比0.98倍。レジスタンス1431円",
         "details": {
           "length_days": 20,
           "range_pct": 9.2,
           "high": 1431.0,
           "low": 1300.0,
-          "vol_ratio": 0.96,
+          "vol_ratio": 0.98,
           "resistance": 1431.0
         }
       }
@@ -1759,14 +1751,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.5%(高値460円-安値421円)。出来高比1.24倍。レジスタンス460円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ12.8%(高値460円-安値401円)。出来高比1.38倍。レジスタンス460円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.5,
+          "range_pct": 12.8,
           "high": 460.0,
-          "low": 421.0,
-          "vol_ratio": 1.24,
+          "low": 401.0,
+          "vol_ratio": 1.38,
           "resistance": 460.0
         }
       }
@@ -1774,19 +1766,37 @@
   },
   "4492": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 1.0,
+        "reason": "収縮2回検出。レンジ: 9.8%→5.9%→4.3%→9.4%。出来高減少3回。レジスタンス499円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 3,
+          "ranges_pct": [
+            9.8,
+            5.9,
+            4.3,
+            9.4
+          ],
+          "resistance": 499.0,
+          "current_range_pct": 9.4
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ7.8%(高値498円-安値459円)。出来高比0.74倍。レジスタンス498円",
+        "reason": "直近30日間のレンジ7.8%(高値498円-安値459円)。出来高比0.64倍。レジスタンス498円",
         "details": {
           "length_days": 30,
           "range_pct": 7.8,
           "high": 498.0,
           "low": 459.0,
-          "vol_ratio": 0.74,
+          "vol_ratio": 0.64,
           "resistance": 498.0
         }
       }
@@ -1794,38 +1804,20 @@
   },
   "4502": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 9.8%→7.8%→13.5%→6.3%。出来高減少1回。レジスタンス5877円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            9.8,
-            7.8,
-            13.5,
-            6.3
-          ],
-          "resistance": 5877.0,
-          "current_range_pct": 6.3
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.7%(高値5870円-安値5535円)。出来高比0.97倍。レジスタンス5870円",
+        "reason": "直近30日間のレンジ5.6%(高値5888円-安値5557円)。出来高比0.99倍。レジスタンス5888円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.7,
-          "high": 5870.0,
-          "low": 5535.0,
-          "vol_ratio": 0.97,
-          "resistance": 5870.0
+          "range_pct": 5.6,
+          "high": 5888.0,
+          "low": 5557.0,
+          "vol_ratio": 0.99,
+          "resistance": 5888.0
         }
       }
     }
@@ -1838,14 +1830,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ10.7%(高値2610円-安値2332円)。出来高比0.85倍。レジスタンス2610円",
+        "reason": "直近30日間のレンジ12.3%(高値2658円-安値2332円)。出来高比0.85倍。レジスタンス2658円",
         "details": {
           "length_days": 30,
-          "range_pct": 10.7,
-          "high": 2609.5,
+          "range_pct": 12.3,
+          "high": 2657.5,
           "low": 2331.5,
           "vol_ratio": 0.85,
-          "resistance": 2609.5
+          "resistance": 2657.5
         }
       }
     }
@@ -1858,13 +1850,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.3%(高値364円-安値312円)。出来高比1.44倍。レジスタンス364円",
+        "reason": "直近30日間のレンジ14.0%(高値364円-安値313円)。出来高比1.35倍。レジスタンス364円",
         "details": {
           "length_days": 30,
-          "range_pct": 14.3,
+          "range_pct": 14.0,
           "high": 364.0,
-          "low": 312.0,
-          "vol_ratio": 1.44,
+          "low": 313.0,
+          "vol_ratio": 1.35,
           "resistance": 364.0
         }
       }
@@ -1878,13 +1870,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.8%(高値2360円-安値2294円)。出来高比1.13倍。レジスタンス2360円",
+        "reason": "直近30日間のレンジ6.1%(高値2360円-安値2215円)。出来高比1.09倍。レジスタンス2360円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.8,
+          "range_pct": 6.1,
           "high": 2360.0,
-          "low": 2294.0,
-          "vol_ratio": 1.13,
+          "low": 2215.0,
+          "vol_ratio": 1.09,
           "resistance": 2360.0
         }
       }
@@ -1897,15 +1889,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.4%(高値1787円-安値1618円)。出来高比0.99倍。レジスタンス1787円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ12.5%(高値1849円-安値1618円)。出来高比1.02倍。レジスタンス1849円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.4,
-          "high": 1787.0,
+          "range_pct": 12.5,
+          "high": 1849.0,
           "low": 1618.5,
-          "vol_ratio": 0.99,
-          "resistance": 1787.0
+          "vol_ratio": 1.02,
+          "resistance": 1849.0
         }
       }
     }
@@ -1919,14 +1911,14 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 11.8%→5.8%→25.1%→15.3%。出来高減少2回。レジスタンス2559円",
+        "reason": "収縮2回検出。レンジ: 11.8%→7.4%→23.4%→15.3%。出来高減少2回。レジスタンス2559円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
             11.8,
-            5.8,
-            25.1,
+            7.4,
+            23.4,
             15.3
           ],
           "resistance": 2559.0,
@@ -1936,13 +1928,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.7%(高値2526円-安値2181円)。出来高比1.43倍。レジスタンス2526円",
+        "reason": "直近30日間のレンジ13.7%(高値2526円-安値2181円)。出来高比1.28倍。レジスタンス2526円",
         "details": {
           "length_days": 30,
           "range_pct": 13.7,
           "high": 2526.0,
           "low": 2181.0,
-          "vol_ratio": 1.43,
+          "vol_ratio": 1.28,
           "resistance": 2526.0
         }
       }
@@ -1956,14 +1948,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.4%(高値11400円-安値9870円)。出来高比1.19倍。レジスタンス11400円",
+        "reason": "直近30日間のレンジ14.2%(高値11500円-安値9870円)。出来高比1.13倍。レジスタンス11500円",
         "details": {
           "length_days": 30,
-          "range_pct": 13.4,
-          "high": 11400.0,
+          "range_pct": 14.2,
+          "high": 11500.0,
           "low": 9870.0,
-          "vol_ratio": 1.19,
-          "resistance": 11400.0
+          "vol_ratio": 1.13,
+          "resistance": 11500.0
         }
       }
     }
@@ -1971,6 +1963,7 @@
   "4676": {
     "patterns": [
       "cup_with_handle",
+      "vcp",
       "flat_base"
     ],
     "details": {
@@ -1979,27 +1972,44 @@
         "confidence": 0.8,
         "reason": "左リム3948円→底3373円(深さ14.6%)→右リム回復。ハンドル調整3.1%。ピボット4191円。カップ期間21日",
         "details": {
-          "left_rim_idx": 231,
+          "left_rim_idx": 230,
           "left_rim_price": 3948.0,
-          "bottom_idx": 242,
+          "bottom_idx": 241,
           "bottom_price": 3373.0,
-          "right_rim_idx": 252,
+          "right_rim_idx": 251,
           "cup_depth_pct": 14.6,
           "handle_depth_pct": 3.1,
           "cup_length_days": 21,
           "pivot_price": 4190.8
         }
       },
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 11.0%→8.1%→17.6%→14.9%。出来高減少2回。レジスタンス4200円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            11.0,
+            8.1,
+            17.6,
+            14.9
+          ],
+          "resistance": 4200.0,
+          "current_range_pct": 14.9
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.5,
-        "reason": "直近20日間のレンジ14.1%(高値4170円-安値3581円)。出来高比1.15倍。レジスタンス4170円",
+        "reason": "直近20日間のレンジ12.3%(高値4170円-安値3657円)。出来高比1.10倍。レジスタンス4170円",
         "details": {
           "length_days": 20,
-          "range_pct": 14.1,
+          "range_pct": 12.3,
           "high": 4170.0,
-          "low": 3581.0,
-          "vol_ratio": 1.15,
+          "low": 3657.0,
+          "vol_ratio": 1.1,
           "resistance": 4170.0
         }
       }
@@ -2027,9 +2037,27 @@
   },
   "4809": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 5.4%→3.5%→2.8%→6.4%。出来高減少1回。レジスタンス2112円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            5.4,
+            3.5,
+            2.8,
+            6.4
+          ],
+          "resistance": 2112.0,
+          "current_range_pct": 6.4
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
@@ -2053,13 +2081,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.8%(高値1366円-安値1300円)。出来高比1.12倍。レジスタンス1366円",
+        "reason": "直近30日間のレンジ8.1%(高値1366円-安値1255円)。出来高比1.17倍。レジスタンス1366円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.8,
+          "range_pct": 8.1,
           "high": 1366.0,
-          "low": 1300.0,
-          "vol_ratio": 1.12,
+          "low": 1255.0,
+          "vol_ratio": 1.17,
           "resistance": 1366.0
         }
       }
@@ -2073,14 +2101,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.2%(高値5856円-安値5492円)。出来高比0.90倍。レジスタンス5856円",
+        "reason": "直近30日間のレンジ7.9%(高値6029円-安値5553円)。出来高比0.87倍。レジスタンス6029円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.2,
-          "high": 5856.0,
-          "low": 5492.0,
-          "vol_ratio": 0.9,
-          "resistance": 5856.0
+          "range_pct": 7.9,
+          "high": 6029.0,
+          "low": 5553.0,
+          "vol_ratio": 0.87,
+          "resistance": 6029.0
         }
       }
     }
@@ -2094,31 +2122,31 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 13.2%→6.1%→32.1%→0.2%。出来高減少2回。レジスタンス1148円",
+        "reason": "収縮2回検出。レンジ: 12.1%→6.6%→31.3%→0.3%。出来高減少2回。レジスタンス1149円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            13.2,
-            6.1,
-            32.1,
-            0.2
+            12.1,
+            6.6,
+            31.3,
+            0.3
           ],
-          "resistance": 1148.0,
-          "current_range_pct": 0.2
+          "resistance": 1149.0,
+          "current_range_pct": 0.3
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ0.2%(高値1148円-安値1146円)。出来高比1.53倍。レジスタンス1148円",
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ4.2%(高値1149円-安値1101円)。出来高比2.04倍。レジスタンス1149円",
         "details": {
-          "length_days": 20,
-          "range_pct": 0.2,
-          "high": 1148.0,
-          "low": 1146.0,
-          "vol_ratio": 1.53,
-          "resistance": 1148.0
+          "length_days": 30,
+          "range_pct": 4.2,
+          "high": 1149.0,
+          "low": 1101.0,
+          "vol_ratio": 2.04,
+          "resistance": 1149.0
         }
       }
     }
@@ -2131,14 +2159,37 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ12.1%(高値1554円-安値1366円)。出来高比1.15倍。レジスタンス1554円",
+        "reason": "直近30日間のレンジ13.8%(高値1596円-安値1376円)。出来高比1.13倍。レジスタンス1596円",
         "details": {
           "length_days": 30,
-          "range_pct": 12.1,
-          "high": 1553.5,
-          "low": 1366.0,
-          "vol_ratio": 1.15,
-          "resistance": 1553.5
+          "range_pct": 13.8,
+          "high": 1595.5,
+          "low": 1375.5,
+          "vol_ratio": 1.13,
+          "resistance": 1595.5
+        }
+      }
+    }
+  },
+  "5461": {
+    "patterns": [
+      "cup_with_handle"
+    ],
+    "details": {
+      "cup_with_handle": {
+        "detected": true,
+        "confidence": 1.0,
+        "reason": "左リム2598円→底2001円(深さ23.0%)→右リム回復。ハンドル調整3.7%。ピボット2594円。カップ期間22日",
+        "details": {
+          "left_rim_idx": 241,
+          "left_rim_price": 2598.0,
+          "bottom_idx": 252,
+          "bottom_price": 2001.0,
+          "right_rim_idx": 263,
+          "cup_depth_pct": 23.0,
+          "handle_depth_pct": 3.7,
+          "cup_length_days": 22,
+          "pivot_price": 2593.9
         }
       }
     }
@@ -2151,13 +2202,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ4.7%(高値1364円-安値1300円)。出来高比0.56倍。レジスタンス1364円",
+        "reason": "直近30日間のレンジ4.3%(高値1364円-安値1305円)。出来高比0.51倍。レジスタンス1364円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.7,
+          "range_pct": 4.3,
           "high": 1364.0,
-          "low": 1300.0,
-          "vol_ratio": 0.56,
+          "low": 1305.0,
+          "vol_ratio": 0.51,
           "resistance": 1364.0
         }
       }
@@ -2171,14 +2222,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.5%(高値599円-安値560円)。出来高比1.06倍。レジスタンス599円",
+        "reason": "直近30日間のレンジ8.9%(高値615円-安値560円)。出来高比1.27倍。レジスタンス615円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.5,
-          "high": 599.0,
+          "range_pct": 8.9,
+          "high": 615.0,
           "low": 560.0,
-          "vol_ratio": 1.06,
-          "resistance": 599.0
+          "vol_ratio": 1.27,
+          "resistance": 615.0
         }
       }
     }
@@ -2191,31 +2242,31 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 5.5%→4.0%→2.3%→2.2%。出来高減少1回。レジスタンス3485円",
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 5.0%→3.7%→2.5%→6.0%。出来高減少2回。レジスタンス3485円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 1,
+          "vol_declining_segments": 2,
           "ranges_pct": [
-            5.5,
-            4.0,
-            2.3,
-            2.2
+            5.0,
+            3.7,
+            2.5,
+            6.0
           ],
           "resistance": 3485.0,
-          "current_range_pct": 2.2
+          "current_range_pct": 6.0
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.3%(高値3485円-安値3405円)。出来高比1.00倍。レジスタンス3485円",
+        "reason": "直近30日間のレンジ4.2%(高値3485円-安値3340円)。出来高比1.12倍。レジスタンス3485円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.3,
+          "range_pct": 4.2,
           "high": 3485.0,
-          "low": 3405.0,
-          "vol_ratio": 1.0,
+          "low": 3340.0,
+          "vol_ratio": 1.12,
           "resistance": 3485.0
         }
       }
@@ -2228,52 +2279,34 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近20日間のレンジ1.8%(高値11650円-安値11440円)。出来高比0.70倍。レジスタンス11650円",
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ2.1%(高値11690円-安値11440円)。出来高比0.77倍。レジスタンス11690円",
         "details": {
-          "length_days": 20,
-          "range_pct": 1.8,
-          "high": 11650.0,
+          "length_days": 30,
+          "range_pct": 2.1,
+          "high": 11690.0,
           "low": 11440.0,
-          "vol_ratio": 0.7,
-          "resistance": 11650.0
+          "vol_ratio": 0.77,
+          "resistance": 11690.0
         }
       }
     }
   },
   "6147": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 15.8%→9.6%→4.7%→7.2%。出来高減少2回。レジスタンス348円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            15.8,
-            9.6,
-            4.7,
-            7.2
-          ],
-          "resistance": 348.0,
-          "current_range_pct": 7.2
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近52日間のレンジ5.8%(高値343円-安値323円)。出来高比0.79倍。レジスタンス343円",
+        "reason": "直近51日間のレンジ5.5%(高値343円-安値324円)。出来高比0.80倍。レジスタンス343円",
         "details": {
-          "length_days": 52,
-          "range_pct": 5.8,
+          "length_days": 51,
+          "range_pct": 5.5,
           "high": 343.0,
-          "low": 323.0,
-          "vol_ratio": 0.79,
+          "low": 324.0,
+          "vol_ratio": 0.8,
           "resistance": 343.0
         }
       }
@@ -2287,13 +2320,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.3%(高値1492円-安値1383円)。出来高比1.32倍。レジスタンス1492円",
+        "reason": "直近30日間のレンジ7.3%(高値1492円-安値1383円)。出来高比1.31倍。レジスタンス1492円",
         "details": {
           "length_days": 30,
           "range_pct": 7.3,
           "high": 1492.0,
           "low": 1383.0,
-          "vol_ratio": 1.32,
+          "vol_ratio": 1.31,
           "resistance": 1492.0
         }
       }
@@ -2308,30 +2341,30 @@
       "vcp": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "収縮2回検出。レンジ: 4.6%→9.8%→7.1%→3.3%。出来高減少0回。レジスタンス20765円",
+        "reason": "収縮2回検出。レンジ: 4.6%→10.6%→7.8%→1.0%。出来高減少0回。レジスタンス20595円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 0,
           "ranges_pct": [
             4.6,
-            9.8,
-            7.1,
-            3.3
+            10.6,
+            7.8,
+            1.0
           ],
-          "resistance": 20765.0,
-          "current_range_pct": 3.3
+          "resistance": 20595.0,
+          "current_range_pct": 1.0
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.9%(高値20590円-安値19985円)。出来高比1.57倍。レジスタンス20590円",
+        "reason": "直近30日間のレンジ1.9%(高値20590円-安値20200円)。出来高比1.48倍。レジスタンス20590円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.9,
+          "range_pct": 1.9,
           "high": 20590.0,
-          "low": 19985.0,
-          "vol_ratio": 1.57,
+          "low": 20200.0,
+          "vol_ratio": 1.48,
           "resistance": 20590.0
         }
       }
@@ -2345,13 +2378,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.1%(高値4050円-安値4005円)。出来高比1.41倍。レジスタンス4050円",
+        "reason": "直近20日間のレンジ1.1%(高値4050円-安値4005円)。出来高比0.72倍。レジスタンス4050円",
         "details": {
-          "length_days": 30,
+          "length_days": 20,
           "range_pct": 1.1,
           "high": 4050.0,
           "low": 4005.0,
-          "vol_ratio": 1.41,
+          "vol_ratio": 0.72,
           "resistance": 4050.0
         }
       }
@@ -2367,11 +2400,11 @@
         "confidence": 1.0,
         "reason": "左リム7350円→底5450円(深さ25.9%)→右リム回復。ハンドル調整4.1%。ピボット7980円。カップ期間67日",
         "details": {
-          "left_rim_idx": 169,
+          "left_rim_idx": 168,
           "left_rim_price": 7350.0,
-          "bottom_idx": 202,
+          "bottom_idx": 201,
           "bottom_price": 5450.0,
-          "right_rim_idx": 236,
+          "right_rim_idx": 235,
           "cup_depth_pct": 25.9,
           "handle_depth_pct": 4.1,
           "cup_length_days": 67,
@@ -2388,13 +2421,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ3.7%(高値1108円-安値1067円)。出来高比0.67倍。レジスタンス1108円",
+        "reason": "直近30日間のレンジ3.7%(高値1108円-安値1067円)。出来高比0.70倍。レジスタンス1108円",
         "details": {
           "length_days": 30,
           "range_pct": 3.7,
           "high": 1108.0,
           "low": 1067.0,
-          "vol_ratio": 0.67,
+          "vol_ratio": 0.7,
           "resistance": 1108.0
         }
       }
@@ -2407,15 +2440,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
-        "reason": "直近30日間のレンジ12.7%(高値2694円-安値2352円)。出来高比0.90倍。レジスタンス2694円",
+        "confidence": 0.5,
+        "reason": "直近20日間のレンジ14.1%(高値2774円-安値2382円)。出来高比0.93倍。レジスタンス2774円",
         "details": {
-          "length_days": 30,
-          "range_pct": 12.7,
-          "high": 2694.0,
-          "low": 2351.5,
-          "vol_ratio": 0.9,
-          "resistance": 2694.0
+          "length_days": 20,
+          "range_pct": 14.1,
+          "high": 2774.0,
+          "low": 2382.0,
+          "vol_ratio": 0.93,
+          "resistance": 2774.0
         }
       }
     }
@@ -2428,14 +2461,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ11.4%(高値2911円-安値2580円)。出来高比1.23倍。レジスタンス2911円",
+        "reason": "直近30日間のレンジ11.3%(高値2910円-安値2580円)。出来高比1.14倍。レジスタンス2910円",
         "details": {
           "length_days": 30,
-          "range_pct": 11.4,
-          "high": 2911.0,
+          "range_pct": 11.3,
+          "high": 2910.0,
           "low": 2580.0,
-          "vol_ratio": 1.23,
-          "resistance": 2911.0
+          "vol_ratio": 1.14,
+          "resistance": 2910.0
         }
       }
     }
@@ -2448,13 +2481,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ9.2%(高値1898円-安値1724円)。出来高比0.73倍。レジスタンス1898円",
+        "reason": "直近30日間のレンジ9.2%(高値1898円-安値1724円)。出来高比0.72倍。レジスタンス1898円",
         "details": {
           "length_days": 30,
           "range_pct": 9.2,
           "high": 1898.0,
           "low": 1724.0,
-          "vol_ratio": 0.73,
+          "vol_ratio": 0.72,
           "resistance": 1898.0
         }
       }
@@ -2468,13 +2501,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.0%(高値1388円-安値1277円)。出来高比1.70倍。レジスタンス1388円",
+        "reason": "直近30日間のレンジ8.2%(高値1388円-安値1274円)。出来高比1.74倍。レジスタンス1388円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.0,
+          "range_pct": 8.2,
           "high": 1388.0,
-          "low": 1277.0,
-          "vol_ratio": 1.7,
+          "low": 1274.0,
+          "vol_ratio": 1.74,
           "resistance": 1388.0
         }
       }
@@ -2488,15 +2521,15 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 0.9%→0.9%→0.7%→0.5%。出来高減少2回。レジスタンス1703円",
+        "confidence": 1.0,
+        "reason": "収縮2回検出。レンジ: 1.1%→0.8%→0.5%→0.5%。出来高減少3回。レジスタンス1703円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 2,
+          "vol_declining_segments": 3,
           "ranges_pct": [
-            0.9,
-            0.9,
-            0.7,
+            1.1,
+            0.8,
+            0.5,
             0.5
           ],
           "resistance": 1703.0,
@@ -2506,13 +2539,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ0.2%(高値1700円-安値1696円)。出来高比0.10倍。レジスタンス1700円",
+        "reason": "直近30日間のレンジ0.2%(高値1700円-安値1696円)。出来高比0.09倍。レジスタンス1700円",
         "details": {
           "length_days": 30,
           "range_pct": 0.2,
           "high": 1700.0,
           "low": 1696.0,
-          "vol_ratio": 0.1,
+          "vol_ratio": 0.09,
           "resistance": 1700.0
         }
       }
@@ -2520,38 +2553,44 @@
   },
   "7092": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 1.0,
-        "reason": "収縮2回検出。レンジ: 9.5%→1.0%→0.2%→1.3%。出来高減少3回。レジスタンス2331円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 3,
-          "ranges_pct": [
-            9.5,
-            1.0,
-            0.2,
-            1.3
-          ],
-          "resistance": 2331.0,
-          "current_range_pct": 1.3
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ0.9%(高値2320円-安値2300円)。出来高比0.35倍。レジスタンス2320円",
+        "reason": "直近30日間のレンジ0.9%(高値2320円-安値2300円)。出来高比0.38倍。レジスタンス2320円",
         "details": {
           "length_days": 30,
           "range_pct": 0.9,
           "high": 2320.0,
           "low": 2300.0,
-          "vol_ratio": 0.35,
+          "vol_ratio": 0.38,
           "resistance": 2320.0
+        }
+      }
+    }
+  },
+  "7119": {
+    "patterns": [
+      "vcp"
+    ],
+    "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 6.7%→5.4%→3.3%→21.2%。出来高減少1回。レジスタンス1700円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            6.7,
+            5.4,
+            3.3,
+            21.2
+          ],
+          "resistance": 1700.0,
+          "current_range_pct": 21.2
         }
       }
     }
@@ -2564,13 +2603,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.0%(高値715円-安値701円)。出来高比1.16倍。レジスタンス715円",
+        "reason": "直近30日間のレンジ6.3%(高値715円-安値670円)。出来高比1.20倍。レジスタンス715円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.0,
+          "range_pct": 6.3,
           "high": 715.0,
-          "low": 701.0,
-          "vol_ratio": 1.16,
+          "low": 670.0,
+          "vol_ratio": 1.2,
           "resistance": 715.0
         }
       }
@@ -2584,13 +2623,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.1%(高値483円-安値468円)。出来高比1.01倍。レジスタンス483円",
+        "reason": "直近30日間のレンジ4.6%(高値483円-安値461円)。出来高比0.93倍。レジスタンス483円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.1,
+          "range_pct": 4.6,
           "high": 483.0,
-          "low": 468.0,
-          "vol_ratio": 1.01,
+          "low": 461.0,
+          "vol_ratio": 0.93,
           "resistance": 483.0
         }
       }
@@ -2604,13 +2643,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近22日間のレンジ8.3%(高値422円-安値387円)。出来高比0.78倍。レジスタンス422円",
+        "reason": "直近25日間のレンジ8.3%(高値422円-安値387円)。出来高比0.79倍。レジスタンス422円",
         "details": {
-          "length_days": 22,
+          "length_days": 25,
           "range_pct": 8.3,
           "high": 422.0,
           "low": 387.0,
-          "vol_ratio": 0.78,
+          "vol_ratio": 0.79,
           "resistance": 422.0
         }
       }
@@ -2624,32 +2663,32 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 25.4%→1.3%→1.1%→0.8%。出来高減少1回。レジスタンス1091円",
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 23.7%→1.1%→0.9%→1.4%。出来高減少2回。レジスタンス1097円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 1,
+          "vol_declining_segments": 2,
           "ranges_pct": [
-            25.4,
-            1.3,
+            23.7,
             1.1,
-            0.8
+            0.9,
+            1.4
           ],
-          "resistance": 1091.0,
-          "current_range_pct": 0.8
+          "resistance": 1097.0,
+          "current_range_pct": 1.4
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ0.8%(高値1092円-安値1083円)。出来高比0.98倍。レジスタンス1092円",
+        "reason": "直近30日間のレンジ1.1%(高値1095円-安値1083円)。出来高比1.00倍。レジスタンス1095円",
         "details": {
           "length_days": 30,
-          "range_pct": 0.8,
-          "high": 1092.0,
+          "range_pct": 1.1,
+          "high": 1095.0,
           "low": 1083.0,
-          "vol_ratio": 0.98,
-          "resistance": 1092.0
+          "vol_ratio": 1.0,
+          "resistance": 1095.0
         }
       }
     }
@@ -2661,15 +2700,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.65,
-        "reason": "直近30日間のレンジ10.6%(高値6310円-安値5640円)。出来高比1.33倍。レジスタンス6310円",
+        "confidence": 0.7,
+        "reason": "直近20日間のレンジ9.9%(高値1565円-安値1410円)。出来高比1.46倍。レジスタンス1565円",
         "details": {
-          "length_days": 30,
-          "range_pct": 10.6,
-          "high": 6310.0,
-          "low": 5640.0,
-          "vol_ratio": 1.33,
-          "resistance": 6310.0
+          "length_days": 20,
+          "range_pct": 9.9,
+          "high": 1565.0,
+          "low": 1410.0,
+          "vol_ratio": 1.46,
+          "resistance": 1565.0
         }
       }
     }
@@ -2682,13 +2721,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ5.8%(高値1460円-安値1376円)。出来高比0.64倍。レジスタンス1460円",
+        "reason": "直近30日間のレンジ5.8%(高値1460円-安値1376円)。出来高比0.58倍。レジスタンス1460円",
         "details": {
           "length_days": 30,
           "range_pct": 5.8,
           "high": 1460.0,
           "low": 1376.0,
-          "vol_ratio": 0.64,
+          "vol_ratio": 0.58,
           "resistance": 1460.0
         }
       }
@@ -2702,13 +2741,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.0%(高値1764円-安値1676円)。出来高比1.05倍。レジスタンス1764円",
+        "reason": "直近30日間のレンジ6.0%(高値1764円-安値1658円)。出来高比1.00倍。レジスタンス1764円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.0,
+          "range_pct": 6.0,
           "high": 1764.0,
-          "low": 1676.0,
-          "vol_ratio": 1.05,
+          "low": 1658.0,
+          "vol_ratio": 1.0,
           "resistance": 1764.0
         }
       }
@@ -2721,15 +2760,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ10.0%(高値3200円-安値2880円)。出来高比1.08倍。レジスタンス3200円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ14.9%(高値3250円-安値2765円)。出来高比1.09倍。レジスタンス3250円",
         "details": {
-          "length_days": 20,
-          "range_pct": 10.0,
-          "high": 3200.0,
-          "low": 2880.0,
-          "vol_ratio": 1.08,
-          "resistance": 3200.0
+          "length_days": 30,
+          "range_pct": 14.9,
+          "high": 3250.0,
+          "low": 2765.0,
+          "vol_ratio": 1.09,
+          "resistance": 3250.0
         }
       }
     }
@@ -2742,17 +2781,17 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 0.5,
-        "reason": "左リム6600円→底5680円(深さ13.9%)→右リム回復。ハンドル調整5.1%。ピボット7095円。カップ期間13日",
+        "reason": "左リム1320円→底1136円(深さ13.9%)→右リム回復。ハンドル調整5.1%。ピボット1495円。カップ期間13日",
         "details": {
-          "left_rim_idx": 247,
-          "left_rim_price": 6600.0,
-          "bottom_idx": 253,
-          "bottom_price": 5680.0,
-          "right_rim_idx": 260,
+          "left_rim_idx": 246,
+          "left_rim_price": 1320.0,
+          "bottom_idx": 252,
+          "bottom_price": 1136.0,
+          "right_rim_idx": 259,
           "cup_depth_pct": 13.9,
           "handle_depth_pct": 5.1,
           "cup_length_days": 13,
-          "pivot_price": 7095.3
+          "pivot_price": 1495.4
         }
       }
     }
@@ -2765,34 +2804,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.6%(高値1645円-安値1537円)。出来高比1.22倍。レジスタンス1645円",
+        "reason": "直近30日間のレンジ6.6%(高値1645円-安値1537円)。出来高比1.24倍。レジスタンス1645円",
         "details": {
           "length_days": 30,
           "range_pct": 6.6,
           "high": 1645.0,
           "low": 1537.0,
-          "vol_ratio": 1.22,
+          "vol_ratio": 1.24,
           "resistance": 1645.0
-        }
-      }
-    }
-  },
-  "7435": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.8%(高値1120円-安値966円)。出来高比2.03倍。レジスタンス1120円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.8,
-          "high": 1120.0,
-          "low": 966.0,
-          "vol_ratio": 2.03,
-          "resistance": 1120.0
         }
       }
     }
@@ -2805,13 +2824,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.3%(高値491円-安値460円)。出来高比1.13倍。レジスタンス491円",
+        "reason": "直近30日間のレンジ6.9%(高値491円-安値457円)。出来高比1.17倍。レジスタンス491円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.3,
+          "range_pct": 6.9,
           "high": 491.0,
-          "low": 460.0,
-          "vol_ratio": 1.13,
+          "low": 457.0,
+          "vol_ratio": 1.17,
           "resistance": 491.0
         }
       }
@@ -2825,13 +2844,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.5%(高値1743円-安値1630円)。出来高比1.39倍。レジスタンス1743円",
+        "reason": "直近30日間のレンジ6.5%(高値1743円-安値1630円)。出来高比1.46倍。レジスタンス1743円",
         "details": {
           "length_days": 30,
           "range_pct": 6.5,
           "high": 1743.0,
           "low": 1629.5,
-          "vol_ratio": 1.39,
+          "vol_ratio": 1.46,
           "resistance": 1743.0
         }
       }
@@ -2845,14 +2864,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.0%(高値1869円-安値1813円)。出来高比1.16倍。レジスタンス1869円",
+        "reason": "直近30日間のレンジ3.8%(高値1885円-安値1813円)。出来高比1.24倍。レジスタンス1885円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.0,
-          "high": 1869.0,
+          "range_pct": 3.8,
+          "high": 1885.0,
           "low": 1813.0,
-          "vol_ratio": 1.16,
-          "resistance": 1869.0
+          "vol_ratio": 1.24,
+          "resistance": 1885.0
         }
       }
     }
@@ -2865,13 +2884,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.3%(高値845円-安値775円)。出来高比1.32倍。レジスタンス845円",
+        "reason": "直近30日間のレンジ8.2%(高値845円-安値776円)。出来高比1.29倍。レジスタンス845円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.3,
+          "range_pct": 8.2,
           "high": 845.0,
-          "low": 775.0,
-          "vol_ratio": 1.32,
+          "low": 776.0,
+          "vol_ratio": 1.29,
           "resistance": 845.0
         }
       }
@@ -2884,15 +2903,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近20日間のレンジ1.4%(高値703円-安値693円)。出来高比0.69倍。レジスタンス703円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ10.4%(高値768円-安値688円)。出来高比1.65倍。レジスタンス768円",
         "details": {
-          "length_days": 20,
-          "range_pct": 1.4,
-          "high": 703.0,
-          "low": 693.0,
-          "vol_ratio": 0.69,
-          "resistance": 703.0
+          "length_days": 30,
+          "range_pct": 10.4,
+          "high": 768.0,
+          "low": 688.0,
+          "vol_ratio": 1.65,
+          "resistance": 768.0
         }
       }
     }
@@ -2905,13 +2924,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.7%(高値3870円-安値3765円)。出来高比1.40倍。レジスタンス3870円",
+        "reason": "直近30日間のレンジ6.1%(高値3870円-安値3635円)。出来高比1.44倍。レジスタンス3870円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.7,
+          "range_pct": 6.1,
           "high": 3870.0,
-          "low": 3765.0,
-          "vol_ratio": 1.4,
+          "low": 3635.0,
+          "vol_ratio": 1.44,
           "resistance": 3870.0
         }
       }
@@ -2925,14 +2944,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.5%(高値896円-安値847円)。出来高比0.98倍。レジスタンス896円",
+        "reason": "直近30日間のレンジ8.3%(高値924円-安値847円)。出来高比1.10倍。レジスタンス924円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.5,
-          "high": 896.0,
+          "range_pct": 8.3,
+          "high": 924.0,
           "low": 847.0,
-          "vol_ratio": 0.98,
-          "resistance": 896.0
+          "vol_ratio": 1.1,
+          "resistance": 924.0
         }
       }
     }
@@ -2945,13 +2964,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近25日間のレンジ5.0%(高値1997円-安値1898円)。出来高比0.79倍。レジスタンス1997円",
+        "reason": "直近30日間のレンジ5.5%(高値1997円-安値1888円)。出来高比0.89倍。レジスタンス1997円",
         "details": {
-          "length_days": 25,
-          "range_pct": 5.0,
+          "length_days": 30,
+          "range_pct": 5.5,
           "high": 1997.0,
-          "low": 1898.0,
-          "vol_ratio": 0.79,
+          "low": 1888.0,
+          "vol_ratio": 0.89,
           "resistance": 1997.0
         }
       }
@@ -2959,38 +2978,20 @@
   },
   "7739": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 1.0,
-        "reason": "収縮2回検出。レンジ: 26.5%→0.8%→0.8%→0.3%。出来高減少3回。レジスタンス3635円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 3,
-          "ranges_pct": [
-            26.5,
-            0.8,
-            0.8,
-            0.3
-          ],
-          "resistance": 3635.0,
-          "current_range_pct": 0.3
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ0.8%(高値3650円-安値3620円)。出来高比0.62倍。レジスタンス3650円",
+        "reason": "直近30日間のレンジ0.4%(高値3635円-安値3620円)。出来高比0.63倍。レジスタンス3635円",
         "details": {
           "length_days": 30,
-          "range_pct": 0.8,
-          "high": 3650.0,
+          "range_pct": 0.4,
+          "high": 3635.0,
           "low": 3620.0,
-          "vol_ratio": 0.62,
-          "resistance": 3650.0
+          "vol_ratio": 0.63,
+          "resistance": 3635.0
         }
       }
     }
@@ -3005,11 +3006,11 @@
         "confidence": 1.0,
         "reason": "左リム617円→底519円(深さ15.9%)→右リム回復。ハンドル調整3.9%。ピボット630円。カップ期間37日",
         "details": {
-          "left_rim_idx": 219,
+          "left_rim_idx": 218,
           "left_rim_price": 617.0,
-          "bottom_idx": 250,
+          "bottom_idx": 249,
           "bottom_price": 519.0,
-          "right_rim_idx": 256,
+          "right_rim_idx": 255,
           "cup_depth_pct": 15.9,
           "handle_depth_pct": 3.9,
           "cup_length_days": 37,
@@ -3025,15 +3026,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ8.3%(高値3366円-安値3086円)。出来高比1.03倍。レジスタンス3366円",
+        "confidence": 0.5,
+        "reason": "直近20日間のレンジ12.0%(高値3505円-安値3086円)。出来高比0.98倍。レジスタンス3505円",
         "details": {
           "length_days": 20,
-          "range_pct": 8.3,
-          "high": 3366.0,
+          "range_pct": 12.0,
+          "high": 3505.0,
           "low": 3086.0,
-          "vol_ratio": 1.03,
-          "resistance": 3366.0
+          "vol_ratio": 0.98,
+          "resistance": 3505.0
         }
       }
     }
@@ -3047,13 +3048,13 @@
       "vcp": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "収縮3回検出。レンジ: 7.2%→5.8%→3.7%→2.6%。出来高減少2回。レジスタンス3045円",
+        "reason": "収縮3回検出。レンジ: 9.7%→5.2%→3.7%→2.6%。出来高減少2回。レジスタンス3045円",
         "details": {
           "contractions": 3,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            7.2,
-            5.8,
+            9.7,
+            5.2,
             3.7,
             2.6
           ],
@@ -3064,14 +3065,34 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近33日間のレンジ2.1%(高値3030円-安値2967円)。出来高比0.79倍。レジスタンス3030円",
+        "reason": "直近30日間のレンジ2.1%(高値3030円-安値2967円)。出来高比0.78倍。レジスタンス3030円",
         "details": {
-          "length_days": 33,
+          "length_days": 30,
           "range_pct": 2.1,
           "high": 3030.0,
           "low": 2967.0,
-          "vol_ratio": 0.79,
+          "vol_ratio": 0.78,
           "resistance": 3030.0
+        }
+      }
+    }
+  },
+  "7806": {
+    "patterns": [
+      "flat_base"
+    ],
+    "details": {
+      "flat_base": {
+        "detected": true,
+        "confidence": 0.5,
+        "reason": "直近20日間のレンジ12.4%(高値6470円-安値5670円)。出来高比0.81倍。レジスタンス6470円",
+        "details": {
+          "length_days": 20,
+          "range_pct": 12.4,
+          "high": 6470.0,
+          "low": 5670.0,
+          "vol_ratio": 0.81,
+          "resistance": 6470.0
         }
       }
     }
@@ -3084,13 +3105,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.2%(高値1392円-安値1278円)。出来高比1.60倍。レジスタンス1392円",
+        "reason": "直近30日間のレンジ8.2%(高値1392円-安値1278円)。出来高比1.77倍。レジスタンス1392円",
         "details": {
           "length_days": 30,
           "range_pct": 8.2,
           "high": 1392.0,
           "low": 1278.0,
-          "vol_ratio": 1.6,
+          "vol_ratio": 1.77,
           "resistance": 1392.0
         }
       }
@@ -3104,14 +3125,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ6.5%(高値1330円-安値1244円)。出来高比1.31倍。レジスタンス1330円",
+        "reason": "直近20日間のレンジ7.6%(高値662円-安値612円)。出来高比1.13倍。レジスタンス662円",
         "details": {
           "length_days": 20,
-          "range_pct": 6.5,
-          "high": 1330.0,
-          "low": 1244.0,
-          "vol_ratio": 1.31,
-          "resistance": 1330.0
+          "range_pct": 7.6,
+          "high": 662.5,
+          "low": 612.0,
+          "vol_ratio": 1.13,
+          "resistance": 662.5
         }
       }
     }
@@ -3124,13 +3145,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.6%(高値373円-安値367円)。出来高比1.10倍。レジスタンス373円",
+        "reason": "直近30日間のレンジ2.9%(高値373円-安値362円)。出来高比1.11倍。レジスタンス373円",
         "details": {
           "length_days": 30,
-          "range_pct": 1.6,
+          "range_pct": 2.9,
           "high": 373.0,
-          "low": 367.0,
-          "vol_ratio": 1.1,
+          "low": 362.0,
+          "vol_ratio": 1.11,
           "resistance": 373.0
         }
       }
@@ -3144,13 +3165,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.5%(高値572円-安値529円)。出来高比1.13倍。レジスタンス572円",
+        "reason": "直近30日間のレンジ7.5%(高値572円-安値529円)。出来高比1.03倍。レジスタンス572円",
         "details": {
           "length_days": 30,
           "range_pct": 7.5,
           "high": 572.0,
           "low": 529.0,
-          "vol_ratio": 1.13,
+          "vol_ratio": 1.03,
           "resistance": 572.0
         }
       }
@@ -3164,52 +3185,34 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近36日間のレンジ6.7%(高値638円-安値595円)。出来高比0.79倍。レジスタンス638円",
+        "reason": "直近30日間のレンジ7.6%(高値634円-安値586円)。出来高比0.80倍。レジスタンス634円",
         "details": {
-          "length_days": 36,
-          "range_pct": 6.7,
-          "high": 638.0,
-          "low": 595.0,
-          "vol_ratio": 0.79,
-          "resistance": 638.0
+          "length_days": 30,
+          "range_pct": 7.6,
+          "high": 634.0,
+          "low": 586.0,
+          "vol_ratio": 0.8,
+          "resistance": 634.0
         }
       }
     }
   },
   "7944": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 5.0%→12.3%→10.0%→7.3%。出来高減少2回。レジスタンス4060円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            5.0,
-            12.3,
-            10.0,
-            7.3
-          ],
-          "resistance": 4060.0,
-          "current_range_pct": 7.3
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近20日間のレンジ5.6%(高値4045円-安値3820円)。出来高比0.78倍。レジスタンス4045円",
+        "reason": "直近20日間のレンジ4.0%(高値3980円-安値3820円)。出来高比0.76倍。レジスタンス3980円",
         "details": {
           "length_days": 20,
-          "range_pct": 5.6,
-          "high": 4045.0,
+          "range_pct": 4.0,
+          "high": 3980.0,
           "low": 3820.0,
-          "vol_ratio": 0.78,
-          "resistance": 4045.0
+          "vol_ratio": 0.76,
+          "resistance": 3980.0
         }
       }
     }
@@ -3222,13 +3225,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.4%(高値2629円-安値2486円)。出来高比1.43倍。レジスタンス2629円",
+        "reason": "直近30日間のレンジ5.4%(高値2629円-安値2486円)。出来高比1.09倍。レジスタンス2629円",
         "details": {
           "length_days": 30,
           "range_pct": 5.4,
           "high": 2629.0,
           "low": 2486.0,
-          "vol_ratio": 1.43,
+          "vol_ratio": 1.09,
           "resistance": 2629.0
         }
       }
@@ -3236,19 +3239,37 @@
   },
   "7999": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 10.7%→2.7%→61.6%→1.4%。出来高減少2回。レジスタンス7640円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            10.7,
+            2.7,
+            61.6,
+            1.4
+          ],
+          "resistance": 7640.0,
+          "current_range_pct": 1.4
+        }
+      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ1.3%(高値7640円-安値7540円)。出来高比2.02倍。レジスタンス7640円",
+        "reason": "直近30日間のレンジ1.3%(高値7640円-安値7540円)。出来高比1.65倍。レジスタンス7640円",
         "details": {
           "length_days": 30,
           "range_pct": 1.3,
           "high": 7640.0,
           "low": 7540.0,
-          "vol_ratio": 2.02,
+          "vol_ratio": 1.65,
           "resistance": 7640.0
         }
       }
@@ -3262,14 +3283,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ10.0%(高値3395円-安値3055円)。出来高比1.31倍。レジスタンス3395円",
+        "reason": "直近30日間のレンジ10.5%(高値3415円-安値3055円)。出来高比1.30倍。レジスタンス3415円",
         "details": {
           "length_days": 30,
-          "range_pct": 10.0,
-          "high": 3395.0,
+          "range_pct": 10.5,
+          "high": 3415.0,
           "low": 3055.0,
-          "vol_ratio": 1.31,
-          "resistance": 3395.0
+          "vol_ratio": 1.3,
+          "resistance": 3415.0
         }
       }
     }
@@ -3302,14 +3323,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.2%(高値1592円-安値1477円)。出来高比1.28倍。レジスタンス1592円",
+        "reason": "直近30日間のレンジ8.5%(高値1614円-安値1477円)。出来高比1.28倍。レジスタンス1614円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.2,
-          "high": 1591.5,
+          "range_pct": 8.5,
+          "high": 1613.5,
           "low": 1477.0,
           "vol_ratio": 1.28,
-          "resistance": 1591.5
+          "resistance": 1613.5
         }
       }
     }
@@ -3322,34 +3343,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ10.1%(高値2404円-安値2160円)。出来高比1.31倍。レジスタンス2404円",
+        "reason": "直近30日間のレンジ12.4%(高値2466円-安値2160円)。出来高比1.32倍。レジスタンス2466円",
         "details": {
           "length_days": 30,
-          "range_pct": 10.1,
-          "high": 2404.0,
+          "range_pct": 12.4,
+          "high": 2466.0,
           "low": 2160.0,
-          "vol_ratio": 1.31,
-          "resistance": 2404.0
-        }
-      }
-    }
-  },
-  "8141": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.5%(高値1231円-安値1065円)。出来高比1.32倍。レジスタンス1231円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.5,
-          "high": 1231.0,
-          "low": 1065.0,
           "vol_ratio": 1.32,
-          "resistance": 1231.0
+          "resistance": 2466.0
         }
       }
     }
@@ -3362,14 +3363,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ6.3%(高値1355円-安値1270円)。出来高比0.72倍。レジスタンス1355円",
+        "reason": "直近30日間のレンジ7.4%(高値1371円-安値1270円)。出来高比0.68倍。レジスタンス1371円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.3,
-          "high": 1355.0,
+          "range_pct": 7.4,
+          "high": 1371.0,
           "low": 1270.0,
-          "vol_ratio": 0.72,
-          "resistance": 1355.0
+          "vol_ratio": 0.68,
+          "resistance": 1371.0
         }
       }
     }
@@ -3382,14 +3383,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.9%(高値4370円-安値4155円)。出来高比1.75倍。レジスタンス4370円",
+        "reason": "直近30日間のレンジ4.6%(高値4355円-安値4155円)。出来高比1.81倍。レジスタンス4355円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.9,
-          "high": 4370.0,
+          "range_pct": 4.6,
+          "high": 4355.0,
           "low": 4155.0,
-          "vol_ratio": 1.75,
-          "resistance": 4370.0
+          "vol_ratio": 1.81,
+          "resistance": 4355.0
         }
       }
     }
@@ -3402,13 +3403,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.1%(高値2921円-安値2715円)。出来高比1.66倍。レジスタンス2921円",
+        "reason": "直近30日間のレンジ7.1%(高値2921円-安値2715円)。出来高比1.78倍。レジスタンス2921円",
         "details": {
           "length_days": 30,
           "range_pct": 7.1,
           "high": 2921.0,
           "low": 2715.0,
-          "vol_ratio": 1.66,
+          "vol_ratio": 1.78,
           "resistance": 2921.0
         }
       }
@@ -3422,13 +3423,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ3.0%(高値300円-安値291円)。出来高比1.37倍。レジスタンス300円",
+        "reason": "直近30日間のレンジ4.7%(高値300円-安値286円)。出来高比1.46倍。レジスタンス300円",
         "details": {
           "length_days": 30,
-          "range_pct": 3.0,
+          "range_pct": 4.7,
           "high": 300.0,
-          "low": 291.0,
-          "vol_ratio": 1.37,
+          "low": 286.0,
+          "vol_ratio": 1.46,
           "resistance": 300.0
         }
       }
@@ -3442,13 +3443,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.7%(高値338円-安値329円)。出来高比1.03倍。レジスタンス338円",
+        "reason": "直近30日間のレンジ3.8%(高値338円-安値325円)。出来高比0.88倍。レジスタンス338円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.7,
+          "range_pct": 3.8,
           "high": 338.0,
-          "low": 329.0,
-          "vol_ratio": 1.03,
+          "low": 325.0,
+          "vol_ratio": 0.88,
           "resistance": 338.0
         }
       }
@@ -3462,13 +3463,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.7%(高値2504円-安値2260円)。出来高比0.98倍。レジスタンス2504円",
+        "reason": "直近30日間のレンジ9.7%(高値2504円-安値2260円)。出来高比0.99倍。レジスタンス2504円",
         "details": {
           "length_days": 30,
           "range_pct": 9.7,
           "high": 2504.0,
           "low": 2260.5,
-          "vol_ratio": 0.98,
+          "vol_ratio": 0.99,
           "resistance": 2504.0
         }
       }
@@ -3482,14 +3483,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.7%(高値1716円-安値1600円)。出来高比1.07倍。レジスタンス1716円",
+        "reason": "直近30日間のレンジ6.7%(高値1716円-安値1600円)。出来高比1.14倍。レジスタンス1716円",
         "details": {
           "length_days": 30,
           "range_pct": 6.7,
-          "high": 1715.5,
+          "high": 1716.0,
           "low": 1600.5,
-          "vol_ratio": 1.07,
-          "resistance": 1715.5
+          "vol_ratio": 1.14,
+          "resistance": 1716.0
         }
       }
     }
@@ -3502,14 +3503,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ12.9%(高値2324円-安値2024円)。出来高比1.07倍。レジスタンス2324円",
+        "reason": "直近30日間のレンジ11.3%(高値2282円-安値2024円)。出来高比1.11倍。レジスタンス2282円",
         "details": {
           "length_days": 30,
-          "range_pct": 12.9,
-          "high": 2324.0,
+          "range_pct": 11.3,
+          "high": 2282.0,
           "low": 2023.5,
-          "vol_ratio": 1.07,
-          "resistance": 2324.0
+          "vol_ratio": 1.11,
+          "resistance": 2282.0
         }
       }
     }
@@ -3522,14 +3523,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ11.8%(高値6010円-安値5300円)。出来高比1.34倍。レジスタンス6010円",
+        "reason": "直近30日間のレンジ13.0%(高値6090円-安値5300円)。出来高比1.35倍。レジスタンス6090円",
         "details": {
           "length_days": 30,
-          "range_pct": 11.8,
-          "high": 6010.0,
+          "range_pct": 13.0,
+          "high": 6090.0,
           "low": 5300.0,
-          "vol_ratio": 1.34,
-          "resistance": 6010.0
+          "vol_ratio": 1.35,
+          "resistance": 6090.0
         }
       }
     }
@@ -3543,50 +3544,30 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "左リム9640円→底8470円(深さ12.1%)→右リム回復。ハンドル調整4.9%。ピボット9789円。カップ期間23日",
+        "reason": "左リム1928円→底1694円(深さ12.1%)→右リム回復。ハンドル調整4.9%。ピボット1958円。カップ期間23日",
         "details": {
-          "left_rim_idx": 237,
-          "left_rim_price": 9640.0,
-          "bottom_idx": 250,
-          "bottom_price": 8470.0,
-          "right_rim_idx": 260,
+          "left_rim_idx": 236,
+          "left_rim_price": 1928.0,
+          "bottom_idx": 249,
+          "bottom_price": 1694.0,
+          "right_rim_idx": 259,
           "cup_depth_pct": 12.1,
           "handle_depth_pct": 4.9,
           "cup_length_days": 23,
-          "pivot_price": 9788.7
+          "pivot_price": 1957.7
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.0%(高値9740円-安値8470円)。出来高比1.30倍。レジスタンス9740円",
+        "reason": "直近30日間のレンジ13.0%(高値1948円-安値1694円)。出来高比1.14倍。レジスタンス1948円",
         "details": {
           "length_days": 30,
           "range_pct": 13.0,
-          "high": 9740.0,
-          "low": 8470.0,
-          "vol_ratio": 1.3,
-          "resistance": 9740.0
-        }
-      }
-    }
-  },
-  "8624": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.7%(高値1515円-安値1307円)。出来高比1.26倍。レジスタンス1515円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 13.7,
-          "high": 1515.0,
-          "low": 1307.0,
-          "vol_ratio": 1.26,
-          "resistance": 1515.0
+          "high": 1948.0,
+          "low": 1694.0,
+          "vol_ratio": 1.14,
+          "resistance": 1948.0
         }
       }
     }
@@ -3599,13 +3580,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.3%(高値1006円-安値922円)。出来高比1.36倍。レジスタンス1006円",
+        "reason": "直近30日間のレンジ8.3%(高値1006円-安値922円)。出来高比1.37倍。レジスタンス1006円",
         "details": {
           "length_days": 30,
           "range_pct": 8.3,
           "high": 1006.0,
           "low": 922.0,
-          "vol_ratio": 1.36,
+          "vol_ratio": 1.37,
           "resistance": 1006.0
         }
       }
@@ -3619,14 +3600,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.7%(高値6245円-安値5641円)。出来高比1.04倍。レジスタンス6245円",
+        "reason": "直近30日間のレンジ9.9%(高値6262円-安値5641円)。出来高比1.05倍。レジスタンス6262円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.7,
-          "high": 6245.0,
+          "range_pct": 9.9,
+          "high": 6262.0,
           "low": 5641.0,
-          "vol_ratio": 1.04,
-          "resistance": 6245.0
+          "vol_ratio": 1.05,
+          "resistance": 6262.0
         }
       }
     }
@@ -3639,13 +3620,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.5%(高値1869円-安値1711円)。出来高比1.96倍。レジスタンス1869円",
+        "reason": "直近30日間のレンジ8.5%(高値1869円-安値1711円)。出来高比1.99倍。レジスタンス1869円",
         "details": {
           "length_days": 30,
           "range_pct": 8.5,
           "high": 1869.0,
           "low": 1711.0,
-          "vol_ratio": 1.96,
+          "vol_ratio": 1.99,
           "resistance": 1869.0
         }
       }
@@ -3659,13 +3640,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.6%(高値1982円-安値1812円)。出来高比1.24倍。レジスタンス1982円",
+        "reason": "直近30日間のレンジ8.4%(高値1982円-安値1816円)。出来高比1.28倍。レジスタンス1982円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.6,
+          "range_pct": 8.4,
           "high": 1982.5,
-          "low": 1812.0,
-          "vol_ratio": 1.24,
+          "low": 1816.0,
+          "vol_ratio": 1.28,
           "resistance": 1982.5
         }
       }
@@ -3679,13 +3660,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.8%(高値1162円-安値1129円)。出来高比1.06倍。レジスタンス1162円",
+        "reason": "直近30日間のレンジ2.8%(高値1162円-安値1129円)。出来高比0.86倍。レジスタンス1162円",
         "details": {
           "length_days": 30,
           "range_pct": 2.8,
           "high": 1162.0,
           "low": 1129.0,
-          "vol_ratio": 1.06,
+          "vol_ratio": 0.86,
           "resistance": 1162.0
         }
       }
@@ -3702,11 +3683,11 @@
         "confidence": 0.85,
         "reason": "左リム10円→底8円(深さ20.0%)→右リム回復。ハンドル調整10.0%。ピボット10円。カップ期間57日",
         "details": {
-          "left_rim_idx": 161,
+          "left_rim_idx": 160,
           "left_rim_price": 10.0,
-          "bottom_idx": 210,
+          "bottom_idx": 209,
           "bottom_price": 8.0,
-          "right_rim_idx": 218,
+          "right_rim_idx": 217,
           "cup_depth_pct": 20.0,
           "handle_depth_pct": 10.0,
           "cup_length_days": 57,
@@ -3716,13 +3697,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ10.0%(高値10円-安値9円)。出来高比0.96倍。レジスタンス10円",
+        "reason": "直近30日間のレンジ10.0%(高値10円-安値9円)。出来高比0.97倍。レジスタンス10円",
         "details": {
           "length_days": 30,
           "range_pct": 10.0,
           "high": 10.0,
           "low": 9.0,
-          "vol_ratio": 0.96,
+          "vol_ratio": 0.97,
           "resistance": 10.0
         }
       }
@@ -3736,13 +3717,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.2%(高値1209円-安値1134円)。出来高比0.98倍。レジスタンス1209円",
+        "reason": "直近30日間のレンジ6.2%(高値1209円-安値1134円)。出来高比0.97倍。レジスタンス1209円",
         "details": {
           "length_days": 30,
           "range_pct": 6.2,
           "high": 1209.0,
           "low": 1134.0,
-          "vol_ratio": 0.98,
+          "vol_ratio": 0.97,
           "resistance": 1209.0
         }
       }
@@ -3756,51 +3737,33 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.1%(高値2977円-安値2766円)。出来高比1.29倍。レジスタンス2977円",
+        "reason": "直近30日間のレンジ7.8%(高値3000円-安値2766円)。出来高比1.47倍。レジスタンス3000円",
         "details": {
           "length_days": 30,
-          "range_pct": 7.1,
-          "high": 2977.0,
+          "range_pct": 7.8,
+          "high": 3000.0,
           "low": 2765.5,
-          "vol_ratio": 1.29,
-          "resistance": 2977.0
+          "vol_ratio": 1.47,
+          "resistance": 3000.0
         }
       }
     }
   },
   "9010": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 9.4%→5.4%→16.4%→10.2%。出来高減少1回。レジスタンス2518円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            9.4,
-            5.4,
-            16.4,
-            10.2
-          ],
-          "resistance": 2518.0,
-          "current_range_pct": 10.2
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ8.2%(高値2505円-安値2299円)。出来高比1.17倍。レジスタンス2505円",
+        "reason": "直近20日間のレンジ8.2%(高値2505円-安値2299円)。出来高比1.15倍。レジスタンス2505円",
         "details": {
           "length_days": 20,
           "range_pct": 8.2,
           "high": 2505.0,
           "low": 2299.0,
-          "vol_ratio": 1.17,
+          "vol_ratio": 1.15,
           "resistance": 2505.0
         }
       }
@@ -3808,38 +3771,20 @@
   },
   "9044": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 7.8%→3.7%→9.2%→7.5%。出来高減少1回。レジスタンス3173円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            7.8,
-            3.7,
-            9.2,
-            7.5
-          ],
-          "resistance": 3173.0,
-          "current_range_pct": 7.5
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.4%(高値3151円-安値2948円)。出来高比1.21倍。レジスタンス3151円",
+        "reason": "直近30日間のレンジ6.7%(高値3161円-安値2948円)。出来高比1.36倍。レジスタンス3161円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.4,
-          "high": 3151.0,
+          "range_pct": 6.7,
+          "high": 3161.0,
           "low": 2948.0,
-          "vol_ratio": 1.21,
-          "resistance": 3151.0
+          "vol_ratio": 1.36,
+          "resistance": 3161.0
         }
       }
     }
@@ -3852,13 +3797,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.5,
-        "reason": "直近20日間のレンジ13.3%(高値1867円-安値1618円)。出来高比1.50倍。レジスタンス1867円",
+        "reason": "直近20日間のレンジ13.3%(高値1867円-安値1618円)。出来高比1.40倍。レジスタンス1867円",
         "details": {
           "length_days": 20,
           "range_pct": 13.3,
           "high": 1867.0,
           "low": 1618.0,
-          "vol_ratio": 1.5,
+          "vol_ratio": 1.4,
           "resistance": 1867.0
         }
       }
@@ -3866,37 +3811,19 @@
   },
   "9163": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 7.1%→5.7%→3.4%→6.6%。出来高減少2回。レジスタンス2437円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 2,
-          "ranges_pct": [
-            7.1,
-            5.7,
-            3.4,
-            6.6
-          ],
-          "resistance": 2437.0,
-          "current_range_pct": 6.6
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ5.6%(高値2437円-安値2300円)。出来高比0.76倍。レジスタンス2437円",
+        "reason": "直近36日間のレンジ5.6%(高値2437円-安値2300円)。出来高比0.79倍。レジスタンス2437円",
         "details": {
-          "length_days": 30,
+          "length_days": 36,
           "range_pct": 5.6,
           "high": 2437.0,
           "low": 2300.0,
-          "vol_ratio": 0.76,
+          "vol_ratio": 0.79,
           "resistance": 2437.0
         }
       }
@@ -3910,13 +3837,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.1%(高値1650円-安値1582円)。出来高比1.62倍。レジスタンス1650円",
+        "reason": "直近30日間のレンジ6.9%(高値1650円-安値1536円)。出来高比1.69倍。レジスタンス1650円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.1,
+          "range_pct": 6.9,
           "high": 1650.0,
-          "low": 1582.0,
-          "vol_ratio": 1.62,
+          "low": 1536.0,
+          "vol_ratio": 1.69,
           "resistance": 1650.0
         }
       }
@@ -3930,13 +3857,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ0.3%(高値66600円-安値66400円)。出来高比0.13倍。レジスタンス66600円",
+        "reason": "直近30日間のレンジ0.3%(高値66600円-安値66400円)。出来高比0.12倍。レジスタンス66600円",
         "details": {
           "length_days": 30,
           "range_pct": 0.3,
           "high": 66600.0,
           "low": 66400.0,
-          "vol_ratio": 0.13,
+          "vol_ratio": 0.12,
           "resistance": 66600.0
         }
       }
@@ -3953,11 +3880,11 @@
         "confidence": 0.8,
         "reason": "左リム3932円→底3449円(深さ12.3%)→右リム回復。ハンドル調整2.4%。ピボット4151円。カップ期間53日",
         "details": {
-          "left_rim_idx": 199,
+          "left_rim_idx": 198,
           "left_rim_price": 3932.0,
-          "bottom_idx": 244,
+          "bottom_idx": 243,
           "bottom_price": 3449.0,
-          "right_rim_idx": 252,
+          "right_rim_idx": 251,
           "cup_depth_pct": 12.3,
           "handle_depth_pct": 2.4,
           "cup_length_days": 53,
@@ -3967,13 +3894,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.5,
-        "reason": "直近20日間のレンジ11.0%(高値4130円-安値3674円)。出来高比1.13倍。レジスタンス4130円",
+        "reason": "直近20日間のレンジ11.0%(高値4130円-安値3674円)。出来高比1.06倍。レジスタンス4130円",
         "details": {
           "length_days": 20,
           "range_pct": 11.0,
           "high": 4130.0,
           "low": 3674.0,
-          "vol_ratio": 1.13,
+          "vol_ratio": 1.06,
           "resistance": 4130.0
         }
       }
@@ -3987,34 +3914,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.1%(高値2150円-安値1998円)。出来高比1.07倍。レジスタンス2150円",
+        "reason": "直近30日間のレンジ7.1%(高値2150円-安値1998円)。出来高比1.13倍。レジスタンス2150円",
         "details": {
           "length_days": 30,
           "range_pct": 7.1,
           "high": 2150.0,
           "low": 1998.0,
-          "vol_ratio": 1.07,
+          "vol_ratio": 1.13,
           "resistance": 2150.0
-        }
-      }
-    }
-  },
-  "9319": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.0%(高値1947円-安値1675円)。出来高比1.52倍。レジスタンス1947円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 14.0,
-          "high": 1947.0,
-          "low": 1675.0,
-          "vol_ratio": 1.52,
-          "resistance": 1947.0
         }
       }
     }
@@ -4027,32 +3934,32 @@
     "details": {
       "vcp": {
         "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 9.5%→2.7%→13.3%→5.4%。出来高減少1回。レジスタンス922円",
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 8.4%→2.2%→13.3%→6.7%。出来高減少2回。レジスタンス922円",
         "details": {
           "contractions": 2,
-          "vol_declining_segments": 1,
+          "vol_declining_segments": 2,
           "ranges_pct": [
-            9.5,
-            2.7,
+            8.4,
+            2.2,
             13.3,
-            5.4
+            6.7
           ],
           "resistance": 922.0,
-          "current_range_pct": 5.4
+          "current_range_pct": 6.7
         }
       },
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ4.3%(高値917円-安値878円)。出来高比1.31倍。レジスタンス917円",
+        "confidence": 0.85,
+        "reason": "直近30日間のレンジ6.6%(高値921円-安値860円)。出来高比1.44倍。レジスタンス921円",
         "details": {
-          "length_days": 20,
-          "range_pct": 4.3,
-          "high": 917.0,
-          "low": 878.0,
-          "vol_ratio": 1.31,
-          "resistance": 917.0
+          "length_days": 30,
+          "range_pct": 6.6,
+          "high": 921.0,
+          "low": 860.0,
+          "vol_ratio": 1.44,
+          "resistance": 921.0
         }
       }
     }
@@ -4066,30 +3973,30 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 15.6%→12.4%→61.3%→0.4%。出来高減少1回。レジスタンス4560円",
+        "reason": "収縮2回検出。レンジ: 15.4%→12.9%→60.9%→1.5%。出来高減少1回。レジスタンス4560円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
           "ranges_pct": [
-            15.6,
-            12.4,
-            61.3,
-            0.4
+            15.4,
+            12.9,
+            60.9,
+            1.5
           ],
           "resistance": 4560.0,
-          "current_range_pct": 0.4
+          "current_range_pct": 1.5
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近20日間のレンジ0.2%(高値4550円-安値4540円)。出来高比0.74倍。レジスタンス4550円",
+        "reason": "直近20日間のレンジ0.8%(高値4550円-安値4515円)。出来高比0.60倍。レジスタンス4550円",
         "details": {
           "length_days": 20,
-          "range_pct": 0.2,
+          "range_pct": 0.8,
           "high": 4550.0,
-          "low": 4540.0,
-          "vol_ratio": 0.74,
+          "low": 4515.0,
+          "vol_ratio": 0.6,
           "resistance": 4550.0
         }
       }
@@ -4097,38 +4004,20 @@
   },
   "9347": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 4.0%→3.2%→6.6%→4.9%。出来高減少1回。レジスタンス2919円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 1,
-          "ranges_pct": [
-            4.0,
-            3.2,
-            6.6,
-            4.9
-          ],
-          "resistance": 2919.0,
-          "current_range_pct": 4.9
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.6%(高値2919円-安値2784円)。出来高比1.51倍。レジスタンス2919円",
+        "reason": "直近30日間のレンジ5.3%(高値2940円-安値2784円)。出来高比1.60倍。レジスタンス2940円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.6,
-          "high": 2919.0,
+          "range_pct": 5.3,
+          "high": 2940.0,
           "low": 2784.0,
-          "vol_ratio": 1.51,
-          "resistance": 2919.0
+          "vol_ratio": 1.6,
+          "resistance": 2940.0
         }
       }
     }
@@ -4141,14 +4030,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ13.5%(高値3710円-安値3210円)。出来高比1.22倍。レジスタンス3710円",
+        "reason": "直近30日間のレンジ12.3%(高値3660円-安値3210円)。出来高比1.15倍。レジスタンス3660円",
         "details": {
           "length_days": 30,
-          "range_pct": 13.5,
-          "high": 3710.0,
+          "range_pct": 12.3,
+          "high": 3660.0,
           "low": 3210.0,
-          "vol_ratio": 1.22,
-          "resistance": 3710.0
+          "vol_ratio": 1.15,
+          "resistance": 3660.0
         }
       }
     }
@@ -4162,14 +4051,14 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 17.5%→11.5%→28.0%→17.5%。出来高減少2回。レジスタンス3195円",
+        "reason": "収縮2回検出。レンジ: 17.0%→14.3%→25.7%→17.5%。出来高減少2回。レジスタンス3195円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
-            17.5,
-            11.5,
-            28.0,
+            17.0,
+            14.3,
+            25.7,
             17.5
           ],
           "resistance": 3195.0,
@@ -4198,15 +4087,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.8%(高値661円-安値603円)。出来高比1.01倍。レジスタンス661円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ10.7%(高値675円-安値603円)。出来高比1.04倍。レジスタンス675円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.8,
-          "high": 661.0,
+          "range_pct": 10.7,
+          "high": 675.0,
           "low": 603.0,
-          "vol_ratio": 1.01,
-          "resistance": 661.0
+          "vol_ratio": 1.04,
+          "resistance": 675.0
         }
       }
     }
@@ -4219,13 +4108,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.1%(高値3505円-安値3220円)。出来高比0.93倍。レジスタンス3505円",
+        "reason": "直近30日間のレンジ6.6%(高値3505円-安値3275円)。出来高比0.95倍。レジスタンス3505円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.1,
+          "range_pct": 6.6,
           "high": 3505.0,
-          "low": 3220.0,
-          "vol_ratio": 0.93,
+          "low": 3275.0,
+          "vol_ratio": 0.95,
           "resistance": 3505.0
         }
       }
@@ -4233,20 +4122,38 @@
   },
   "9439": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.8,
+        "reason": "収縮2回検出。レンジ: 14.6%→6.4%→3.9%→12.2%。出来高減少1回。レジスタンス246円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 1,
+          "ranges_pct": [
+            14.6,
+            6.4,
+            3.9,
+            12.2
+          ],
+          "resistance": 246.0,
+          "current_range_pct": 12.2
+        }
+      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.5%(高値243円-安値220円)。出来高比1.06倍。レジスタンス243円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ10.6%(高値246円-安値220円)。出来高比1.08倍。レジスタンス246円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.5,
-          "high": 243.0,
+          "range_pct": 10.6,
+          "high": 246.0,
           "low": 220.0,
-          "vol_ratio": 1.06,
-          "resistance": 243.0
+          "vol_ratio": 1.08,
+          "resistance": 246.0
         }
       }
     }
@@ -4258,14 +4165,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.5,
-        "reason": "直近20日間のレンジ12.7%(高値2958円-安値2583円)。出来高比1.94倍。レジスタンス2958円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ14.3%(高値2958円-安値2536円)。出来高比1.56倍。レジスタンス2958円",
         "details": {
-          "length_days": 20,
-          "range_pct": 12.7,
+          "length_days": 30,
+          "range_pct": 14.3,
           "high": 2958.0,
-          "low": 2583.0,
-          "vol_ratio": 1.94,
+          "low": 2536.0,
+          "vol_ratio": 1.56,
           "resistance": 2958.0
         }
       }
@@ -4278,14 +4185,14 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.7,
-        "reason": "直近20日間のレンジ8.8%(高値582円-安値531円)。出来高比0.98倍。レジスタンス582円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ13.7%(高値582円-安値502円)。出来高比0.97倍。レジスタンス582円",
         "details": {
-          "length_days": 20,
-          "range_pct": 8.8,
+          "length_days": 30,
+          "range_pct": 13.7,
           "high": 582.0,
-          "low": 531.0,
-          "vol_ratio": 0.98,
+          "low": 502.0,
+          "vol_ratio": 0.97,
           "resistance": 582.0
         }
       }
@@ -4298,15 +4205,15 @@
     "details": {
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.2%(高値2686円-安値2438円)。出来高比0.88倍。レジスタンス2686円",
+        "confidence": 0.65,
+        "reason": "直近30日間のレンジ10.3%(高値2719円-安値2438円)。出来高比0.89倍。レジスタンス2719円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.2,
-          "high": 2686.5,
+          "range_pct": 10.3,
+          "high": 2719.0,
           "low": 2438.5,
-          "vol_ratio": 0.88,
-          "resistance": 2686.5
+          "vol_ratio": 0.89,
+          "resistance": 2719.0
         }
       }
     }
@@ -4320,50 +4227,30 @@
       "cup_with_handle": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "左リム1814円→底1558円(深さ14.1%)→右リム回復。ハンドル調整3.4%。ピボット1800円。カップ期間17日",
+        "reason": "左リム1814円→底1558円(深さ14.1%)→右リム回復。ハンドル調整3.4%。ピボット1824円。カップ期間17日",
         "details": {
-          "left_rim_idx": 242,
+          "left_rim_idx": 241,
           "left_rim_price": 1813.5,
-          "bottom_idx": 253,
+          "bottom_idx": 252,
           "bottom_price": 1558.5,
-          "right_rim_idx": 259,
+          "right_rim_idx": 258,
           "cup_depth_pct": 14.1,
           "handle_depth_pct": 3.4,
           "cup_length_days": 17,
-          "pivot_price": 1800.0
+          "pivot_price": 1823.6
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.1%(高値1814円-安値1558円)。出来高比1.06倍。レジスタンス1814円",
+        "reason": "直近30日間のレンジ14.1%(高値1814円-安値1558円)。出来高比1.07倍。レジスタンス1814円",
         "details": {
           "length_days": 30,
           "range_pct": 14.1,
-          "high": 1813.5,
+          "high": 1814.5,
           "low": 1558.5,
-          "vol_ratio": 1.06,
-          "resistance": 1813.5
-        }
-      }
-    }
-  },
-  "9513": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.5,
-        "reason": "直近20日間のレンジ14.0%(高値4207円-安値3619円)。出来高比1.66倍。レジスタンス4207円",
-        "details": {
-          "length_days": 20,
-          "range_pct": 14.0,
-          "high": 4207.0,
-          "low": 3619.0,
-          "vol_ratio": 1.66,
-          "resistance": 4207.0
+          "vol_ratio": 1.07,
+          "resistance": 1814.5
         }
       }
     }
@@ -4376,13 +4263,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.9%(高値7861円-安値7080円)。出来高比0.97倍。レジスタンス7861円",
+        "reason": "直近30日間のレンジ9.9%(高値7861円-安値7080円)。出来高比1.00倍。レジスタンス7861円",
         "details": {
           "length_days": 30,
           "range_pct": 9.9,
           "high": 7861.0,
           "low": 7080.0,
-          "vol_ratio": 0.97,
+          "vol_ratio": 1.0,
           "resistance": 7861.0
         }
       }
@@ -4396,13 +4283,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.6%(高値416円-安値376円)。出来高比2.05倍。レジスタンス416円",
+        "reason": "直近30日間のレンジ9.6%(高値416円-安値376円)。出来高比2.06倍。レジスタンス416円",
         "details": {
           "length_days": 30,
           "range_pct": 9.6,
           "high": 416.0,
           "low": 376.0,
-          "vol_ratio": 2.05,
+          "vol_ratio": 2.06,
           "resistance": 416.0
         }
       }
@@ -4417,30 +4304,30 @@
       "vcp": {
         "detected": true,
         "confidence": 0.8,
-        "reason": "収縮2回検出。レンジ: 15.4%→6.4%→12.2%→8.5%。出来高減少1回。レジスタンス2626円",
+        "reason": "収縮2回検出。レンジ: 16.3%→7.9%→10.7%→8.3%。出来高減少1回。レジスタンス2620円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 1,
           "ranges_pct": [
-            15.4,
-            6.4,
-            12.2,
-            8.5
+            16.3,
+            7.9,
+            10.7,
+            8.3
           ],
-          "resistance": 2626.0,
-          "current_range_pct": 8.5
+          "resistance": 2620.0,
+          "current_range_pct": 8.3
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ7.4%(高値2625円-安値2431円)。出来高比1.31倍。レジスタンス2625円",
+        "reason": "直近30日間のレンジ7.4%(高値2625円-安値2431円)。出来高比1.36倍。レジスタンス2625円",
         "details": {
           "length_days": 30,
           "range_pct": 7.4,
           "high": 2625.0,
           "low": 2431.0,
-          "vol_ratio": 1.31,
+          "vol_ratio": 1.36,
           "resistance": 2625.0
         }
       }
@@ -4454,14 +4341,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.65,
-        "reason": "直近30日間のレンジ14.2%(高値5970円-安値5120円)。出来高比1.14倍。レジスタンス5970円",
+        "reason": "直近30日間のレンジ14.7%(高値6000円-安値5120円)。出来高比1.14倍。レジスタンス6000円",
         "details": {
           "length_days": 30,
-          "range_pct": 14.2,
-          "high": 5970.0,
+          "range_pct": 14.7,
+          "high": 6000.0,
           "low": 5120.0,
           "vol_ratio": 1.14,
-          "resistance": 5970.0
+          "resistance": 6000.0
         }
       }
     }
@@ -4474,13 +4361,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.7,
-        "reason": "直近20日間のレンジ8.5%(高値1709円-安値1564円)。出来高比1.57倍。レジスタンス1709円",
+        "reason": "直近20日間のレンジ8.5%(高値1709円-安値1564円)。出来高比1.52倍。レジスタンス1709円",
         "details": {
           "length_days": 20,
           "range_pct": 8.5,
           "high": 1709.0,
           "low": 1564.0,
-          "vol_ratio": 1.57,
+          "vol_ratio": 1.52,
           "resistance": 1709.0
         }
       }
@@ -4495,30 +4382,30 @@
       "vcp": {
         "detected": true,
         "confidence": 0.9,
-        "reason": "収縮2回検出。レンジ: 5.5%→2.7%→7.0%→5.1%。出来高減少2回。レジスタンス2285円",
+        "reason": "収縮2回検出。レンジ: 5.5%→2.2%→7.0%→5.9%。出来高減少2回。レジスタンス2285円",
         "details": {
           "contractions": 2,
           "vol_declining_segments": 2,
           "ranges_pct": [
             5.5,
-            2.7,
+            2.2,
             7.0,
-            5.1
+            5.9
           ],
           "resistance": 2285.0,
-          "current_range_pct": 5.1
+          "current_range_pct": 5.9
         }
       },
       "flat_base": {
         "detected": true,
         "confidence": 1.0,
-        "reason": "直近30日間のレンジ5.2%(高値2276円-安値2157円)。出来高比0.80倍。レジスタンス2276円",
+        "reason": "直近30日間のレンジ4.9%(高値2276円-安値2165円)。出来高比0.76倍。レジスタンス2276円",
         "details": {
           "length_days": 30,
-          "range_pct": 5.2,
+          "range_pct": 4.9,
           "high": 2276.0,
-          "low": 2157.0,
-          "vol_ratio": 0.8,
+          "low": 2165.0,
+          "vol_ratio": 0.76,
           "resistance": 2276.0
         }
       }
@@ -4532,13 +4419,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.5,
-        "reason": "直近20日間のレンジ14.9%(高値1645円-安値1400円)。出来高比1.40倍。レジスタンス1645円",
+        "reason": "直近20日間のレンジ14.4%(高値1645円-安値1408円)。出来高比1.44倍。レジスタンス1645円",
         "details": {
           "length_days": 20,
-          "range_pct": 14.9,
+          "range_pct": 14.4,
           "high": 1645.0,
-          "low": 1400.0,
-          "vol_ratio": 1.4,
+          "low": 1408.0,
+          "vol_ratio": 1.44,
           "resistance": 1645.0
         }
       }
@@ -4552,34 +4439,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ9.4%(高値700円-安値634円)。出来高比1.38倍。レジスタンス700円",
+        "reason": "直近30日間のレンジ8.6%(高値700円-安値640円)。出来高比1.42倍。レジスタンス700円",
         "details": {
           "length_days": 30,
-          "range_pct": 9.4,
+          "range_pct": 8.6,
           "high": 700.0,
-          "low": 634.0,
-          "vol_ratio": 1.38,
+          "low": 640.0,
+          "vol_ratio": 1.42,
           "resistance": 700.0
-        }
-      }
-    }
-  },
-  "9733": {
-    "patterns": [
-      "flat_base"
-    ],
-    "details": {
-      "flat_base": {
-        "detected": true,
-        "confidence": 0.85,
-        "reason": "直近30日間のレンジ5.7%(高値2845円-安値2684円)。出来高比1.23倍。レジスタンス2845円",
-        "details": {
-          "length_days": 30,
-          "range_pct": 5.7,
-          "high": 2845.0,
-          "low": 2684.0,
-          "vol_ratio": 1.23,
-          "resistance": 2845.0
         }
       }
     }
@@ -4592,13 +4459,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ8.8%(高値3985円-安値3635円)。出来高比1.10倍。レジスタンス3985円",
+        "reason": "直近30日間のレンジ8.4%(高値3985円-安値3650円)。出来高比1.16倍。レジスタンス3985円",
         "details": {
           "length_days": 30,
-          "range_pct": 8.8,
+          "range_pct": 8.4,
           "high": 3985.0,
-          "low": 3635.0,
-          "vol_ratio": 1.1,
+          "low": 3650.0,
+          "vol_ratio": 1.16,
           "resistance": 3985.0
         }
       }
@@ -4612,13 +4479,13 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ2.4%(高値965円-安値942円)。出来高比1.47倍。レジスタンス965円",
+        "reason": "直近30日間のレンジ5.6%(高値965円-安値911円)。出来高比1.54倍。レジスタンス965円",
         "details": {
           "length_days": 30,
-          "range_pct": 2.4,
+          "range_pct": 5.6,
           "high": 965.0,
-          "low": 942.0,
-          "vol_ratio": 1.47,
+          "low": 911.0,
+          "vol_ratio": 1.54,
           "resistance": 965.0
         }
       }
@@ -4626,19 +4493,37 @@
   },
   "9895": {
     "patterns": [
+      "vcp",
       "flat_base"
     ],
     "details": {
+      "vcp": {
+        "detected": true,
+        "confidence": 0.9,
+        "reason": "収縮2回検出。レンジ: 2.3%→17.5%→10.1%→5.1%。出来高減少2回。レジスタンス1330円",
+        "details": {
+          "contractions": 2,
+          "vol_declining_segments": 2,
+          "ranges_pct": [
+            2.3,
+            17.5,
+            10.1,
+            5.1
+          ],
+          "resistance": 1330.0,
+          "current_range_pct": 5.1
+        }
+      },
       "flat_base": {
         "detected": true,
-        "confidence": 0.85,
-        "reason": "直近20日間のレンジ3.4%(高値1332円-安値1287円)。出来高比0.59倍。レジスタンス1332円",
+        "confidence": 1.0,
+        "reason": "直近30日間のレンジ4.8%(高値1332円-安値1268円)。出来高比0.70倍。レジスタンス1332円",
         "details": {
-          "length_days": 20,
-          "range_pct": 3.4,
+          "length_days": 30,
+          "range_pct": 4.8,
           "high": 1332.0,
-          "low": 1287.0,
-          "vol_ratio": 0.59,
+          "low": 1268.0,
+          "vol_ratio": 0.7,
           "resistance": 1332.0
         }
       }
@@ -4646,38 +4531,20 @@
   },
   "9956": {
     "patterns": [
-      "vcp",
       "flat_base"
     ],
     "details": {
-      "vcp": {
-        "detected": true,
-        "confidence": 0.7,
-        "reason": "収縮2回検出。レンジ: 12.1%→9.9%→12.1%→8.9%。出来高減少0回。レジスタンス3760円",
-        "details": {
-          "contractions": 2,
-          "vol_declining_segments": 0,
-          "ranges_pct": [
-            12.1,
-            9.9,
-            12.1,
-            8.9
-          ],
-          "resistance": 3760.0,
-          "current_range_pct": 8.9
-        }
-      },
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ6.4%(高値3755円-安値3515円)。出来高比1.19倍。レジスタンス3755円",
+        "reason": "直近30日間のレンジ6.6%(高値3765円-安値3515円)。出来高比1.12倍。レジスタンス3765円",
         "details": {
           "length_days": 30,
-          "range_pct": 6.4,
-          "high": 3755.0,
+          "range_pct": 6.6,
+          "high": 3765.0,
           "low": 3515.0,
-          "vol_ratio": 1.19,
-          "resistance": 3755.0
+          "vol_ratio": 1.12,
+          "resistance": 3765.0
         }
       }
     }
@@ -4690,14 +4557,14 @@
       "flat_base": {
         "detected": true,
         "confidence": 0.85,
-        "reason": "直近30日間のレンジ4.2%(高値2699円-安値2585円)。出来高比1.07倍。レジスタンス2699円",
+        "reason": "直近30日間のレンジ3.9%(高値2701円-安値2597円)。出来高比1.12倍。レジスタンス2701円",
         "details": {
           "length_days": 30,
-          "range_pct": 4.2,
-          "high": 2699.0,
-          "low": 2585.0,
-          "vol_ratio": 1.07,
-          "resistance": 2699.0
+          "range_pct": 3.9,
+          "high": 2701.0,
+          "low": 2597.0,
+          "vol_ratio": 1.12,
+          "resistance": 2701.0
         }
       }
     }
