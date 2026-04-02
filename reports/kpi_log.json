@@ -2,41 +2,45 @@
   {
     "date": "2026-04-02",
     "teams": {
-      "情報収集": {
-        "coverage": "4/5",
-        "specificity": "3/5",
-        "usefulness": "4/5",
-        "consistency": "4/5",
-        "linkage": "4/5",
-        "ai_usage": "4/5",
-        "total": "**3.8/5**"
+      "info": {
+        "coverage": 6.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 8.0,
+        "linkage": 6.0,
+        "ai_usage": 6.0
       },
-      "リスク管理": {
-        "coverage": "3/5",
-        "specificity": "2/5",
-        "usefulness": "3/5",
-        "consistency": "3/5",
-        "linkage": "3/5",
-        "ai_usage": "3/5",
-        "total": "**2.8/5**"
+      "risk": {
+        "coverage": 6.0,
+        "specificity": 6.0,
+        "usefulness": 8.0,
+        "consistency": 10.0,
+        "linkage": 8.0,
+        "ai_usage": 6.0
       },
-      "投資戦略": {
-        "coverage": "3/5",
-        "specificity": "2/5",
-        "usefulness": "4/5",
-        "consistency": "4/5",
-        "linkage": "4/5",
-        "ai_usage": "4/5",
-        "total": "**3.5/5**"
+      "strategy": {
+        "coverage": 8.0,
+        "specificity": 8.0,
+        "usefulness": 10.0,
+        "consistency": 8.0,
+        "linkage": 10.0,
+        "ai_usage": 8.0
       },
-      "セキュリティ": {
-        "coverage": "4/5",
-        "specificity": "4/5",
-        "usefulness": "4/5",
-        "consistency": "4/5",
-        "linkage": "4/5",
-        "ai_usage": "4/5",
-        "total": "**4.0/5**"
+      "report": {
+        "coverage": 8.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 8.0,
+        "linkage": 10.0,
+        "ai_usage": 6.0
+      },
+      "security": {
+        "coverage": 10.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 8.0,
+        "linkage": 6.0,
+        "ai_usage": 8.0
       }
     }
   }
