@@ -1,9 +1,11 @@
 # 情報セキュリティチーム レポート
 日付: 2026-04-02
 
+---
+
 ## 総合評価: YELLOW
 
-> 内部監査はすべてグリーン。ただし外部脅威環境の悪化（Next.js/React DoS脆弱性・サプライチェーン攻撃・AI API悪用）を踏まえ、予防的対応が必要なため YELLOW と判定。
+> 内部監査では重大な問題は検出されず。ただし、本日時点で外部サプライチェーン攻撃・Next.js/Vercel脅威・AI APIソースコード流出など、本システムに直接関連する高リスク外部脅威が複数確認されており、予防的対応を推奨する。
 
 ---
 
@@ -11,97 +13,140 @@
 
 | 項目 | 状態 | 詳細 |
 |------|------|------|
-| コミット履歴 | ✅ | 直近20件（代表: `f7573b6`）に `key` / `secret` / `password` / `token` の危険キーワードなし。コミットメッセージは機能修正（KPIログ・null安全化・責任表記）に限定されており問題なし |
-| CDNスクリプト | ✅ | 今回のコミットで `index.html` へのCDN外部スクリプト追加は確認されず。プロジェクトルール（外部CDN禁止）への違反なし |
-| APIキー露出 | ✅ | `sk-`（Anthropic）/ `AIza`（Google）/ `Bearer` のハードコードパターンは検出されず。既知の安全設計（Vercel環境変数管理）が維持されていると判断 |
-| Vercelプロキシ | ✅ | `api/claude.js` / `api/gemini.js` のサーバーレス関数構成に変更なし。APIキーはサーバーサイドのみで処理され、クライアントへの漏洩経路は設計上排除されている |
-| GitHub Actions | ✅ | ワークフローへの変更コミットなし。シークレット（`ANTHROPIC_API_KEY` / `GEMINI_API`）はGitHub Secrets経由で管理されており、ログ出力・echo露出のリスクは現時点で検出されず |
+| コミット履歴 | ✅ | 直近20件（代表: `418e830`）を確認。`key` / `secret` / `password` / `token` のいずれのキーワードも含まれていない。内容は429リトライ処理追加・`PARALLEL_WORKERS=1`削減という機能修正であり、機密情報の混入リスクなし。 |
+| CDNスクリプト | ✅ | 今回のコミットは `_fetch_daily` 関数修正のみ。`index.html` への外部CDNスクリプト追加は確認されず。プロジェクトルール違反なし。 |
+| APIキー露出 | ✅ | `sk-`・`AIza`・`Bearer` パターンのハードコードはコミット差分内に検出されず。既知の安全設計（Vercel環境変数管理）と整合的。 |
+| Vercelプロキシ | ✅ | `api/claude.js` / `api/gemini.js` の変更は今回コミットに含まれない。APIキーはサーバーサイド環境変数経由で管理、GeminiキーはHTTPヘッダー非送信設計を維持。現時点で実装上の問題は確認されていない。⚠️ **ただし後述の外部脅威（CVE-2025-55182, Axios侵害）に対する影響評価を要する。** |
+| GitHub Actions | ✅ | 今回のコミットにワークフロー変更なし。シークレット定義（`ANTHROPIC_API_KEY` / `GEMINI_API`）はGitHub Secrets管理で設計上問題なし。⚠️ **ただし後述のGitHub Actionsサプライチェーン攻撃傾向を踏まえ、既存ワークフローの権限設定を確認推奨。** |
 
 ---
 
 ## 外部脅威情報（Geminiより）
 
-本システム（Python / GitHub Actions / Vercel + Next.js / AI API利用）に直接関連するリスクを以下に絞り込む。
+本システム（Python バックエンド / Vercel + Next.js フロントエンド / GitHub Actions CI-CD / Anthropic・Google AI API 使用）に関連する脅威を以下に絞り込む。
 
-### 🔴 高優先度
+### 🔴 高リスク（即時評価推奨）
 
-| 脅威 | CVE / 識別子 | 本システムへの関連性 |
-|------|-------------|-------------------|
-| Next.js 画像最適化DoS | CVE-2026-27980 | Vercelデプロイ環境で Next.js を使用している場合、画像最適化エンドポイントへの大量リクエストによりサービス停止の恐れあり |
-| React Server Components DoS | CVE-2026-23864 | Server Function エンドポイントへの細工済みHTTPリクエストでサーバークラッシュ・OOMの可能性。**React 19.0.4 / Next.js 15.0.8 以降で修正済み** |
-| Next.js CSRF / オリジン検証不備 | CVE-2026-27977〜27979, CVE-2026-29057 | Server ActionのCSRF検証で `origin: null` を許容する不備。開発モードのクロスサイト保護バイパスも含む |
-| AI APIサプライチェーン攻撃（LiteLLM事例） | TeamPCP グループによる PyPI 汚染 | `api/gemini.js` / `api/claude.js` が依存するnpmパッケージにも同種の汚染リスク。依存ライブラリの完全性検証が必要 |
+| # | 脅威 | 関連コンポーネント | 概要 |
+|---|------|--------------------|------|
+| 1 | **CVE-2025-55182 Next.js RCE（UAT-10608キャンペーン）** | Vercel / Next.js | 2026-04-02現在、少なくとも766ホストが侵害済。認証情報・SSHキー・クラウドトークン・環境シークレットが大規模流出中。本システムのVercelデプロイが対象になりうる。 |
+| 2 | **Axios npmパッケージ侵害（RAT混入）** | Next.js / フロントエンド依存関係 | `axios@1.14.1` / `axios@0.30.4` にRAT（`plain-crypto-js`）が混入。本システムの`package.json`でAxiosを使用している場合、APIキー・DB認証情報が流出する可能性。2026-04-01確認。 |
+| 3 | **Claude Code CLIソースコード流出** | Anthropic API 利用部分 | 2026-03-31にAnthropicのClaude Code CLIソースコード（51.2万行超）が流出。既存CVE（CVE-2025-59536, CVE-2026-21852）の悪用が容易化し、MCP経由のRCEやAPIキー窃取リスクが上昇。 |
+| 4 | **LiteLLM PyPI侵害** | Python バックエンド依存関係 | `litellm==1.82.7 / 1.82.8` にインフォスティーラーが混入。バックエンドの`requirements.txt`でLiteLLMを使用している場合、クラウド認証情報・APIキー・シェル履歴が流出済の可能性。2026-03-31確認。 |
 
-### 🟡 中優先度
+### 🟡 中リスク（今週中に確認推奨）
 
-| 脅威 | CVE / 識別子 | 本システムへの関連性 |
-|------|-------------|-------------------|
-| GitHub Actions JSインジェクション | CVE-2026-27701 / CVE-2026-1699 | `pull_request_target` トリガー利用ワークフローが存在する場合、外部PRによる任意コード実行リスク |
-| download-artifact パストラバーサル | CVE-2024-42471 (GHSA-cxww-7g56-2vh6) | `@actions/download-artifact` v4.1.3未満を使用するワークフローで任意ファイル書き込みの可能性 |
-| Python wheel 権限昇格 | CVE-2026-24049 | Python開発環境・CI環境で `wheel unpack` を使用する場合に影響。v0.46.1以前が対象 |
-| AI API キー窃取を目的とした標的型攻撃 | 業界動向 | APIキーを狙うサプライチェーン攻撃が急増。現設計（Vercel Env Vars管理）は適切だが、鍵ローテーションの定期実施が重要 |
+| # | 脅威 | 関連コンポーネント | 概要 |
+|---|------|--------------------|------|
+| 5 | **CVE-2026-27978 Next.js CSRF** | Vercel / Server Actions | `origin: null` がCSRF検証をバイパス。Server Actionsを使用している場合、サンドボックス環境（PDF埋め込み等）から攻撃可能。 |
+| 6 | **CVE-2026-27977 Next.js 認証バイパス（開発モード）** | 開発環境 / CI環境 | `next dev` 使用時に`Origin: null`でHMR WebSocket接続が可能。GitHub ActionsのCIにdev mode起動が含まれる場合は注意。 |
+| 7 | **GitHub Actions サプライチェーン攻撃傾向** | CI/CD | Trivy事例など、タグの書き換えによる悪意コミット注入が継続。`uses: actions/xxx@v3`等のタグ参照を使用している場合にリスク。 |
+| 8 | **CVE-2026-4519 Python `webbrowser.open()` コマンドインジェクション** | Python バックエンド | URL引数にハイフンが含まれる場合に任意コード実行の可能性。`_fetch_daily`等でURLを動的生成している箇所を確認推奨。 |
+| 9 | **CVE-2026-25645 `requests` 一時ファイル予測可能名** | Python バックエンド | `requests`ライブラリ使用箇所でのローカル攻撃リスク。共有ホスト環境では影響度上昇。 |
+| 10 | **インフォスティーラー48時間以内売却** | 開発者端末 / CI環境 | 開発者PCからの認証情報が48時間以内にダークウェブで販売される事例。GitHub Secretsのローテーション判断材料として考慮。 |
 
-### 🟢 参考情報（直接影響は低いが注視）
+### 🟢 低リスク（情報収集・監視継続）
 
-- 個人投資家向けサービスを提供している場合、SNS型投資詐欺・なりすまし詐欺の被害者がサポートを通じてフィッシング誘導される「二次被害」シナリオに注意
-- AIを悪用したディープフェイク・フィッシングは管理者アカウントを狙う可能性もあり、管理者のMFA設定が重要
+- Langflow CVE-2026-33017（本システムで未使用と推定されるが、AI開発ツール関連として監視）
+- Microsoft 365への標的型攻撃（開発チームのコラボレーションツールとして間接リスクあり）
+- SNS型投資詐欺・ビジネスチャットなりすまし（本システムのエンドユーザー保護観点）
 
 ---
 
 ## 要対応事項
 
-### ⚡ 即時対応（1週間以内）
+### 🔴 緊急（本日〜2026-04-03 中に実施）
 
-1. **Next.js / React バージョン確認・アップデート**
-   - Next.js を **15.0.8 以降**、React を **19.0.4 以降** へアップデート
-   - CVE-2026-23864（DoS）・CVE-2026-27980（画像最適化DoS）・CVE-2026-27977〜29057（CSRF）の修正を適用
-   - 対象ファイル: `package.json` のバージョン固定値を確認・更新
+**1. Axiosバージョンの緊急確認とロールバック**
+```
+対象: package.json / package-lock.json
+確認コマンド: npm list axios
+危険バージョン: axios@1.14.1 / axios@0.30.4
+対応: 安全な直近バージョン（例: axios@1.13.x）へ固定し npm audit を実施
+副次対応: Vercel環境変数（APIキー・DB認証情報）の即時ローテーション
+```
 
-2. **`@actions/download-artifact` バージョン確認**
-   - GitHub Actions ワークフロー内で `@actions/download-artifact` を使用している場合、**v4.1.3以降** であることを確認
+**2. CVE-2025-55182 Next.js パッチ適用状況の確認**
+```
+対象: package.json の next バージョン
+確認: Next.js の最新パッチ済バージョンへの更新可否を確認
+暫定措置: Vercelダッシュボードでアクセスログを確認し、
+          異常なリクエスト（/.env, /api/../等のパス）がないか精査
+```
 
-### 📅 計画対応（1ヶ月以内）
+**3. LiteLLM使用有無の確認**
+```
+対象: requirements.txt / pyproject.toml / pip freeze
+確認コマンド: pip show litellm
+危険バージョン: 1.82.7 / 1.82.8
+対応: 使用確認された場合 → クラウド認証情報・ANTHROPIC_API_KEY・
+      GEMINI_API キーを即時ローテーション
+```
 
-3. **npm / pip 依存パッケージのサプライチェーン監査**
-   - `npm audit` および `pip-audit` を実行し、既知の脆弱性を洗い出す
-   - GitHub Actions に `npm audit --audit-level=high` ステップを追加し、CI段階での自動検出を導入
+### 🟡 今週中（2026-04-07 まで）
 
-4. **GitHub Actions ワークフロー精査**
-   - `pull_request_target` トリガーを使用しているワークフローを全件確認
-   - 信頼できないコードをチェックアウトして実行するパターンがないか検証
-   - シークレットの `echo` / `print` 出力が発生しないことをレビュー
+**4. GitHub Actions ワークフローのセキュリティ強化**
+```yaml
+# 現状確認ポイント
+- permissions: をワークフロー冒頭で明示的に最小化されているか
+  例: permissions: contents: read のみ、など
+- actions/xxx@tag 参照をSHA固定に変更
+  例: actions/checkout@v4 → actions/checkout@<commit-sha>
+- ANTHROPIC_API_KEY / GEMINI_API のシークレットがログ出力されていないか
+  （echo $SECRET や env: 経由の露出がないか）
+```
 
-5. **APIキーのローテーション実施**
-   - `ANTHROPIC_API_KEY` / `GEMINI_API` を定期ローテーション（推奨: 90日サイクル）
-   - ローテーション手順を運用ドキュメントに明記
+**5. Python依存ライブラリの脆弱性スキャン**
+```
+対象CVE: CVE-2026-4519 / CVE-2026-25645 / CVE-2026-3479
+実施: pip-audit または safety check を実行
+     _fetch_daily 関数でURL生成にハイフンが含まれる外部入力がないか確認
+```
+
+**6. Anthropic APIキーのローテーション（予防的措置）**
+```
+理由: Claude Code CLIソースコード流出により既存CVEの悪用が容易化
+対応: Anthropicコンソールで ANTHROPIC_API_KEY を再発行
+     → GitHub Secrets および Vercel Environment Variables を更新
+     → 旧キーを即時無効化
+     → APIキー使用ログを確認し不審なトークン使用がないか精査
+```
 
 ---
 
 ## 推奨事項
 
-### セキュリティ強化
+### 短期（4月中）
 
-```
-優先度: 高
-```
-- **依存関係の固定（lockfile管理）**: `package-lock.json` / `requirements.txt` をコミットに含め、予期しない依存バージョン変更を防止する。Renovate Bot や Dependabot を導入し自動アップデートPRを発行する設定を推奨。
+1. **`pip-audit` / `npm audit` の CI 組み込み**
+   - GitHub Actions ワークフローに依存関係スキャンステップを追加し、今回のLiteLLM・Axios事例のような侵害パッケージの自動検出を実現する。
 
-```
-優先度: 中
-```
-- **Vercel WAF / Rate Limiting の有効化**: CVE-2026-27980（画像最適化DoS）・CVE-2026-23864（Server Components DoS）への緩和策として、Vercel の Rate Limiting 機能またはEdge Middlewareでのリクエスト制限を設定する。
-- **Content Security Policy (CSP) ヘッダーの強化**: 外部CDN禁止ルールをHTTPヘッダーレベルでも強制し、XSSリスクを多層防御で低減する。
-- **Subresource Integrity (SRI) の適用**: 静的アセットに対してSRIハッシュを付与し、CDN経由のサプライチェーン汚染を検出可能にする。
+2. **Vercel環境変数のローテーション周期の設定**
+   - 今回のサプライチェーン攻撃・インフォスティーラー事例を踏まえ、APIキー類を90日ごとに定期ローテーションするポリシーを策定する。
 
-```
-優先度: 低（中長期）
-```
-- **セキュリティ監査の自動化**: 本レポートのチェック項目をGitHub Actions の定期ジョブ（weekly schedule）として実装し、人的監査の補完とする。
-- **インシデント対応手順書の整備**: APIキー漏洩・サービス停止発生時の連絡フロー・対応手順を文書化し、チーム内で共有する。
-- **ユーザー向けセキュリティ告知の準備**: 個人投資家ユーザーがいる場合、SNS型投資詐欺・なりすまし詐欺の注意喚起コンテンツをサービス内に掲載することを検討する。
+3. **Next.jsのServer Action利用箇所における `origin: null` バイパス対策（CVE-2026-27978）**
+   - Server Actionsのリクエスト元を明示的に検証するミドルウェアを追加し、`null` オリジンを明示的に拒否する実装を検討する。
+
+### 中期（2〜3ヶ月）
+
+4. **SBOMの生成と管理**
+   - Python / Node.js 双方の依存ライブラリについてSBOM（Software Bill of Materials）を生成・管理し、サプライチェーン攻撃発生時の影響範囲を即時特定できる体制を整備する。
+
+5. **GitHub Actions ランナーのセルフホスト化 または OpenID Connect（OIDC）への移行**
+   - VercelへのデプロイトークンをGitHub Secretsに長期保存するのではなく、OIDCによる短命トークン発行に移行し、トークン窃取時の被害を最小化する。
+
+6. **AIエージェント・MCP利用時のサンドボックス強化**
+   - Claude Code CLIソースコード流出を踏まえ、MCPサーバーや環境変数経由でのAPIキーアクセスをネットワークレベルで制限し、ゼロトラスト原則を適用する。
+
+### 監視継続事項
+
+| 監視対象 | 理由 |
+|---------|------|
+| Vercel デプロイログ（異常パスアクセス） | CVE-2025-55182 悪用キャンペーン継続中 |
+| PyPI / npm セキュリティアドバイザリ | LiteLLM・Axios事例のような侵害が継続する傾向 |
+| Anthropic セキュリティアドバイザリ | Claude Code CLIソースコード流出後の追加CVE公開リスク |
+| GitHub Security Advisories | GitHub Actions サプライチェーン攻撃の継続 |
 
 ---
 
-> **監査担当**: 情報セキュリティチーム（自動監査 + Gemini脅威インテリジェンス統合）
-> **次回定期監査予定**: 2026-05-01
-> **緊急連絡が必要な場合**: セキュリティインシデント発生時は即時エスカレーション
+> **監査担当注記**: 今回の総合評価を `YELLOW`（警戒）とした主因は、内部コードの問題ではなく、**本システムの技術スタック（Next.js/Vercel, Python, npm/PyPI依存, Anthropic API）と高い整合性を持つ外部脅威が2026-04-02時点で複数同時進行中**であることによる。Axiosバージョン確認とLiteLLM使用確認の結果次第では、評価を`RED`に引き上げ、全認証情報の即時ローテーションを発動する。
