@@ -22,7 +22,7 @@
       "next_hypothesis": {
         "date": "2026-04-03",
         "direction": "横ばい",
-        "reason": "エントリー初日でモメンタム未確認。RS26w=4.1と強いが上値確認待ち。",
+        "reason": "エントリー初日でRS26w=4.1と高モメンタム、方向感確認待ち",
         "confidence": "低",
         "key_level": "5390円のエントリー水準"
       }
@@ -47,10 +47,10 @@
       "reason": "RS26w=3.08, score=6/7, 上位候補",
       "next_hypothesis": {
         "date": "2026-04-03",
-        "direction": "上昇",
-        "reason": "RS26w=3.1と高相対力。貴金属関連の需要テーマが継続しやすい環境。",
-        "confidence": "中",
-        "key_level": "6200円の直近抵抗帯"
+        "direction": "横ばい",
+        "reason": "エントリー初日、RS26w=3.1で相対強度高いが初動確認段階",
+        "confidence": "低",
+        "key_level": "6030円のエントリー水準"
       }
     },
     {
@@ -73,10 +73,10 @@
       "reason": "RS26w=3.01, score=6/7, 上位候補",
       "next_hypothesis": {
         "date": "2026-04-03",
-        "direction": "横ばい",
-        "reason": "RS26w=3.0と底堅いが、半導体材料セクター全体の地合い確認が必要。",
-        "confidence": "低",
-        "key_level": "4678円のエントリー水準"
+        "direction": "上昇",
+        "reason": "RS26w=3.0の高相対強度、半導体材料関連として需給良好",
+        "confidence": "中",
+        "key_level": "4678円突破後5000円の節目"
       }
     },
     {
@@ -100,9 +100,9 @@
       "next_hypothesis": {
         "date": "2026-04-03",
         "direction": "上昇",
-        "reason": "RS26w=2.9と相対強度良好。特殊ガス・電子材料テーマで押し目買い期待。",
+        "reason": "RS26w=2.9、半導体特殊ガス関連でセクターモメンタム追い風",
         "confidence": "中",
-        "key_level": "1400円の心理的節目"
+        "key_level": "1400円の心理的抵抗帯"
       }
     },
     {
@@ -126,9 +126,9 @@
       "next_hypothesis": {
         "date": "2026-04-03",
         "direction": "下落",
-        "reason": "電子部品セクターは米関税懸念で売り圧力。短期的に地合い悪化リスク大。",
+        "reason": "電子部品セクター軟調、米関税リスクで輸出関連に売り圧力",
         "confidence": "中",
-        "key_level": "3750円のサポート水準"
+        "key_level": "3700円のサポート水準"
       }
     }
   ],
