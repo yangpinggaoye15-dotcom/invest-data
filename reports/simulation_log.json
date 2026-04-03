@@ -1,6 +1,139 @@
 {
-  "tracking_rule": "2週間(10営業日)追跡・最大3銘柄同時",
-  "actives": [],
-  "history": [],
-  "last_updated": "2026-04-04"
+    "tracking_rule":  "2週間(10営業日)追跡・最大5銘柄同時",
+    "actives":  [
+                    {
+                        "code":  "6227",
+                        "name":  "AIMECHATEC,Ltd.",
+                        "entry_price":  5380.0,
+                        "stop_loss":  4950.0,
+                        "target1":  6725.0,
+                        "rr_ratio":  3.1,
+                        "start_date":  "2026-04-03",
+                        "end_date":  null,
+                        "days_elapsed":  0,
+                        "current_price":  5380.0,
+                        "current_pct":  0.0,
+                        "rs_26w":  4.417,
+                        "score":  6,
+                        "result":  null,
+                        "result_pct":  null,
+                        "direction_match":  null,
+                        "reason":  "RS26w=4.42, score=6/7, 上位候補",
+                        "next_hypothesis":  {
+                                                "date":  "2026-04-03",
+                                                "direction":  "横ばい",
+                                                "reason":  "エントリー初日でモメンタム未確認、RS高水準だが方向性判断待ち",
+                                                "confidence":  "低",
+                                                "key_level":  "5380円のエントリー水準"
+                                            }
+                    },
+                    {
+                        "code":  "3110",
+                        "name":  "NITTO BOSEKI CO.,LTD.",
+                        "entry_price":  20480.0,
+                        "stop_loss":  18842.0,
+                        "target1":  25600.0,
+                        "rr_ratio":  3.1,
+                        "start_date":  "2026-04-03",
+                        "end_date":  null,
+                        "days_elapsed":  0,
+                        "current_price":  20480.0,
+                        "current_pct":  0.0,
+                        "rs_26w":  3.367,
+                        "score":  6,
+                        "result":  null,
+                        "result_pct":  null,
+                        "direction_match":  null,
+                        "reason":  "RS26w=3.37, score=6/7, 上位候補",
+                        "next_hypothesis":  {
+                                                "date":  "2026-04-03",
+                                                "direction":  "下落",
+                                                "reason":  "米関税ショック懸念で素材・繊維セクターに売り圧力、地合い悪化リスク",
+                                                "confidence":  "中",
+                                                "key_level":  "20000円の心理的節目"
+                                            }
+                    },
+                    {
+                        "code":  "6857",
+                        "name":  "ADVANTEST CORPORATION",
+                        "entry_price":  21555.0,
+                        "stop_loss":  19831.0,
+                        "target1":  26944.0,
+                        "rr_ratio":  3.1,
+                        "start_date":  "2026-04-03",
+                        "end_date":  null,
+                        "days_elapsed":  0,
+                        "current_price":  21555.0,
+                        "current_pct":  0.0,
+                        "rs_26w":  3.193,
+                        "score":  6,
+                        "result":  null,
+                        "result_pct":  null,
+                        "direction_match":  null,
+                        "reason":  "RS26w=3.19, score=6/7, 上位候補",
+                        "next_hypothesis":  {
+                                                "date":  "2026-04-03",
+                                                "direction":  "下落",
+                                                "reason":  "半導体関連は関税・米中摩擦リスクで売られやすく、短期調整圧力大",
+                                                "confidence":  "高",
+                                                "key_level":  "20000円の主要サポート帯"
+                                            }
+                    },
+                    {
+                        "code":  "6999",
+                        "name":  "KOA CORPORATION",
+                        "entry_price":  1554.0,
+                        "stop_loss":  1430.0,
+                        "target1":  1942.0,
+                        "rr_ratio":  3.1,
+                        "start_date":  "2026-04-03",
+                        "end_date":  null,
+                        "days_elapsed":  0,
+                        "current_price":  1554.0,
+                        "current_pct":  0.0,
+                        "rs_26w":  3.045,
+                        "score":  6,
+                        "result":  null,
+                        "result_pct":  null,
+                        "direction_match":  null,
+                        "reason":  "RS26w=3.04, score=6/7, 上位候補",
+                        "next_hypothesis":  {
+                                                "date":  "2026-04-03",
+                                                "direction":  "下落",
+                                                "reason":  "電子部品セクターは米関税影響で輸出リスク高まり、下方圧力が続きやすい",
+                                                "confidence":  "中",
+                                                "key_level":  "1500円の直近サポート"
+                                            }
+                    },
+                    {
+                        "code":  "6871",
+                        "name":  "MICRONICS JAPAN CO.,LTD.",
+                        "entry_price":  10120.0,
+                        "stop_loss":  9310.0,
+                        "target1":  12650.0,
+                        "rr_ratio":  3.1,
+                        "start_date":  "2026-04-03",
+                        "end_date":  null,
+                        "days_elapsed":  0,
+                        "current_price":  10120.0,
+                        "current_pct":  0.0,
+                        "rs_26w":  2.944,
+                        "score":  6,
+                        "result":  null,
+                        "result_pct":  null,
+                        "direction_match":  null,
+                        "reason":  "RS26w=2.94, score=6/7, 上位候補",
+                        "next_hypothesis":  {
+                                                "date":  "2026-04-03",
+                                                "direction":  "下落",
+                                                "reason":  "半導体検査装置は米中規制リスクに敏感、地合い悪化で調整継続の公算",
+                                                "confidence":  "中",
+                                                "key_level":  "9800円のサポート水準"
+                                            }
+                    }
+                ],
+    "history":  [
+
+                ],
+    "last_updated":  "2026-04-04"
 }
