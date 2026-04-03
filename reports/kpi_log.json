@@ -7,8 +7,9 @@
         "specificity": 8.0,
         "usefulness": 8.0,
         "consistency": 8.0,
-        "linkage": 8.0,
-        "ai_usage": 8.0
+        "linkage": 6.0,
+        "ai_usage": 8.0,
+        "total": 7.4
       },
       "risk": {
         "coverage": 8.0,
@@ -16,23 +17,17 @@
         "usefulness": 8.0,
         "consistency": 8.0,
         "linkage": 8.0,
-        "ai_usage": 8.0
+        "ai_usage": 8.0,
+        "total": 8.0
       },
       "strategy": {
-        "coverage": 6.0,
-        "specificity": 6.0,
-        "usefulness": 8.0,
-        "consistency": 8.0,
-        "linkage": 8.0,
-        "ai_usage": 8.0
-      },
-      "report": {
-        "coverage": 6.0,
-        "specificity": 6.0,
+        "coverage": 8.0,
+        "specificity": 8.0,
         "usefulness": 8.0,
         "consistency": 8.0,
         "linkage": 6.0,
-        "ai_usage": 8.0
+        "ai_usage": 8.0,
+        "total": 7.6
       },
       "security": {
         "coverage": 8.0,
@@ -40,7 +35,8 @@
         "usefulness": 6.0,
         "consistency": 8.0,
         "linkage": 6.0,
-        "ai_usage": 6.0
+        "ai_usage": 8.0,
+        "total": 7.4
       }
     }
   }
