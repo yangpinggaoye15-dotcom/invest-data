@@ -4,18 +4,18 @@
     "teams": {
       "info": {
         "coverage": 6.0,
-        "specificity": 8.0,
+        "specificity": 6.0,
         "usefulness": 8.0,
         "consistency": 8.0,
-        "linkage": 8.0,
+        "linkage": 6.0,
         "ai_usage": 8.0
       },
       "analysis": {
         "coverage": 4.0,
-        "specificity": 6.0,
+        "specificity": 4.0,
         "usefulness": 6.0,
         "consistency": 6.0,
-        "linkage": 6.0,
+        "linkage": 4.0,
         "ai_usage": 6.0
       },
       "risk": {
@@ -31,32 +31,32 @@
         "specificity": 4.0,
         "usefulness": 6.0,
         "consistency": 6.0,
-        "linkage": 8.0,
+        "linkage": 6.0,
         "ai_usage": 6.0
       },
       "report": {
         "coverage": 8.0,
-        "specificity": 8.0,
+        "specificity": 6.0,
         "usefulness": 8.0,
-        "consistency": 8.0,
-        "linkage": 8.0,
-        "ai_usage": 8.0
-      },
-      "security": {
-        "coverage": 8.0,
-        "specificity": 8.0,
-        "usefulness": 6.0,
         "consistency": 8.0,
         "linkage": 6.0,
         "ai_usage": 8.0
       },
+      "security": {
+        "coverage": 6.0,
+        "specificity": 6.0,
+        "usefulness": 6.0,
+        "consistency": 6.0,
+        "linkage": 4.0,
+        "ai_usage": 6.0
+      },
       "verification": {
-        "coverage": 0.0,
-        "specificity": 0.0,
-        "usefulness": 0.0,
-        "consistency": 0.0,
-        "linkage": 0.0,
-        "ai_usage": 0.0
+        "coverage": 2.0,
+        "specificity": 2.0,
+        "usefulness": 2.0,
+        "consistency": 2.0,
+        "linkage": 2.0,
+        "ai_usage": 2.0
       }
     }
   }
