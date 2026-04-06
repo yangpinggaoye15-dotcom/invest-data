@@ -120,5 +120,66 @@
         "ai_usage": 4.0
       }
     }
+  },
+  {
+    "date": "2026-04-06",
+    "teams": {
+      "info": {
+        "coverage": 4.0,
+        "specificity": 4.0,
+        "usefulness": 6.0,
+        "consistency": 8.0,
+        "linkage": 6.0,
+        "ai_usage": 8.0
+      },
+      "analysis": {
+        "coverage": 6.0,
+        "specificity": 6.0,
+        "usefulness": 6.0,
+        "consistency": 8.0,
+        "linkage": 6.0,
+        "ai_usage": 8.0
+      },
+      "risk": {
+        "coverage": 8.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 10.0,
+        "linkage": 8.0,
+        "ai_usage": 8.0
+      },
+      "strategy": {
+        "coverage": 8.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 8.0,
+        "linkage": 10.0,
+        "ai_usage": 8.0
+      },
+      "report": {
+        "coverage": 8.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 8.0,
+        "linkage": 10.0,
+        "ai_usage": 8.0
+      },
+      "security": {
+        "coverage": 8.0,
+        "specificity": 8.0,
+        "usefulness": 8.0,
+        "consistency": 8.0,
+        "linkage": 6.0,
+        "ai_usage": 8.0
+      },
+      "verification": {
+        "coverage": 2.0,
+        "specificity": 2.0,
+        "usefulness": 2.0,
+        "consistency": 6.0,
+        "linkage": 2.0,
+        "ai_usage": 4.0
+      }
+    }
   }
 ]

@@ -10,9 +10,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-03",
       "end_date": null,
-      "days_elapsed": 0,
-      "current_price": 5380.0,
-      "current_pct": 0.0,
+      "days_elapsed": 1,
+      "current_price": 5930.0,
+      "current_pct": 10.22,
       "rs_26w": 4.417,
       "score": 6,
       "result": null,
@@ -36,7 +36,7 @@
           "w4_pct": 25.0,
           "trigger": "出来高急増+5500円突破で上昇加速",
           "invalidation": "5200円割れで無効",
-          "probability": 30
+          "probability": 55
         },
         "base": {
           "label": "中立",
@@ -47,7 +47,7 @@
           "w4_pct": 12.0,
           "trigger": "RS高位維持かつ市場環境安定",
           "invalidation": "5050円割れで無効",
-          "probability": 50
+          "probability": 35
         },
         "bear": {
           "label": "弱気",
@@ -58,8 +58,38 @@
           "w4_pct": -8.0,
           "trigger": "日経急落+出来高伴う陰線連続",
           "invalidation": "5500円回復で無効",
-          "probability": 20
+          "probability": 10
         }
+      },
+      "daily_log": [
+        {
+          "date": "2026-04-06",
+          "price": 5930.0,
+          "daily_pct": 10.22,
+          "cumulative_pct": 10.22,
+          "leading_scenario": "bull",
+          "scenario_gaps": {
+            "bull": 2.22,
+            "base": 7.22,
+            "bear": 14.22
+          },
+          "cause": "[AI分析]地合い急変または材料出現により強気シナリオW1目標(+8%)を大幅超過",
+          "hypothesis_revision": "W1目標を+10%超に上方修正、強気シナリオ確率引き上げ",
+          "updated_probabilities": {
+            "bull": 55,
+            "base": 35,
+            "bear": 10
+          },
+          "prev_match": null
+        }
+      ],
+      "current_hypothesis": {
+        "date": "2026-04-06",
+        "leading_scenario": "bull",
+        "next_day_direction": "下落",
+        "next_day_reason": "急騰翌日は短期利益確定売りが出やすく、過熱感から反落リスク高",
+        "next_day_confidence": "中",
+        "next_day_key_level": "5700円（直近サポート転換水準）"
       }
     },
     {
@@ -71,9 +101,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-03",
       "end_date": null,
-      "days_elapsed": 0,
-      "current_price": 20480.0,
-      "current_pct": 0.0,
+      "days_elapsed": 1,
+      "current_price": 20760.0,
+      "current_pct": 1.37,
       "rs_26w": 3.367,
       "score": 6,
       "result": null,
@@ -97,7 +127,7 @@
           "w4_pct": 25.0,
           "trigger": "出来高増加を伴い21500円台を明確突破",
           "invalidation": "20000円割れ・RS急低下",
-          "probability": 30
+          "probability": 32
         },
         "base": {
           "label": "中立",
@@ -119,8 +149,38 @@
           "w4_pct": -8.0,
           "trigger": "日経急落・出来高増加を伴う下放れ",
           "invalidation": "21000円回復・陽線継続",
-          "probability": 20
+          "probability": 18
         }
+      },
+      "daily_log": [
+        {
+          "date": "2026-04-06",
+          "price": 20760.0,
+          "daily_pct": 1.37,
+          "cumulative_pct": 1.37,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -5.63,
+            "base": -1.63,
+            "bear": 5.37
+          },
+          "cause": "[AI分析]初日+1.4%はベースシナリオ週1想定+3%に対し軽微な下振れ。地合い不透明で小幅上昇に留まる",
+          "hypothesis_revision": "弱気確率やや引き下げ、ベース確率維持",
+          "updated_probabilities": {
+            "bull": 32,
+            "base": 50,
+            "bear": 18
+          },
+          "prev_match": null
+        }
+      ],
+      "current_hypothesis": {
+        "date": "2026-04-06",
+        "leading_scenario": "base",
+        "next_day_direction": "横ばい",
+        "next_day_reason": "初日上昇後の利確売り圧力と21000円手前の抵抗帯で一服想定",
+        "next_day_confidence": "低",
+        "next_day_key_level": "21000円"
       }
     },
     {
@@ -132,9 +192,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-03",
       "end_date": null,
-      "days_elapsed": 0,
-      "current_price": 21555.0,
-      "current_pct": 0.0,
+      "days_elapsed": 1,
+      "current_price": 21930.0,
+      "current_pct": 1.74,
       "rs_26w": 3.193,
       "score": 6,
       "result": null,
@@ -158,7 +218,7 @@
           "w4_pct": 25.0,
           "trigger": "NVIDIA決算好調＋受注増ニュースで出来高急増ブレイク",
           "invalidation": "19800円割れ・出来高急減",
-          "probability": 30
+          "probability": 28
         },
         "base": {
           "label": "中立",
@@ -169,7 +229,7 @@
           "w4_pct": 12.0,
           "trigger": "SOX指数安定＋円安維持で機関投資家の買い継続",
           "invalidation": "20300円を終値で割り込む",
-          "probability": 50
+          "probability": 52
         },
         "bear": {
           "label": "弱気",
@@ -182,6 +242,36 @@
           "invalidation": "22500円超えで反発継続",
           "probability": 20
         }
+      },
+      "daily_log": [
+        {
+          "date": "2026-04-06",
+          "price": 21930.0,
+          "daily_pct": 1.74,
+          "cumulative_pct": 1.74,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.26,
+            "base": -1.26,
+            "bear": 5.74
+          },
+          "cause": "[AI分析]関税ショック警戒の中、半導体セクター底堅く推移しベース軌道に沿った上昇",
+          "hypothesis_revision": "修正なし",
+          "updated_probabilities": {
+            "bull": 28,
+            "base": 52,
+            "bear": 20
+          },
+          "prev_match": null
+        }
+      ],
+      "current_hypothesis": {
+        "date": "2026-04-06",
+        "leading_scenario": "base",
+        "next_day_direction": "横ばい",
+        "next_day_reason": "米中貿易摩擦懸念継続で上値重く、22000円台での攻防想定",
+        "next_day_confidence": "低",
+        "next_day_key_level": "22000円（上値抵抗）/ 21500円（直近サポート）"
       }
     },
     {
@@ -193,9 +283,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-03",
       "end_date": null,
-      "days_elapsed": 0,
-      "current_price": 1554.0,
-      "current_pct": 0.0,
+      "days_elapsed": 1,
+      "current_price": 1584.0,
+      "current_pct": 1.93,
       "rs_26w": 3.045,
       "score": 6,
       "result": null,
@@ -219,7 +309,7 @@
           "w4_pct": 25.0,
           "trigger": "1600円超えの出来高増加ブレイクアウト",
           "invalidation": "1530円割れで失速",
-          "probability": 30
+          "probability": 28
         },
         "base": {
           "label": "中立",
@@ -230,7 +320,7 @@
           "w4_pct": 12.0,
           "trigger": "1580円前後でのもみ合い後の緩やかな上昇",
           "invalidation": "1500円割れで下降転換",
-          "probability": 50
+          "probability": 52
         },
         "bear": {
           "label": "弱気",
@@ -243,6 +333,36 @@
           "invalidation": "1580円回復で反転",
           "probability": 20
         }
+      },
+      "daily_log": [
+        {
+          "date": "2026-04-06",
+          "price": 1584.0,
+          "daily_pct": 1.93,
+          "cumulative_pct": 1.93,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -5.07,
+            "base": -0.07,
+            "bear": 5.93
+          },
+          "cause": "[AI分析]中立シナリオ想定内の上昇、地合い軟調も底堅く推移",
+          "hypothesis_revision": "修正なし",
+          "updated_probabilities": {
+            "bull": 28,
+            "base": 52,
+            "bear": 20
+          },
+          "prev_match": null
+        }
+      ],
+      "current_hypothesis": {
+        "date": "2026-04-06",
+        "leading_scenario": "base",
+        "next_day_direction": "横ばい",
+        "next_day_reason": "1580円近辺で利益確定売りと押し目買いが拮抗しやすい水準",
+        "next_day_confidence": "中",
+        "next_day_key_level": "1580円"
       }
     },
     {
@@ -254,9 +374,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-03",
       "end_date": null,
-      "days_elapsed": 0,
-      "current_price": 10120.0,
-      "current_pct": 0.0,
+      "days_elapsed": 1,
+      "current_price": 10620.0,
+      "current_pct": 4.94,
       "rs_26w": 2.944,
       "score": 6,
       "result": null,
@@ -280,7 +400,7 @@
           "w4_pct": 25.0,
           "trigger": "出来高急増＋11000円超えのブレイクアウト確認",
           "invalidation": "10500円割れで失速",
-          "probability": 30
+          "probability": 40
         },
         "base": {
           "label": "中立",
@@ -291,7 +411,7 @@
           "w4_pct": 12.0,
           "trigger": "10120円付近でのベース形成後じり高展開",
           "invalidation": "9800円割れで中立崩壊",
-          "probability": 50
+          "probability": 45
         },
         "bear": {
           "label": "弱気",
@@ -302,11 +422,41 @@
           "w4_pct": -8.0,
           "trigger": "半導体セクター売り＋9800円割れで下落加速",
           "invalidation": "10500円回復で弱気解消",
-          "probability": 20
+          "probability": 15
         }
+      },
+      "daily_log": [
+        {
+          "date": "2026-04-06",
+          "price": 10620.0,
+          "daily_pct": 4.94,
+          "cumulative_pct": 4.94,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -3.06,
+            "base": 2.94,
+            "bear": 9.94
+          },
+          "cause": "[AI分析]半導体関連買いが先行し、ベースシナリオ予測+2%を上回る+4.9%の強い初動",
+          "hypothesis_revision": "強気シナリオの発動条件を10800円超えに前倒し修正",
+          "updated_probabilities": {
+            "bull": 40,
+            "base": 45,
+            "bear": 15
+          },
+          "prev_match": null
+        }
+      ],
+      "current_hypothesis": {
+        "date": "2026-04-06",
+        "leading_scenario": "base",
+        "next_day_direction": "横ばい",
+        "next_day_reason": "急騰翌日の利益確定売りと10500円サポート確認の綱引き",
+        "next_day_confidence": "中",
+        "next_day_key_level": "10500円（旧強気失速ライン→新サポート）"
       }
     }
   ],
   "history": [],
-  "last_updated": "2026-04-05"
+  "last_updated": "2026-04-06"
 }
