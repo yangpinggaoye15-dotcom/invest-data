@@ -7,9 +7,9 @@
       "entry_price": 4800,
       "entry_trigger": "52wH(4738)ブレイクアウト確認後・出来高1.5倍以上",
       "stop_loss": 4270,
-      "target1": 6060,
-      "target2": 7320,
-      "rr_ratio": 4.0,
+      "target1": 6390,
+      "target2": 7450,
+      "rr_ratio": 3.0,
       "risk_pct": 11.0,
       "position_size": 75,
       "risk_amount": 39750,
@@ -27,8 +27,8 @@
         "key_levels": {
           "entry": 4800,
           "stop": 4270,
-          "target1": 6060,
-          "target2": 7320
+          "target1": 6390,
+          "target2": 7450
         }
       }
     }
