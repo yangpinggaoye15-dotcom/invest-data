@@ -14,7 +14,7 @@
       "position_size": 75,
       "risk_amount": 39750,
       "start_date": "2026-04-07",
-      "days_elapsed": 1,
+      "days_elapsed": 4,
       "current_price": 4600.0,
       "current_pct": -4.17,
       "status": "待機中（ブレイクアウト待ち）",
@@ -28,47 +28,117 @@
           "direction": "bullish",
           "reason": "",
           "confidence": 0.72,
-          "actual_direction": "上昇",
+          "actual_direction": "横ばい",
           "prev_price": 4370,
-          "actual_price": 4600.0,
-          "price_change_pct": 5.26,
+          "actual_price": 4370,
+          "price_change_pct": 0.0,
           "match": false
         }
       ],
       "scenarios": {
         "bull": {
           "label": "強気",
-          "summary": "AI・データセンター向け光ファイバー需要拡大で急騰",
-          "w1_pct": 6.0,
-          "w2_pct": 14.0,
+          "summary": "AI・データセンター向け需要回復で急騰",
+          "w1_pct": 5.0,
+          "w2_pct": 12.0,
           "w3_pct": 22.0,
           "w4_pct": 33.0,
-          "trigger": "5200円超えで出来高急増・セクター連動上昇",
-          "invalidation": "5000円を割り込んだ場合",
-          "probability": 25
+          "trigger": "光ファイバー受注増・米国インフラ投資報道",
+          "invalidation": "4800円割れ・出来高急減",
+          "probability": 15
         },
         "base": {
           "label": "中立",
-          "summary": "もみ合い継続、緩やかな上昇トレンドを維持",
-          "w1_pct": 2.0,
-          "w2_pct": 4.0,
-          "w3_pct": 7.0,
-          "w4_pct": 10.0,
-          "trigger": "4800〜5200円レンジ内での推移継続",
-          "invalidation": "4550円割れまたは5300円超え",
-          "probability": 45
+          "summary": "もみ合い継続・緩やかな上値試し",
+          "w1_pct": -2.0,
+          "w2_pct": 1.0,
+          "w3_pct": 4.0,
+          "w4_pct": 8.0,
+          "trigger": "市場全体の安定・セクター内出遅れ解消",
+          "invalidation": "損切り-11%水準到達",
+          "probability": 55
         },
         "bear": {
           "label": "弱気",
-          "summary": "市場全体軟化・利益確定売りで下落調整",
-          "w1_pct": -3.0,
-          "w2_pct": -6.0,
-          "w3_pct": -9.0,
+          "summary": "Defend相場で需要懸念・リスクオフ売り",
+          "w1_pct": -5.0,
+          "w2_pct": -8.0,
+          "w3_pct": -10.0,
           "w4_pct": -11.0,
-          "trigger": "4650円割れ・出来高増加の下落",
-          "invalidation": "5000円を回復した場合",
+          "trigger": "マクロリスク悪化・円高進行・指数急落",
+          "invalidation": "5200円超え・出来高急増",
           "probability": 30
         }
+      },
+      "daily_log": [
+        {
+          "date": "2026-04-08",
+          "price": 4370,
+          "daily_pct": 0.0,
+          "cumulative_pct": -8.96,
+          "leading_scenario": "bear",
+          "scenario_gaps": {
+            "bull": -13.96,
+            "base": -6.96,
+            "bear": -3.96
+          },
+          "cause": "[AI分析]関税ショック・リスクオフ加速で弱気シナリオすら上回る急落",
+          "hypothesis_revision": "弱気シナリオの下値余地を-15%以上に拡大修正",
+          "updated_probabilities": {
+            "bull": 5,
+            "base": 25,
+            "bear": 70
+          },
+          "prev_match": null
+        },
+        {
+          "date": "2026-04-08",
+          "price": 4370,
+          "daily_pct": 0.0,
+          "cumulative_pct": -8.96,
+          "leading_scenario": "bear",
+          "scenario_gaps": {
+            "bull": -13.96,
+            "base": -6.96,
+            "bear": -3.96
+          },
+          "cause": "[AI分析]前日比±0%の横ばいで弱気シナリオより下落幅小、売り一服の可能性",
+          "hypothesis_revision": "弱気継続だが底値圏でのもみ合い局面入りを考慮",
+          "updated_probabilities": {
+            "bull": 3,
+            "base": 17,
+            "bear": 80
+          },
+          "prev_match": false
+        },
+        {
+          "date": "2026-04-09",
+          "price": 4600.0,
+          "daily_pct": 5.26,
+          "cumulative_pct": -4.17,
+          "leading_scenario": "bear",
+          "scenario_gaps": {
+            "bull": -9.17,
+            "base": -2.17,
+            "bear": 0.83
+          },
+          "cause": "[AI分析]弱気80%想定に反し+5.3%急騰、リスクオフ緩和・自律反発が想定外に発生",
+          "hypothesis_revision": "弱気シナリオ確率を引き下げ、中立・強気へ再配分",
+          "updated_probabilities": {
+            "bull": 15,
+            "base": 55,
+            "bear": 30
+          },
+          "prev_match": false
+        }
+      ],
+      "current_hypothesis": {
+        "date": "2026-04-09",
+        "leading_scenario": "bear",
+        "next_day_direction": "横ばい",
+        "next_day_reason": "急反発後の利確売りと押し目買いが拮抗、4600円近辺でもみ合い想定",
+        "next_day_confidence": "中",
+        "next_day_key_level": "4600円（サポート）/ 4800円（戻り抵抗・エントリー水準）"
       }
     },
     {
@@ -78,7 +148,7 @@
       "stop_loss": 222.0,
       "target1": 301.0,
       "rr_ratio": 3.1,
-      "start_date": "2026-04-08",
+      "start_date": "2026-04-09",
       "end_date": null,
       "days_elapsed": 0,
       "current_price": 241.0,
@@ -92,35 +162,35 @@
       "scenarios": {
         "bull": {
           "label": "強気",
-          "summary": "高RS銘柄として市場牽引、目標①到達",
+          "summary": "高RS維持で目標①水準まで上昇",
           "w1_pct": 6.0,
           "w2_pct": 12.0,
           "w3_pct": 18.0,
           "w4_pct": 24.0,
-          "trigger": "出来高増加を伴い250円超えを明確に突破",
-          "invalidation": "241円を終値で下回る",
+          "trigger": "出来高増加で241円上抜け継続確認",
+          "invalidation": "220円割れ",
           "probability": 25
         },
         "base": {
           "label": "中立",
-          "summary": "Steadyフェーズで緩やかな上昇・横ばい推移",
+          "summary": "レンジ推移で緩やかな上昇",
           "w1_pct": 2.0,
           "w2_pct": 4.0,
           "w3_pct": 7.0,
           "w4_pct": 10.0,
-          "trigger": "241〜265円のレンジ内で推移継続",
-          "invalidation": "損切りライン222円を終値割れ",
+          "trigger": "市場全体Steadyで相対強度維持",
+          "invalidation": "RS26w低下＋出来高減少",
           "probability": 50
         },
         "bear": {
           "label": "弱気",
-          "summary": "市場全体の軟調に引きずられ損切りへ",
+          "summary": "市場軟化で損切りライン到達",
           "w1_pct": -3.0,
-          "w2_pct": -5.0,
-          "w3_pct": -7.0,
+          "w2_pct": -6.0,
+          "w3_pct": -7.5,
           "w4_pct": -7.9,
-          "trigger": "全体指数下落で出来高増加の陰線連発",
-          "invalidation": "250円超えで反発定着",
+          "trigger": "全体平均RS悪化・需給崩れ",
+          "invalidation": "245円回復・出来高急増",
           "probability": 25
         }
       },
@@ -134,7 +204,7 @@
       "stop_loss": 8326.0,
       "target1": 11312.0,
       "rr_ratio": 3.1,
-      "start_date": "2026-04-08",
+      "start_date": "2026-04-09",
       "end_date": null,
       "days_elapsed": 0,
       "current_price": 9050.0,
@@ -148,35 +218,35 @@
       "scenarios": {
         "bull": {
           "label": "強気",
-          "summary": "半導体需要回復でRS高位維持・目標到達",
+          "summary": "半導体装置需要回復で目標値到達",
           "w1_pct": 6.0,
           "w2_pct": 12.0,
           "w3_pct": 18.0,
           "w4_pct": 25.0,
-          "trigger": "9500円超えかつ出来高急増・半導体関連好材料",
-          "invalidation": "9050円を再度割り込む",
+          "trigger": "出来高増加+9500円明確突破",
+          "invalidation": "9050円を割り込む",
           "probability": 25
         },
         "base": {
           "label": "中立",
-          "summary": "Steadyフェーズで緩やかな上昇・利益確保",
+          "summary": "方向感なくレンジ内での値動き継続",
           "w1_pct": 2.0,
           "w2_pct": 4.0,
           "w3_pct": 7.0,
           "w4_pct": 10.0,
-          "trigger": "9000〜9800円レンジ内で推移継続",
-          "invalidation": "8350円の損切り水準到達",
+          "trigger": "8800〜9500円レンジ内推移継続",
+          "invalidation": "8350円割れまたは9500円超",
           "probability": 45
         },
         "bear": {
           "label": "弱気",
-          "summary": "市場全体軟化でRS低下・損切り到達",
+          "summary": "市場全体軟化で損切りライン到達",
           "w1_pct": -3.0,
-          "w2_pct": -5.0,
-          "w3_pct": -7.0,
+          "w2_pct": -6.0,
+          "w3_pct": -8.0,
           "w4_pct": -8.0,
-          "trigger": "全銘柄平均RS悪化・8700円割れ",
-          "invalidation": "9500円超えで反転確認",
+          "trigger": "8800円割れ＋市場全体下落加速",
+          "invalidation": "9300円以上回復",
           "probability": 30
         }
       },
@@ -190,7 +260,7 @@
       "stop_loss": 3993.0,
       "target1": 5425.0,
       "rr_ratio": 3.1,
-      "start_date": "2026-04-08",
+      "start_date": "2026-04-09",
       "end_date": null,
       "days_elapsed": 0,
       "current_price": 4340.0,
@@ -204,35 +274,35 @@
       "scenarios": {
         "bull": {
           "label": "強気",
-          "summary": "造船需要拡大・受注増で株価急騰トレンド継続",
+          "summary": "防衛・造船需要拡大で目標水準到達",
           "w1_pct": 6.0,
           "w2_pct": 12.0,
           "w3_pct": 18.0,
           "w4_pct": 25.0,
-          "trigger": "大口受注発表・出来高急増・4500円突破",
-          "invalidation": "4340円を下回り出来高増加",
-          "probability": 28
+          "trigger": "防衛予算拡大報道・大型受注発表",
+          "invalidation": "4340円割れ継続",
+          "probability": 30
         },
         "base": {
           "label": "中立",
-          "summary": "高RS維持しながら緩やかな上昇もみ合い",
+          "summary": "市場全体軟調で緩やかな上昇継続",
           "w1_pct": 2.0,
           "w2_pct": 4.0,
           "w3_pct": 7.0,
           "w4_pct": 10.0,
-          "trigger": "4340〜4700円レンジ推移・出来高平均維持",
-          "invalidation": "4000円割れまたは急落",
-          "probability": 47
+          "trigger": "RS高位維持・出来高平均以上継続",
+          "invalidation": "損切ライン接近",
+          "probability": 45
         },
         "bear": {
           "label": "弱気",
-          "summary": "市場全体軟調・利益確定売りで損切りライン到達",
+          "summary": "市場リスクオフで損切水準到達",
           "w1_pct": -3.0,
-          "w2_pct": -5.0,
-          "w3_pct": -7.0,
+          "w2_pct": -6.0,
+          "w3_pct": -8.0,
           "w4_pct": -8.0,
-          "trigger": "市場フェーズ悪化・4200円割れ・出来高増加",
-          "invalidation": "4500円超えの陽線確認",
+          "trigger": "地政学リスク後退・円高進行",
+          "invalidation": "4600円超えで反発",
           "probability": 25
         }
       },
@@ -246,7 +316,7 @@
       "stop_loss": 20176.0,
       "target1": 27412.0,
       "rr_ratio": 3.1,
-      "start_date": "2026-04-08",
+      "start_date": "2026-04-09",
       "end_date": null,
       "days_elapsed": 0,
       "current_price": 21930.0,
@@ -260,36 +330,36 @@
       "scenarios": {
         "bull": {
           "label": "強気",
-          "summary": "半導体需要回復とRS高位維持で目標①達成",
+          "summary": "半導体需要回復でRS高位維持、目標値到達",
           "w1_pct": 6.0,
           "w2_pct": 12.0,
-          "w3_pct": 18.0,
+          "w3_pct": 19.0,
           "w4_pct": 25.0,
-          "trigger": "出来高増加を伴い22500円を明確に上抜け",
-          "invalidation": "21000円割れで即無効",
+          "trigger": "出来高急増＋22500円超えで上昇加速",
+          "invalidation": "21000円割れで無効",
           "probability": 25
         },
         "base": {
           "label": "中立",
-          "summary": "もみ合い継続しながら緩やかに上値を試す",
+          "summary": "市場全体弱含みの中、緩やかな上昇推移",
           "w1_pct": 1.0,
           "w2_pct": 3.0,
           "w3_pct": 6.0,
           "w4_pct": 10.0,
-          "trigger": "21500〜23000円レンジ内での推移継続",
-          "invalidation": "20200円割れで無効",
-          "probability": 45
+          "trigger": "RS維持＋22000円台での値固め継続",
+          "invalidation": "20500円割れで崩壊",
+          "probability": 50
         },
         "bear": {
           "label": "弱気",
-          "summary": "市場全体軟調で損切りライン到達",
+          "summary": "市場フェーズ悪化で損切りライン到達",
           "w1_pct": -3.0,
-          "w2_pct": -5.0,
-          "w3_pct": -7.0,
+          "w2_pct": -6.0,
+          "w3_pct": -8.0,
           "w4_pct": -8.0,
-          "trigger": "21000円割れかつ出来高増で下落加速",
+          "trigger": "平均RS低下＋21000円割れで下落加速",
           "invalidation": "22500円回復で無効",
-          "probability": 30
+          "probability": 25
         }
       },
       "daily_log": [],
@@ -297,5 +367,5 @@
     }
   ],
   "history": [],
-  "last_updated": "2026-04-08"
+  "last_updated": "2026-04-09"
 }
