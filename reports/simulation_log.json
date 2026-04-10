@@ -14,7 +14,7 @@
       "position_size": 75,
       "risk_amount": 39750,
       "start_date": "2026-04-07",
-      "days_elapsed": 6,
+      "days_elapsed": 7,
       "current_price": 4600.0,
       "current_pct": -4.17,
       "status": "待機中（ブレイクアウト待ち）",
@@ -45,7 +45,7 @@
           "w4_pct": 33.0,
           "trigger": "光ファイバー受注増・米国インフラ投資報道",
           "invalidation": "4800円割れ・出来高急減",
-          "probability": 8
+          "probability": 6
         },
         "base": {
           "label": "中立",
@@ -56,7 +56,7 @@
           "w4_pct": 8.0,
           "trigger": "市場全体の安定・セクター内出遅れ解消",
           "invalidation": "損切り-11%水準到達",
-          "probability": 42
+          "probability": 38
         },
         "bear": {
           "label": "弱気",
@@ -67,7 +67,7 @@
           "w4_pct": -11.0,
           "trigger": "マクロリスク悪化・円高進行・指数急落",
           "invalidation": "5200円超え・出来高急増",
-          "probability": 50
+          "probability": 56
         }
       },
       "daily_log": [
@@ -170,15 +170,35 @@
             "bear": 50
           },
           "prev_match": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 4600.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": -4.17,
+          "leading_scenario": "bear",
+          "scenario_gaps": {
+            "bull": -16.17,
+            "base": -5.17,
+            "bear": 3.83
+          },
+          "cause": "[AI分析]弱気シナリオに近い推移、4600円サポートで下げ渋り継続",
+          "hypothesis_revision": "弱気シナリオ優位継続、4600円割れ警戒強化",
+          "updated_probabilities": {
+            "bull": 6,
+            "base": 38,
+            "bear": 56
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
         "date": "2026-04-10",
         "leading_scenario": "bear",
-        "next_day_direction": "横ばい",
-        "next_day_reason": "4600円サポート攻防継続、上下の材料乏しく方向感出にくい",
-        "next_day_confidence": "低",
-        "next_day_key_level": "4600円（サポート）/ 4800円（戻りめど）"
+        "next_day_direction": "下落",
+        "next_day_reason": "4600円サポート攻防継続、マクロリスク高く下抜けリスク優勢",
+        "next_day_confidence": "中",
+        "next_day_key_level": "4600円（サポート）/ 4500円（次支持線）"
       }
     },
     {
@@ -190,7 +210,7 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 2,
+      "days_elapsed": 3,
       "current_price": 241.0,
       "current_pct": 0.0,
       "rs_26w": 2.789,
@@ -209,7 +229,7 @@
           "w4_pct": 24.0,
           "trigger": "出来高増加で241円上抜け継続確認",
           "invalidation": "220円割れ",
-          "probability": 23
+          "probability": 22
         },
         "base": {
           "label": "中立",
@@ -220,7 +240,7 @@
           "w4_pct": 10.0,
           "trigger": "市場全体Steadyで相対強度維持",
           "invalidation": "RS26w低下＋出来高減少",
-          "probability": 52
+          "probability": 53
         },
         "bear": {
           "label": "弱気",
@@ -274,15 +294,35 @@
             "bear": 25
           },
           "prev_match": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 241.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
+          "cause": "[AI分析]241円で膠着継続、出来高トリガー未発火でレンジ維持",
+          "hypothesis_revision": "修正なし",
+          "updated_probabilities": {
+            "bull": 22,
+            "base": 53,
+            "bear": 25
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
         "date": "2026-04-10",
         "leading_scenario": "base",
         "next_day_direction": "横ばい",
-        "next_day_reason": "出来高トリガー未発火、241円付近でのレンジ継続が最有力",
+        "next_day_reason": "出来高増加なく241円レンジ継続、方向性トリガー未確認",
         "next_day_confidence": "中",
-        "next_day_key_level": "241円（上抜け確認）/ 220円（損切りライン）"
+        "next_day_key_level": "241円（レンジ中心）／245円（上抜け確認）／238円（下値支持）"
       }
     },
     {
@@ -294,7 +334,7 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 2,
+      "days_elapsed": 3,
       "current_price": 9050.0,
       "current_pct": 0.0,
       "rs_26w": 2.773,
@@ -313,7 +353,7 @@
           "w4_pct": 25.0,
           "trigger": "出来高増加+9500円明確突破",
           "invalidation": "9050円を割り込む",
-          "probability": 25
+          "probability": 23
         },
         "base": {
           "label": "中立",
@@ -324,7 +364,7 @@
           "w4_pct": 10.0,
           "trigger": "8800〜9500円レンジ内推移継続",
           "invalidation": "8350円割れまたは9500円超",
-          "probability": 45
+          "probability": 47
         },
         "bear": {
           "label": "弱気",
@@ -378,15 +418,35 @@
             "bear": 30
           },
           "prev_match": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 9050.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
+          "cause": "[AI分析]米中関税不透明感継続により売買手控えムード、変動ゼロ",
+          "hypothesis_revision": "修正なし",
+          "updated_probabilities": {
+            "bull": 23,
+            "base": 47,
+            "bear": 30
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
         "date": "2026-04-10",
         "leading_scenario": "base",
         "next_day_direction": "横ばい",
-        "next_day_reason": "米中関税動向不透明で半導体株全般方向感欠如",
-        "next_day_confidence": "低",
-        "next_day_key_level": "8800円／9300円"
+        "next_day_reason": "関税協議の進展なく半導体株全般様子見継続の公算大",
+        "next_day_confidence": "中",
+        "next_day_key_level": "8800円（下値支持）／9300円（上値抵抗）"
       }
     },
     {
@@ -398,7 +458,7 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 2,
+      "days_elapsed": 3,
       "current_price": 4340.0,
       "current_pct": 0.0,
       "rs_26w": 2.772,
@@ -482,15 +542,35 @@
             "bear": 25
           },
           "prev_match": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 4340.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
+          "cause": "[AI分析]市場センチメント不安定継続でトリガー未発現、エントリー価格で膠着",
+          "hypothesis_revision": "修正なし",
+          "updated_probabilities": {
+            "bull": 27,
+            "base": 48,
+            "bear": 25
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
         "date": "2026-04-10",
         "leading_scenario": "base",
         "next_day_direction": "横ばい",
-        "next_day_reason": "市場センチメント不安定で方向性トリガー未発現、出来高確認待ち",
+        "next_day_reason": "方向性トリガー不在で出来高確認待ち、4340円水準を維持",
         "next_day_confidence": "低",
-        "next_day_key_level": "4340円（エントリー兼サポート）"
+        "next_day_key_level": "4340円（サポート兼エントリー）、4420円（上値抵抗）"
       }
     },
     {
@@ -502,7 +582,7 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 2,
+      "days_elapsed": 3,
       "current_price": 21930.0,
       "current_pct": 0.0,
       "rs_26w": 2.588,
@@ -521,7 +601,7 @@
           "w4_pct": 25.0,
           "trigger": "出来高急増＋22500円超えで上昇加速",
           "invalidation": "21000円割れで無効",
-          "probability": 25
+          "probability": 23
         },
         "base": {
           "label": "中立",
@@ -532,7 +612,7 @@
           "w4_pct": 10.0,
           "trigger": "RS維持＋22000円台での値固め継続",
           "invalidation": "20500円割れで崩壊",
-          "probability": 50
+          "probability": 52
         },
         "bear": {
           "label": "弱気",
@@ -586,15 +666,35 @@
             "bear": 25
           },
           "prev_match": true
+        },
+        {
+          "date": "2026-04-10",
+          "price": 21930.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -1.0,
+            "bear": 3.0
+          },
+          "cause": "[事実]米関税協議の不透明感継続により半導体株全般が方向感欠如で横ばい推移",
+          "hypothesis_revision": "修正なし",
+          "updated_probabilities": {
+            "bull": 23,
+            "base": 52,
+            "bear": 25
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
         "date": "2026-04-10",
         "leading_scenario": "base",
         "next_day_direction": "横ばい",
-        "next_day_reason": "米関税協議の進展待ちで半導体株は方向感欠如が継続",
-        "next_day_confidence": "低",
-        "next_day_key_level": "22000円（上値抵抗）/ 21500円（下値支持）"
+        "next_day_reason": "関税協議の進展なく上下どちらにも動きにくい膠着状態が継続",
+        "next_day_confidence": "中",
+        "next_day_key_level": "21500円（下値サポート）／22000円（上値抵抗）"
       }
     }
   ],
