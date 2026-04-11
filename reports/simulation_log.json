@@ -15,8 +15,8 @@
       "risk_amount": 39750,
       "start_date": "2026-04-07",
       "days_elapsed": 5,
-      "current_price": 5028.0,
-      "current_pct": 4.75,
+      "current_price": 4600.0,
+      "current_pct": -4.17,
       "status": "追跡中（52wHブレイクアウト済み）",
       "result": null,
       "entry_reason": "ミネルヴィニScore7/7・RS50w=3.87・PER13倍・営業利益率13.8%・AI光ファイバー需要継続。4,056〜4,968の高値ベース形成中。52wH超えが確認されたら仕掛ける。",
@@ -77,10 +77,18 @@
           "daily_pct": 0.0,
           "cumulative_pct": -8.96,
           "leading_scenario": "bear",
-          "scenario_gaps": {"bull": -13.96, "base": -6.96, "bear": -3.96},
+          "scenario_gaps": {
+            "bull": -13.96,
+            "base": -6.96,
+            "bear": -3.96
+          },
           "cause": "[AI分析]関税ショック・リスクオフ加速で弱気シナリオすら上回る急落",
           "hypothesis_revision": "弱気シナリオの下値余地を-15%以上に拡大修正",
-          "updated_probabilities": {"bull": 5, "base": 25, "bear": 70},
+          "updated_probabilities": {
+            "bull": 5,
+            "base": 25,
+            "bear": 70
+          },
           "prev_match": null
         },
         {
@@ -89,10 +97,18 @@
           "daily_pct": 0.0,
           "cumulative_pct": -8.96,
           "leading_scenario": "bear",
-          "scenario_gaps": {"bull": -13.96, "base": -6.96, "bear": -3.96},
+          "scenario_gaps": {
+            "bull": -13.96,
+            "base": -6.96,
+            "bear": -3.96
+          },
           "cause": "[AI分析]前日比±0%の横ばいで弱気シナリオより下落幅小、売り一服の可能性",
           "hypothesis_revision": "弱気継続だが底値圏でのもみ合い局面入りを考慮",
-          "updated_probabilities": {"bull": 3, "base": 17, "bear": 80},
+          "updated_probabilities": {
+            "bull": 3,
+            "base": 17,
+            "bear": 80
+          },
           "prev_match": false
         },
         {
@@ -101,10 +117,18 @@
           "daily_pct": 5.26,
           "cumulative_pct": -4.17,
           "leading_scenario": "bear",
-          "scenario_gaps": {"bull": -9.17, "base": -2.17, "bear": 0.83},
+          "scenario_gaps": {
+            "bull": -9.17,
+            "base": -2.17,
+            "bear": 0.83
+          },
           "cause": "[AI分析]弱気80%想定に反し+5.3%急騰、リスクオフ緩和・自律反発が想定外に発生",
           "hypothesis_revision": "弱気シナリオ確率を引き下げ、中立・強気へ再配分",
-          "updated_probabilities": {"bull": 15, "base": 55, "bear": 30},
+          "updated_probabilities": {
+            "bull": 15,
+            "base": 55,
+            "bear": 30
+          },
           "prev_match": false
         },
         {
@@ -113,10 +137,18 @@
           "daily_pct": 0.0,
           "cumulative_pct": -4.17,
           "leading_scenario": "bear",
-          "scenario_gaps": {"bull": -9.17, "base": -2.17, "bear": 0.83},
+          "scenario_gaps": {
+            "bull": -9.17,
+            "base": -2.17,
+            "bear": 0.83
+          },
           "cause": "[AI分析]弱気シナリオ近似で推移、リスクオフ継続も下値限定的で底値固め示唆",
           "hypothesis_revision": "弱気確率を上方修正、底値圏での攻防を重視",
-          "updated_probabilities": {"bull": 12, "base": 50, "bear": 38},
+          "updated_probabilities": {
+            "bull": 12,
+            "base": 50,
+            "bear": 38
+          },
           "prev_match": true
         }
       ],
@@ -189,10 +221,18 @@
           "daily_pct": 0.0,
           "cumulative_pct": 0.0,
           "leading_scenario": "base",
-          "scenario_gaps": {"bull": -6.0, "base": -2.0, "bear": 3.0},
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
           "cause": "[AI分析]エントリー初日で値動きなし、市場様子見による出来高不足の可能性",
           "hypothesis_revision": "修正なし",
-          "updated_probabilities": {"bull": 25, "base": 50, "bear": 25},
+          "updated_probabilities": {
+            "bull": 25,
+            "base": 50,
+            "bear": 25
+          },
           "prev_match": null
         }
       ],
@@ -265,10 +305,18 @@
           "daily_pct": 0.0,
           "cumulative_pct": 0.0,
           "leading_scenario": "base",
-          "scenario_gaps": {"bull": -6.0, "base": -2.0, "bear": 3.0},
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
           "cause": "[AI分析]エントリー初日で値動きなし、方向感欠如の典型的な様子見",
           "hypothesis_revision": "修正なし",
-          "updated_probabilities": {"bull": 28, "base": 47, "bear": 25},
+          "updated_probabilities": {
+            "bull": 28,
+            "base": 47,
+            "bear": 25
+          },
           "prev_match": null
         }
       ],
@@ -292,8 +340,8 @@
       "start_date": "2026-04-11",
       "end_date": null,
       "days_elapsed": 0,
-      "current_price": 2872,
-      "current_pct": 0.0,
+      "current_price": 2752.0,
+      "current_pct": -4.18,
       "score": 7,
       "result": null,
       "result_pct": null,
@@ -355,8 +403,8 @@
       "start_date": "2026-04-11",
       "end_date": null,
       "days_elapsed": 0,
-      "current_price": 1930,
-      "current_pct": 0.0,
+      "current_price": 1879.5,
+      "current_pct": -2.62,
       "score": 7,
       "result": null,
       "result_pct": null,
