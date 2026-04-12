@@ -158,58 +158,40 @@
     "date": "2026-04-12",
     "teams": {
       "info": {
-        "coverage": 8,
-        "specificity": 8,
-        "usefulness": 8,
-        "consistency": 8,
-        "linkage": 8,
-        "ai_usage": 8,
-        "total": 8.0
+        "coverage": 4,
+        "specificity": 4,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8
       },
       "analysis": {
-        "coverage": 6,
-        "specificity": 7,
-        "usefulness": 6,
-        "consistency": 8,
-        "linkage": 8,
-        "ai_usage": 7,
-        "total": 7.0
+        "coverage": 3,
+        "specificity": 3,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 7
       },
       "risk": {
-        "coverage": 9,
-        "specificity": 9,
-        "usefulness": 8,
-        "consistency": 10,
-        "linkage": 10,
-        "ai_usage": 8,
-        "total": 9.0
+        "coverage": 4,
+        "specificity": 5,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8
       },
       "strategy": {
-        "coverage": 9,
-        "specificity": 9,
-        "usefulness": 8,
-        "consistency": 10,
-        "linkage": 10,
-        "ai_usage": 8,
-        "total": 9.0
-      },
-      "report": {
-        "coverage": 8,
-        "specificity": 8,
-        "usefulness": 8,
-        "consistency": 8,
-        "linkage": 8,
-        "ai_usage": 8,
-        "total": 8.0
-      },
-      "security": {
-        "coverage": 6,
-        "specificity": 6,
-        "usefulness": 6,
-        "consistency": 8,
-        "linkage": 6,
-        "ai_usage": 6,
-        "total": 6.3
+        "coverage": 3,
+        "specificity": 4,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 3,
+        "total": 7
       }
     }
   }
