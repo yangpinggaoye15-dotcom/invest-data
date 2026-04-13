@@ -14,9 +14,9 @@
       "position_size": 75,
       "risk_amount": 39750,
       "start_date": "2026-04-07",
-      "days_elapsed": 5,
-      "current_price": 5028.0,
-      "current_pct": 4.75,
+      "days_elapsed": 6,
+      "current_price": 5698.0,
+      "current_pct": 18.71,
       "status": "追跡中（52wHブレイクアウト済み）",
       "result": null,
       "entry_reason": "ミネルヴィニScore7/7・RS50w=3.87・PER13倍・営業利益率13.8%・AI光ファイバー需要継続。4,056〜4,968の高値ベース形成中。52wH超えが確認されたら仕掛ける。",
@@ -150,15 +150,35 @@
             "bear": 38
           },
           "prev_match": true
+        },
+        {
+          "date": "2026-04-13",
+          "price": 5698.0,
+          "daily_pct": 23.87,
+          "cumulative_pct": 18.71,
+          "leading_scenario": "bull",
+          "scenario_gaps": {
+            "bull": 3.71,
+            "base": 14.71,
+            "bear": 29.71
+          },
+          "cause": "[AI分析]AI光ファイバー需要・TSMC決算(4/16)への先行期待で年初来高値更新。米・イラン停戦交渉決裂・原油急騰の直接影響を受けにくいセクターとして相対強度が急上昇",
+          "hypothesis_revision": "強気シナリオに移行。目標①6,390円まで保有継続。6,000円の心理的節目突破で目標②7,450円を視野",
+          "updated_probabilities": {
+            "bull": 65,
+            "base": 25,
+            "bear": 10
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
-        "date": "2026-04-09",
+        "date": "2026-04-13",
         "leading_scenario": "bull",
-        "next_day_direction": "上昇",
-        "next_day_reason": "52週新高値ブレイクアウト確認。戻り売りのない真空地帯を上昇中。5,500円が次の心理的節目",
-        "next_day_confidence": "高",
-        "next_day_key_level": "5,028円（52wH・支持転換）／5,500円（次の上値目標）／4,800円（エントリー基準・割れたら要注意）"
+        "next_day_direction": "上昇継続",
+        "next_day_reason": "年初来高値更新・真空地帯継続。6,000円の心理的節目が次の上値目標。GS決算(4/14)が米国市場センチメントの鍵",
+        "next_day_confidence": "中",
+        "next_day_key_level": "5,500〜6,000円（押し目支持）／6,390円（目標①）／4,800円（エントリー基準・割れたら要注意）"
       }
     },
     {
@@ -170,7 +190,7 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 1,
+      "days_elapsed": 4,
       "current_price": 241.0,
       "current_pct": 0.0,
       "rs_26w": 2.789,
@@ -234,15 +254,35 @@
             "bear": 25
           },
           "prev_match": null
+        },
+        {
+          "date": "2026-04-13",
+          "price": 241.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
+          "cause": "[AI分析]日経-421円の軟調相場でも損切りライン220円から大きく上方に位置。出来高改善の兆しなく原油急騰の恩恵も現れず",
+          "hypothesis_revision": "横ばい継続。220円割れで即損切りのトリガーは変わらず",
+          "updated_probabilities": {
+            "bull": 20,
+            "base": 55,
+            "bear": 25
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
-        "date": "2026-04-09",
+        "date": "2026-04-13",
         "leading_scenario": "base",
         "next_day_direction": "横ばい",
-        "next_day_reason": "初動なく方向感未確認、241円水準での攻防継続が想定される",
+        "next_day_reason": "4日間で動意なし。出来高低迷継続。220円割れで即損切り",
         "next_day_confidence": "低",
-        "next_day_key_level": "241円（エントリー基準）/ 245円（強気転換）/ 220円（損切り）"
+        "next_day_key_level": "245円（強気転換）/ 220円（損切り）"
       }
     },
     {
@@ -254,7 +294,7 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 1,
+      "days_elapsed": 4,
       "current_price": 4340.0,
       "current_pct": 0.0,
       "rs_26w": 2.772,
@@ -318,15 +358,35 @@
             "bear": 25
           },
           "prev_match": null
+        },
+        {
+          "date": "2026-04-13",
+          "price": 4340.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -6.0,
+            "base": -2.0,
+            "bear": 3.0
+          },
+          "cause": "[AI分析]防衛・造船需要でサポートされているが原油急騰による海運コスト増は間接的ネガティブ。日経-421円の中でも損切りラインを維持",
+          "hypothesis_revision": "横ばい継続。4,000円割れで損切り検討の優先度は維持",
+          "updated_probabilities": {
+            "bull": 25,
+            "base": 50,
+            "bear": 25
+          },
+          "prev_match": true
         }
       ],
       "current_hypothesis": {
-        "date": "2026-04-09",
+        "date": "2026-04-13",
         "leading_scenario": "base",
         "next_day_direction": "横ばい",
-        "next_day_reason": "市場全体の方向感不透明、出来高・材料待ちで膠着継続の可能性",
+        "next_day_reason": "原油急騰の間接影響は限定的。防衛需要継続でサポートされているが方向感なし。4,000円割れで損切り",
         "next_day_confidence": "低",
-        "next_day_key_level": "4340円（エントリー兼サポート）"
+        "next_day_key_level": "4,000円（下値支持）／3,993円（損切り）"
       }
     },
     {
@@ -339,7 +399,7 @@
       "risk_pct": 5.7,
       "start_date": "2026-04-11",
       "end_date": null,
-      "days_elapsed": 0,
+      "days_elapsed": 2,
       "current_price": 2872.0,
       "current_pct": 0.0,
       "score": 7,
@@ -382,14 +442,35 @@
           "probability": 20
         }
       },
-      "daily_log": [],
+      "daily_log": [
+        {
+          "date": "2026-04-13",
+          "price": 2872.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "base",
+          "scenario_gaps": {
+            "bull": -4.0,
+            "base": 0.0,
+            "bear": 3.0
+          },
+          "cause": "[AI分析]日経-421円の軟調相場の中でも損切りライン2,709円から大きく上方に位置。52w高値2,938円ブレイクは未達だが需給は崩れていない",
+          "hypothesis_revision": "横ばい部分は的中。中立継続",
+          "updated_probabilities": {
+            "bull": 30,
+            "base": 50,
+            "bear": 20
+          },
+          "prev_match": null
+        }
+      ],
       "current_hypothesis": {
-        "date": "2026-04-11",
+        "date": "2026-04-13",
         "leading_scenario": "base",
-        "next_day_direction": "横ばい〜上昇",
-        "next_day_reason": "52w高値まで▲2.2%の高値更新圏。OBV15=0.61で需給良好。市場全体の落ち着き次第で高値ブレイクを狙える位置",
-        "next_day_confidence": "中",
-        "next_day_key_level": "2,938円（52w高値・ブレイク基準）／2,792円（SMA50・下値支持）／2,709円（損切り）"
+        "next_day_direction": "横ばい",
+        "next_day_reason": "52w高値2,938円ブレイク未達。GS決算(4/14)の米国市場センチメント次第。需給は崩れていないため損切り優先度は低",
+        "next_day_confidence": "低",
+        "next_day_key_level": "2,938円（52w高値・ブレイク基準）／2,709円（損切り）"
       }
     },
     {
@@ -402,7 +483,7 @@
       "risk_pct": 3.6,
       "start_date": "2026-04-11",
       "end_date": null,
-      "days_elapsed": 0,
+      "days_elapsed": 2,
       "current_price": 1930.0,
       "current_pct": 0.0,
       "score": 7,
@@ -445,14 +526,35 @@
           "probability": 18
         }
       },
-      "daily_log": [],
+      "daily_log": [
+        {
+          "date": "2026-04-13",
+          "price": 1930.0,
+          "daily_pct": 0.0,
+          "cumulative_pct": 0.0,
+          "leading_scenario": "bear",
+          "scenario_gaps": {
+            "bull": -3.0,
+            "base": -1.0,
+            "bear": 2.0
+          },
+          "cause": "[AI分析]日本長期金利が2.490%（29年ぶり高水準）に上昇。不動産株への構造的売り圧力が増大。SMA50(1,918円)割込みが損切りトリガー",
+          "hypothesis_revision": "「横ばい」数値は一致するが金利リスクが著しく高まった。弱気シナリオ確率を上方修正",
+          "updated_probabilities": {
+            "bull": 20,
+            "base": 40,
+            "bear": 40
+          },
+          "prev_match": null
+        }
+      ],
       "current_hypothesis": {
-        "date": "2026-04-11",
-        "leading_scenario": "base",
-        "next_day_direction": "横ばい〜微上昇",
-        "next_day_reason": "gap+0.6%でSMA50(1,918)のすぐ上に位置する理想的な押し目。RR5.5倍で損切りリスクが全銘柄中最小。日銀・金利動向が鍵",
+        "date": "2026-04-13",
+        "leading_scenario": "bear",
+        "next_day_direction": "弱気注意",
+        "next_day_reason": "日本長期金利2.490%（29年ぶり高水準）が不動産株への最大逆風。SMA50(1,918円)割込みで損切り(1,860円)到達リスクが急上昇",
         "next_day_confidence": "中",
-        "next_day_key_level": "2,000円（上値節目）／1,918円（SMA50・下値支持）／1,860円（損切り）"
+        "next_day_key_level": "1,918円（SMA50・損切りトリガー）／1,860円（損切り）"
       }
     }
   ],
@@ -486,5 +588,5 @@
       "exit_reason": "市場環境悪化（トランプ関税ショック）により半導体テスタセクターへの逆風が強まると判断。エントリーフィルター（OBV15・gap条件）未通過の6/7銘柄であり、7/7フィルター通過銘柄に差し替え。"
     }
   ],
-  "last_updated": "2026-04-11"
+  "last_updated": "2026-04-13"
 }
