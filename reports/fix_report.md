@@ -1,41 +1,42 @@
 # 欠陥修正チーム レポート 2026-04-13
+生成: 2026-04-13 19:52 JST（夕方実行）
 
-## 本日の修正一覧
+## 本日の修正一覧（AM/PM実行分）
 
 | ファイル | 問題 | 修正内容 | 根拠チーム |
 |---------|------|---------|-----------|
-| `reports/daily/simulation_log.json` | フジクラ（5803）current_price が 5,028円（4/11終値）のまま未更新 | 5,028 → 5,698（4/13終値）、current_pct: 4.75 → 18.71% | verification.md / internal_audit.md |
-| `reports/daily/simulation_log.json` | last_updated が "2026-04-11" のまま | "2026-04-11" → "2026-04-13" | verification.md |
-| `reports/daily/simulation_log.json` | 5803 daily_log に 4/13 エントリーが欠落 | 4/13 エントリー追加（price=5,698 / leading_scenario=bull / cumulative_pct=18.71） | verification.md |
-| `reports/daily/simulation_log.json` | 3076・3003・5010・7014 daily_log に 4/13 エントリーが欠落 | 各銘柄に 4/13 エントリー追加（横ばい継続・リスク評価記録） | verification.md |
-| `reports/daily/simulation_log.json` | 全銘柄の current_hypothesis が古い日付（4/9 or 4/11）のまま | 全銘柄を 4/14 向け翌日仮説に更新（3003 は弱気注意に変更） | verification.md |
+| `run_screen_full.py` | rs50w フィールドが存在しなかった | `_calc_rs()` と結果dict 3箇所に rs50w を追加 | AM実行 |
+| `simulation_log.json` | フジクラ（5803）current_price が 5,028円（4/11終値）のまま | 5,028 → 5,698 / current_pct 4.75 → 18.71% | PM実行 |
+| `simulation_log.json` | last_updated が "2026-04-11" のまま | → "2026-04-13" | PM実行 |
+| `simulation_log.json` | 全5銘柄の daily_log に 4/13 エントリーが欠落（3076・3003 は空） | 全銘柄に 4/13 エントリー追加 | PM実行 |
+| `simulation_log.json` | 全銘柄の current_hypothesis が古い日付のまま | 4/14 向け翌日仮説に更新・3003 は bear に変更 | PM実行 |
 
-## 修正詳細
+**[事実] 夕方実行での追加修正: なし。**
+PM実行後の検証で simulation_log.json の整合性を確認済み:
+- フジクラ（5803）: current_price=5,698円 ✅ / current_pct=18.71% ✅
+- 全5銘柄 daily_log: 2026-04-13 エントリーあり ✅
+- ヒューリック（3003）: leading_scenario="bear" ✅
+- verification.md・internal_audit.md・risk.md との価格整合（5,698円）✅
 
-### フジクラ（5803）価格修正
-- 変更前: current_price=5,028 / current_pct=4.75%
-- 変更後: current_price=5,698 / current_pct=18.71%
-- 計算根拠: (5,698 - 4,800) / 4,800 × 100 = 18.71%（エントリー比）
-- 確信度: 高（verification.md・Team2・Team4 が一致して 5,698 円を記載）
-
-### ヒューリック（3003）リスク評価変更
-- current_hypothesis の leading_scenario を base → bear に変更
-- 日本長期金利 2.490%（29 年ぶり高水準）の緊急リスクを反映
-- 弱気確率を 18% → 40% に更新（verification.md のリスク警告に基づく）
+---
 
 ## オーナー対応が必要な問題
 
 | 問題 | 根拠 | 推奨対応 |
 |------|------|---------|
-| simulation_log.json の当日終値自動更新が未整備（手動反映に依存） | internal_audit.md / verification.md（継続指摘） | run_teams.py の Team8 ステップに J-Quants 当日終値取得 → simulation_log.json 自動更新ロジックを追加 |
-| CVE-2026-34041（CVSS 9.8 CRITICAL）`act` ツール RCE 脆弱性・4 週間以上未確認 | security.md | `act` 利用有無を確認。使用中なら 0.2.86 以降に更新、未使用なら記録してエスカレーション解除 |
-| data/ 未追跡ファイルの git キャッシュ残存（4/9 から継続推奨・未実施） | security.md | `git rm --cached data/` を実施して機密ファイルの誤コミットリスクを排除 |
-| Team2 満枠時の有用性設計問題（3 回連続指摘・未改善） | internal_audit.md | run_teams.py の Team2 プロンプトに「満枠時セクション：現行銘柄入れ替え候補スコアリング」を標準化 |
+| [AI分析] CVE-2026-34041（CVSS 9.8 CRITICAL）`act`ツール RCE脆弱性（4/9から4週間以上未確認） | Team6 | actツール利用有無確認→未使用なら記録、使用中なら0.2.86以降へ更新 |
+| [AI分析] `data/` ディレクトリの git キャッシュ残存（4/9から継続推奨・未実施） | Team6 | `git rm --cached data/` 実施 → 機密ファイル誤コミットリスク排除 |
+| [AI分析] Team2 満枠時の有用性設計問題（3回目継続） | Team5 | run_teams.py team2プロンプトに「満枠時セクション：現行銘柄入れ替え候補スコアリング」を標準化 |
+| [AI分析] 価格の当日終値自動更新未整備（手動反映依存継続） | Team5/Team8 | run_teams.py の Team8 に J-Quants 当日終値取得 → simulation_log.json 自動更新ロジックを追加 |
+| [AI分析] TSMC決算（4/16）後の全チームフェーズ同期 | Team4 | 4/16終値確認後、Steady転換条件⑤（EPS+50%超）の可否を全チームで明示更新 |
+| [AI分析] GitHub Actions サードパーティAction の SHA固定化 | Team6 | workflow内のサードパーティActionをコミットSHAで固定 |
 
-## 修正対象外（理由）
+---
 
-- index.html・api/・.github/workflows/ の変更: ルール上修正 NG
-- CVE 対応（.github/workflows/ 変更を伴う): オーナー判断に委ねる
-- run_teams.py プロンプト改善: アーキテクチャへの影響があるためオーナー判断
+## 修正スキップ（不確実）
 
-*Team Fix 欠陥修正チーム / 2026-04-13 手動実行*
+[事実] フジクラ（5803）の daily_log に 2026-04-08 と 2026-04-09 の重複日付エントリーが各2件存在。
+[AI分析] 異なるcause・確率で記録されており「意図的な複数分析記録」か「誤重複」か判断不可のためスキップ。オーナー確認推奨。
+
+[AI分析] 5010・7014 の daily_log エントリー数（2件）が days_elapsed（4）より少ない（4/10・4/11欠落）。
+PM修正時の仕様外のため現状維持。4/10・4/11が市場休場または意図的スキップの可能性あり。
