@@ -276,5 +276,46 @@
         "total": 9.0
       }
     }
+  },
+  {
+    "date": "2026-04-15",
+    "teams": {
+      "info": {
+        "coverage": 5,
+        "specificity": 4,
+        "usefulness": 5,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8.7
+      },
+      "analysis": {
+        "coverage": 4,
+        "specificity": 5,
+        "usefulness": 4,
+        "consistency": 3,
+        "linkage": 4,
+        "ai_usage": 5,
+        "total": 8.3
+      },
+      "risk": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 5,
+        "consistency": 3,
+        "linkage": 5,
+        "ai_usage": 4,
+        "total": 9.0
+      },
+      "strategy": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 5,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 9.0
+      }
+    }
   }
 ]

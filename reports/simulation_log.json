@@ -14,9 +14,9 @@
       "position_size": 75,
       "risk_amount": 39750,
       "start_date": "2026-04-07",
-      "days_elapsed": 5,
-      "current_price": 5698.0,
-      "current_pct": 18.71,
+      "days_elapsed": 6,
+      "current_price": 5935.0,
+      "current_pct": 23.65,
       "status": "追跡中（52wHブレイクアウト済み）",
       "result": null,
       "entry_reason": "ミネルヴィニScore7/7・RS50w=3.87・PER13倍・営業利益率13.8%・AI光ファイバー需要継続。4,056〜4,968の高値ベース形成中。52wH超えが確認されたら仕掛ける。",
@@ -190,9 +190,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 3,
-      "current_price": 241.0,
-      "current_pct": 0.0,
+      "days_elapsed": 4,
+      "current_price": 243.0,
+      "current_pct": 0.83,
       "rs_26w": 2.789,
       "score": 6,
       "result": null,
@@ -294,9 +294,9 @@
       "rr_ratio": 3.1,
       "start_date": "2026-04-09",
       "end_date": null,
-      "days_elapsed": 3,
-      "current_price": 4340.0,
-      "current_pct": 0.0,
+      "days_elapsed": 4,
+      "current_price": 4175.0,
+      "current_pct": -3.8,
       "rs_26w": 2.772,
       "score": 6,
       "result": null,
@@ -399,9 +399,9 @@
       "risk_pct": 5.7,
       "start_date": "2026-04-11",
       "end_date": null,
-      "days_elapsed": 2,
-      "current_price": 2872.0,
-      "current_pct": 0.0,
+      "days_elapsed": 3,
+      "current_price": 2793.0,
+      "current_pct": -2.75,
       "score": 7,
       "result": null,
       "result_pct": null,
@@ -483,9 +483,9 @@
       "risk_pct": 3.6,
       "start_date": "2026-04-11",
       "end_date": null,
-      "days_elapsed": 2,
-      "current_price": 1930.0,
-      "current_pct": 0.0,
+      "days_elapsed": 3,
+      "current_price": 1894.5,
+      "current_pct": -1.84,
       "score": 7,
       "result": null,
       "result_pct": null,
@@ -529,21 +529,21 @@
       "daily_log": [
         {
           "date": "2026-04-13",
-          "price": 1930.0,
-          "daily_pct": 0.0,
-          "cumulative_pct": 0.0,
+          "price": 1880.5,
+          "daily_pct": -2.57,
+          "cumulative_pct": -2.57,
           "leading_scenario": "bear",
           "scenario_gaps": {
-            "bull": -3.0,
-            "base": -1.0,
-            "bear": 2.0
+            "bull": -5.57,
+            "base": -3.57,
+            "bear": -0.57
           },
-          "cause": "[AI分析]日本長期金利が2.490%（29年ぶり高水準）に上昇。不動産株への構造的売り圧力が増大。SMA50(1,918円)割込みが損切りトリガー",
-          "hypothesis_revision": "「横ばい」数値は一致するが金利リスクが著しく高まった。弱気シナリオ確率を上方修正",
+          "cause": "[事実]4/13終値1,880.5円。SMA50(1,918円)を明確に下回り損切りトリガー発動。日本長期金利2.490%（29年ぶり高水準）が不動産株への構造的売り圧力として顕在化。",
+          "hypothesis_revision": "SMA50割れによりTeam4損切り条件充足。4/15寄り付き損切り処理推奨。弱気シナリオ確率を引き上げ。",
           "updated_probabilities": {
-            "bull": 20,
-            "base": 40,
-            "bear": 40
+            "bull": 15,
+            "base": 30,
+            "bear": 55
           },
           "prev_match": null
         }
@@ -588,5 +588,5 @@
       "exit_reason": "市場環境悪化（トランプ関税ショック）により半導体テスタセクターへの逆風が強まると判断。エントリーフィルター（OBV15・gap条件）未通過の6/7銘柄であり、7/7フィルター通過銘柄に差し替え。"
     }
   ],
-  "last_updated": "2026-04-13"
+  "last_updated": "2026-04-14"
 }
