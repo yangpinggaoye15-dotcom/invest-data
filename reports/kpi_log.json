@@ -317,5 +317,87 @@
         "total": 9.0
       }
     }
+  },
+  {
+    "date": "2026-04-16",
+    "teams": {
+      "info": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8.7
+      },
+      "analysis": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8.7
+      },
+      "risk": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 5,
+        "consistency": 3,
+        "linkage": 5,
+        "ai_usage": 4,
+        "total": 9.0
+      },
+      "strategy": {
+        "coverage": 4,
+        "specificity": 4,
+        "usefulness": 3,
+        "consistency": 3,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 7.3
+      }
+    }
+  },
+  {
+    "date": "2026-04-17",
+    "teams": {
+      "info": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8.7
+      },
+      "analysis": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 4,
+        "consistency": 4,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 8.7
+      },
+      "risk": {
+        "coverage": 5,
+        "specificity": 5,
+        "usefulness": 5,
+        "consistency": 3,
+        "linkage": 5,
+        "ai_usage": 4,
+        "total": 9.0
+      },
+      "strategy": {
+        "coverage": 4,
+        "specificity": 4,
+        "usefulness": 3,
+        "consistency": 3,
+        "linkage": 4,
+        "ai_usage": 4,
+        "total": 7.3
+      }
+    }
   }
 ]
